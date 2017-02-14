@@ -1,0 +1,15 @@
+\hypertarget{namespacerob_o_s2_1_1serial}{
+\section{Package robOS2.serial}
+\label{namespacerob_o_s2_1_1serial}\index{robOS2.serial@{robOS2.serial}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classrob_o_s2_1_1serial_1_1_config}{Config}
+\item 
+class \hyperlink{classrob_o_s2_1_1serial_1_1_connection}{Connection}
+\item 
+class \hyperlink{classrob_o_s2_1_1serial_1_1_connection_manager}{ConnectionManager}
+\item 
+class \hyperlink{classrob_o_s2_1_1serial_1_1_device}{Device}
+\end{DoxyCompactItemize}

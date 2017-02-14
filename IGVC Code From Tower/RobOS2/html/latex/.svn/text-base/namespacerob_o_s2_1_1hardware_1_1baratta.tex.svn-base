@@ -1,0 +1,9 @@
+\hypertarget{namespacerob_o_s2_1_1hardware_1_1baratta}{
+\section{Package robOS2.hardware.baratta}
+\label{namespacerob_o_s2_1_1hardware_1_1baratta}\index{robOS2.hardware.baratta@{robOS2.hardware.baratta}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board}{DemoBoard}
+\end{DoxyCompactItemize}

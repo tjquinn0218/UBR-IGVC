@@ -1,0 +1,176 @@
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass}{
+\section{robOS2.hardware.interfaces.drivers.ICompass Interface Reference}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass}\index{robOS2::hardware::interfaces::drivers::ICompass@{robOS2::hardware::interfaces::drivers::ICompass}}
+}
+
+
+Inheritance diagram for robOS2.hardware.interfaces.drivers.ICompass:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=316pt]{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_ab45e6c9b7b26ed373614414ae5b6a03b}{getPitch} ()
+\item 
+double \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_a8a940ab5db67369fc34241f1cbaa9165}{getRoll} ()
+\item 
+double \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_aeab6ef23c677f59ca95d2f3798a5d4ed}{getTemperature} ()
+\item 
+double \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_a552e246fb56e5eaf6ed81a1a65052621}{getHeading} ()
+\item 
+boolean \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_a1a641c886a92eb7c0fdc2eebb967fb82}{trueNorth} ()
+\item 
+double \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_a7846f739443a8721e333cec393a10c2e}{getXMagnetometer} ()
+\item 
+double \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_ac8f72071f50b4357017499b183126fce}{getYMagnetometer} ()
+\item 
+double \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_a3a710479b3f802bc755f820afe430700}{getZMagnetometer} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Standardized interface for receiving data from a digital compass unit.
+
+Copyright 2011 UB Robotics \& The State University of New York at Buffalo \begin{DoxyAuthor}{Author}
+\href{mailto:dbaratta@buffalo.edu}{\tt Dominic Baratta} 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_a552e246fb56e5eaf6ed81a1a65052621}{
+\index{robOS2::hardware::interfaces::drivers::ICompass@{robOS2::hardware::interfaces::drivers::ICompass}!getHeading@{getHeading}}
+\index{getHeading@{getHeading}!robOS2::hardware::interfaces::drivers::ICompass@{robOS2::hardware::interfaces::drivers::ICompass}}
+\subsubsection[{getHeading}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.interfaces.drivers.ICompass.getHeading (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_a552e246fb56e5eaf6ed81a1a65052621}
+Returns the current heading (in degrees) of the platform. \begin{DoxyReturn}{Returns}
+Current heading in degrees. If this is not implemented Double.Max() will be returned. 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_driver_a0309c52123bcc51fcf69fc5a0b0ce862}{robOS2.hardware.pni.tcm26.TCM26Driver}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_ab45e6c9b7b26ed373614414ae5b6a03b}{
+\index{robOS2::hardware::interfaces::drivers::ICompass@{robOS2::hardware::interfaces::drivers::ICompass}!getPitch@{getPitch}}
+\index{getPitch@{getPitch}!robOS2::hardware::interfaces::drivers::ICompass@{robOS2::hardware::interfaces::drivers::ICompass}}
+\subsubsection[{getPitch}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.interfaces.drivers.ICompass.getPitch (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_ab45e6c9b7b26ed373614414ae5b6a03b}
+Returns the current pitch reading of the platform \begin{DoxyReturn}{Returns}
+platform pitch. If this is not implemented Double.Max() will be returned. 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_driver_aaa3a7676eb2a3577ce012ac9aaced814}{robOS2.hardware.pni.tcm26.TCM26Driver}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_a8a940ab5db67369fc34241f1cbaa9165}{
+\index{robOS2::hardware::interfaces::drivers::ICompass@{robOS2::hardware::interfaces::drivers::ICompass}!getRoll@{getRoll}}
+\index{getRoll@{getRoll}!robOS2::hardware::interfaces::drivers::ICompass@{robOS2::hardware::interfaces::drivers::ICompass}}
+\subsubsection[{getRoll}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.interfaces.drivers.ICompass.getRoll (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_a8a940ab5db67369fc34241f1cbaa9165}
+Returns the current roll reading of the platform \begin{DoxyReturn}{Returns}
+platform roll. If this is not implemented Double.Max() will be returned. 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_driver_a33de077b79a967616fd327c5c548ab65}{robOS2.hardware.pni.tcm26.TCM26Driver}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_aeab6ef23c677f59ca95d2f3798a5d4ed}{
+\index{robOS2::hardware::interfaces::drivers::ICompass@{robOS2::hardware::interfaces::drivers::ICompass}!getTemperature@{getTemperature}}
+\index{getTemperature@{getTemperature}!robOS2::hardware::interfaces::drivers::ICompass@{robOS2::hardware::interfaces::drivers::ICompass}}
+\subsubsection[{getTemperature}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.interfaces.drivers.ICompass.getTemperature (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_aeab6ef23c677f59ca95d2f3798a5d4ed}
+Returns the current temp. of the compass, not necessarily the outside environment. \begin{DoxyReturn}{Returns}
+Returns the current compass temp. If this is not implemented Double.Max() will be returned. 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_driver_a274489ddfe79e77ea04afe01eb7f7f9a}{robOS2.hardware.pni.tcm26.TCM26Driver}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_a7846f739443a8721e333cec393a10c2e}{
+\index{robOS2::hardware::interfaces::drivers::ICompass@{robOS2::hardware::interfaces::drivers::ICompass}!getXMagnetometer@{getXMagnetometer}}
+\index{getXMagnetometer@{getXMagnetometer}!robOS2::hardware::interfaces::drivers::ICompass@{robOS2::hardware::interfaces::drivers::ICompass}}
+\subsubsection[{getXMagnetometer}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.interfaces.drivers.ICompass.getXMagnetometer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_a7846f739443a8721e333cec393a10c2e}
+Returns the x-\/component of the magnetic field in uT \begin{DoxyReturn}{Returns}
+x-\/magnetometer reading. If this is not implemented Double.Max() will be returned. 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_driver_a7186275ff3c2947fb0a4a7bbc5b741c6}{robOS2.hardware.pni.tcm26.TCM26Driver}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_ac8f72071f50b4357017499b183126fce}{
+\index{robOS2::hardware::interfaces::drivers::ICompass@{robOS2::hardware::interfaces::drivers::ICompass}!getYMagnetometer@{getYMagnetometer}}
+\index{getYMagnetometer@{getYMagnetometer}!robOS2::hardware::interfaces::drivers::ICompass@{robOS2::hardware::interfaces::drivers::ICompass}}
+\subsubsection[{getYMagnetometer}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.interfaces.drivers.ICompass.getYMagnetometer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_ac8f72071f50b4357017499b183126fce}
+Returns the y-\/component of the magnetic field in uT \begin{DoxyReturn}{Returns}
+y-\/magnetometer reading. If this is not implemented Double.Max() will be returned. 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_driver_a04dfe6a935bf730a58a117728fe94601}{robOS2.hardware.pni.tcm26.TCM26Driver}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_a3a710479b3f802bc755f820afe430700}{
+\index{robOS2::hardware::interfaces::drivers::ICompass@{robOS2::hardware::interfaces::drivers::ICompass}!getZMagnetometer@{getZMagnetometer}}
+\index{getZMagnetometer@{getZMagnetometer}!robOS2::hardware::interfaces::drivers::ICompass@{robOS2::hardware::interfaces::drivers::ICompass}}
+\subsubsection[{getZMagnetometer}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.interfaces.drivers.ICompass.getZMagnetometer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_a3a710479b3f802bc755f820afe430700}
+Returns the z-\/component of the magnetic field in uT \begin{DoxyReturn}{Returns}
+z-\/magnetometer reading. If this is not implemented Double.Max() will be returned. 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_driver_afc3bcad5694ad268ba13e820930d917b}{robOS2.hardware.pni.tcm26.TCM26Driver}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_a1a641c886a92eb7c0fdc2eebb967fb82}{
+\index{robOS2::hardware::interfaces::drivers::ICompass@{robOS2::hardware::interfaces::drivers::ICompass}!trueNorth@{trueNorth}}
+\index{trueNorth@{trueNorth}!robOS2::hardware::interfaces::drivers::ICompass@{robOS2::hardware::interfaces::drivers::ICompass}}
+\subsubsection[{trueNorth}]{\setlength{\rightskip}{0pt plus 5cm}boolean robOS2.hardware.interfaces.drivers.ICompass.trueNorth (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass_a1a641c886a92eb7c0fdc2eebb967fb82}
+Returns true if the compass is currently setup to operate in \char`\"{}True North\char`\"{} mode instead of magnetic north. \begin{DoxyReturn}{Returns}
+True if the compass is in True North mode 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_driver_a1601bb74b6eeb90eaa040cdfac7913ac}{robOS2.hardware.pni.tcm26.TCM26Driver}.
+
+
+
+The documentation for this interface was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/hardware/interfaces/drivers/\hyperlink{_i_compass_8java}{ICompass.java}\end{DoxyCompactItemize}

@@ -1,0 +1,14 @@
+\hypertarget{_little_blue_motor_controller_8java}{
+\section{src/robOS2/hardware/ubr/LittleBlueMotorController.java File Reference}
+\label{_little_blue_motor_controller_8java}\index{src/robOS2/hardware/ubr/LittleBlueMotorController.java@{src/robOS2/hardware/ubr/LittleBlueMotorController.java}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller}{robOS2.hardware.ubr.LittleBlueMotorController}
+\end{DoxyCompactItemize}
+\subsection*{Packages}
+\begin{DoxyCompactItemize}
+\item 
+package \hyperlink{namespacerob_o_s2_1_1hardware_1_1ubr}{robOS2.hardware.ubr}
+\end{DoxyCompactItemize}

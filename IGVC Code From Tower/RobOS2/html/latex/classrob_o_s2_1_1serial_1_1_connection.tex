@@ -1,0 +1,372 @@
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection}{
+\section{robOS2.serial.Connection Class Reference}
+\label{classrob_o_s2_1_1serial_1_1_connection}\index{robOS2::serial::Connection@{robOS2::serial::Connection}}
+}
+
+
+Collaboration diagram for robOS2.serial.Connection:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1serial_1_1_connection__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries SerialReader}
+\item 
+class {\bfseries SerialWriter}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1serial_1_1_connection_a4d39b04b37c975fba14263dbc9664959}{Connection} (String name)
+\item 
+String \hyperlink{classrob_o_s2_1_1serial_1_1_connection_af36c373aa5677ba098012489b98a0c64}{getName} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1serial_1_1_connection_ad0f7dd19aa0d36bbee7cc1375f555018}{connectNoParity} (String port, int dataBits, int baudRate)  throws Exception
+\item 
+void \hyperlink{classrob_o_s2_1_1serial_1_1_connection_a94a8c1eac9181dc2312867d4a0c92f15}{connectEvenParity} (String port, int dataBits, int baudRate)  throws Exception
+\item 
+void \hyperlink{classrob_o_s2_1_1serial_1_1_connection_a9a319757be792ba1b784eaaa313d448a}{connectOddParity} (String port, int dataBits, int baudRate)  throws Exception
+\item 
+void \hyperlink{classrob_o_s2_1_1serial_1_1_connection_a065da80bb9b8f67d6ce01f4d4a03869d}{attachListener} (SerialPortEventListener listener)
+\item 
+SerialPortEventListener \hyperlink{classrob_o_s2_1_1serial_1_1_connection_aab345fdf4b848c88e21c48b3044e2524}{getListener} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1serial_1_1_connection_afeb03d33def4277a9a114fc7e9e3414b}{disconnect} ()
+\item 
+InputStream \hyperlink{classrob_o_s2_1_1serial_1_1_connection_ac94c4047d9e1805dda66d82c3a3f7f9a}{getInputStream} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1serial_1_1_connection_aa2a4e0fee121ba69bde8d1b76344b6fc}{writeData} (String data)
+\item 
+void \hyperlink{classrob_o_s2_1_1serial_1_1_connection_a6cbbf2a40c4c77212fc9efdadf2be6b9}{writeData} (byte data\mbox{[}$\,$\mbox{]})
+\item 
+void \hyperlink{classrob_o_s2_1_1serial_1_1_connection_a82e65d7bb77a15f6b2867a474b3e436a}{printLnData} (String data)
+\item 
+OutputStream \hyperlink{classrob_o_s2_1_1serial_1_1_connection_afa9fb701e7b6fde5bef54b10c1707810}{getOutputStream} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1serial_1_1_connection_af1dd535a373bf73b4855d9be6b3f7b06}{log} = Logger.getLogger(Connection.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classrob_o_s2_1_1serial_1_1_connection_ac257ab4cd2e8d52c3ee16d818f6fd622}{connect} (String port, int dataBits, int baudRate, int parity)  throws Exception
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+InputStream \hyperlink{classrob_o_s2_1_1serial_1_1_connection_aa5517c0619e60c1f425f9f7a25f3f7d1}{\_\-is}
+\item 
+OutputStream \hyperlink{classrob_o_s2_1_1serial_1_1_connection_a23fab90427d12e2151e938670c308256}{\_\-os}
+\item 
+SerialPort \hyperlink{classrob_o_s2_1_1serial_1_1_connection_a1787c87797135695b944e4ac8b49e1f5}{\_\-sp}
+\item 
+String \hyperlink{classrob_o_s2_1_1serial_1_1_connection_ab4e8643f6de52c775351ab10fed7883a}{\_\-name}
+\item 
+SerialPortEventListener \hyperlink{classrob_o_s2_1_1serial_1_1_connection_a1a198c25163fcf23c5b2f47ecc255964}{\_\-listener}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_a4d39b04b37c975fba14263dbc9664959}{
+\index{robOS2::serial::Connection@{robOS2::serial::Connection}!Connection@{Connection}}
+\index{Connection@{Connection}!robOS2::serial::Connection@{robOS2::serial::Connection}}
+\subsubsection[{Connection}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.serial.Connection.Connection (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1serial_1_1_connection_a4d39b04b37c975fba14263dbc9664959}
+Initializes a new connection to a serial port. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_a065da80bb9b8f67d6ce01f4d4a03869d}{
+\index{robOS2::serial::Connection@{robOS2::serial::Connection}!attachListener@{attachListener}}
+\index{attachListener@{attachListener}!robOS2::serial::Connection@{robOS2::serial::Connection}}
+\subsubsection[{attachListener}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.serial.Connection.attachListener (
+\begin{DoxyParamCaption}
+\item[{SerialPortEventListener}]{listener}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1serial_1_1_connection_a065da80bb9b8f67d6ce01f4d4a03869d}
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_ac257ab4cd2e8d52c3ee16d818f6fd622}{
+\index{robOS2::serial::Connection@{robOS2::serial::Connection}!connect@{connect}}
+\index{connect@{connect}!robOS2::serial::Connection@{robOS2::serial::Connection}}
+\subsubsection[{connect}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.serial.Connection.connect (
+\begin{DoxyParamCaption}
+\item[{String}]{port, }
+\item[{int}]{dataBits, }
+\item[{int}]{baudRate, }
+\item[{int}]{parity}
+\end{DoxyParamCaption}
+)  throws Exception\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1serial_1_1_connection_ac257ab4cd2e8d52c3ee16d818f6fd622}
+
+\begin{DoxyParams}{Parameters}
+{\em port} & \\
+\hline
+{\em dataBits} & \\
+\hline
+{\em baudRate} & \\
+\hline
+{\em parity} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1serial_1_1_connection_ac257ab4cd2e8d52c3ee16d818f6fd622_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_a94a8c1eac9181dc2312867d4a0c92f15}{
+\index{robOS2::serial::Connection@{robOS2::serial::Connection}!connectEvenParity@{connectEvenParity}}
+\index{connectEvenParity@{connectEvenParity}!robOS2::serial::Connection@{robOS2::serial::Connection}}
+\subsubsection[{connectEvenParity}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.serial.Connection.connectEvenParity (
+\begin{DoxyParamCaption}
+\item[{String}]{port, }
+\item[{int}]{dataBits, }
+\item[{int}]{baudRate}
+\end{DoxyParamCaption}
+)  throws Exception}}
+\label{classrob_o_s2_1_1serial_1_1_connection_a94a8c1eac9181dc2312867d4a0c92f15}
+Connects to the serial port with the specified settings with EVEN parity bits
+
+
+\begin{DoxyParams}{Parameters}
+{\em port} & -\/ Name of the serial port (e.g. COM1) \\
+\hline
+{\em dataBits} & \\
+\hline
+{\em baudRate} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1serial_1_1_connection_a94a8c1eac9181dc2312867d4a0c92f15_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_ad0f7dd19aa0d36bbee7cc1375f555018}{
+\index{robOS2::serial::Connection@{robOS2::serial::Connection}!connectNoParity@{connectNoParity}}
+\index{connectNoParity@{connectNoParity}!robOS2::serial::Connection@{robOS2::serial::Connection}}
+\subsubsection[{connectNoParity}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.serial.Connection.connectNoParity (
+\begin{DoxyParamCaption}
+\item[{String}]{port, }
+\item[{int}]{dataBits, }
+\item[{int}]{baudRate}
+\end{DoxyParamCaption}
+)  throws Exception}}
+\label{classrob_o_s2_1_1serial_1_1_connection_ad0f7dd19aa0d36bbee7cc1375f555018}
+Connects to the serial port with the specified settings with NO parity bits
+
+
+\begin{DoxyParams}{Parameters}
+{\em port} & -\/ Name of the serial port (e.g. COM1) \\
+\hline
+{\em dataBits} & \\
+\hline
+{\em baudRate} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1serial_1_1_connection_ad0f7dd19aa0d36bbee7cc1375f555018_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_a9a319757be792ba1b784eaaa313d448a}{
+\index{robOS2::serial::Connection@{robOS2::serial::Connection}!connectOddParity@{connectOddParity}}
+\index{connectOddParity@{connectOddParity}!robOS2::serial::Connection@{robOS2::serial::Connection}}
+\subsubsection[{connectOddParity}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.serial.Connection.connectOddParity (
+\begin{DoxyParamCaption}
+\item[{String}]{port, }
+\item[{int}]{dataBits, }
+\item[{int}]{baudRate}
+\end{DoxyParamCaption}
+)  throws Exception}}
+\label{classrob_o_s2_1_1serial_1_1_connection_a9a319757be792ba1b784eaaa313d448a}
+Connects to the serial port with the specified settings with ODD parity bits
+
+
+\begin{DoxyParams}{Parameters}
+{\em port} & -\/ Name of the serial port (e.g. COM1) \\
+\hline
+{\em dataBits} & \\
+\hline
+{\em baudRate} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1serial_1_1_connection_a9a319757be792ba1b784eaaa313d448a_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_afeb03d33def4277a9a114fc7e9e3414b}{
+\index{robOS2::serial::Connection@{robOS2::serial::Connection}!disconnect@{disconnect}}
+\index{disconnect@{disconnect}!robOS2::serial::Connection@{robOS2::serial::Connection}}
+\subsubsection[{disconnect}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.serial.Connection.disconnect (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1serial_1_1_connection_afeb03d33def4277a9a114fc7e9e3414b}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_ac94c4047d9e1805dda66d82c3a3f7f9a}{
+\index{robOS2::serial::Connection@{robOS2::serial::Connection}!getInputStream@{getInputStream}}
+\index{getInputStream@{getInputStream}!robOS2::serial::Connection@{robOS2::serial::Connection}}
+\subsubsection[{getInputStream}]{\setlength{\rightskip}{0pt plus 5cm}InputStream robOS2.serial.Connection.getInputStream (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1serial_1_1_connection_ac94c4047d9e1805dda66d82c3a3f7f9a}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_aab345fdf4b848c88e21c48b3044e2524}{
+\index{robOS2::serial::Connection@{robOS2::serial::Connection}!getListener@{getListener}}
+\index{getListener@{getListener}!robOS2::serial::Connection@{robOS2::serial::Connection}}
+\subsubsection[{getListener}]{\setlength{\rightskip}{0pt plus 5cm}SerialPortEventListener robOS2.serial.Connection.getListener (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1serial_1_1_connection_aab345fdf4b848c88e21c48b3044e2524}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_af36c373aa5677ba098012489b98a0c64}{
+\index{robOS2::serial::Connection@{robOS2::serial::Connection}!getName@{getName}}
+\index{getName@{getName}!robOS2::serial::Connection@{robOS2::serial::Connection}}
+\subsubsection[{getName}]{\setlength{\rightskip}{0pt plus 5cm}String robOS2.serial.Connection.getName (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1serial_1_1_connection_af36c373aa5677ba098012489b98a0c64}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_afa9fb701e7b6fde5bef54b10c1707810}{
+\index{robOS2::serial::Connection@{robOS2::serial::Connection}!getOutputStream@{getOutputStream}}
+\index{getOutputStream@{getOutputStream}!robOS2::serial::Connection@{robOS2::serial::Connection}}
+\subsubsection[{getOutputStream}]{\setlength{\rightskip}{0pt plus 5cm}OutputStream robOS2.serial.Connection.getOutputStream (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1serial_1_1_connection_afa9fb701e7b6fde5bef54b10c1707810}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_a82e65d7bb77a15f6b2867a474b3e436a}{
+\index{robOS2::serial::Connection@{robOS2::serial::Connection}!printLnData@{printLnData}}
+\index{printLnData@{printLnData}!robOS2::serial::Connection@{robOS2::serial::Connection}}
+\subsubsection[{printLnData}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.serial.Connection.printLnData (
+\begin{DoxyParamCaption}
+\item[{String}]{data}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1serial_1_1_connection_a82e65d7bb77a15f6b2867a474b3e436a}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_a6cbbf2a40c4c77212fc9efdadf2be6b9}{
+\index{robOS2::serial::Connection@{robOS2::serial::Connection}!writeData@{writeData}}
+\index{writeData@{writeData}!robOS2::serial::Connection@{robOS2::serial::Connection}}
+\subsubsection[{writeData}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.serial.Connection.writeData (
+\begin{DoxyParamCaption}
+\item[{byte}]{data\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1serial_1_1_connection_a6cbbf2a40c4c77212fc9efdadf2be6b9}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_aa2a4e0fee121ba69bde8d1b76344b6fc}{
+\index{robOS2::serial::Connection@{robOS2::serial::Connection}!writeData@{writeData}}
+\index{writeData@{writeData}!robOS2::serial::Connection@{robOS2::serial::Connection}}
+\subsubsection[{writeData}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.serial.Connection.writeData (
+\begin{DoxyParamCaption}
+\item[{String}]{data}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1serial_1_1_connection_aa2a4e0fee121ba69bde8d1b76344b6fc}
+
+\begin{DoxyParams}{Parameters}
+{\em data} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_aa5517c0619e60c1f425f9f7a25f3f7d1}{
+\index{robOS2::serial::Connection@{robOS2::serial::Connection}!\_\-is@{\_\-is}}
+\index{\_\-is@{\_\-is}!robOS2::serial::Connection@{robOS2::serial::Connection}}
+\subsubsection[{\_\-is}]{\setlength{\rightskip}{0pt plus 5cm}InputStream {\bf robOS2.serial.Connection.\_\-is}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1serial_1_1_connection_aa5517c0619e60c1f425f9f7a25f3f7d1}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_a1a198c25163fcf23c5b2f47ecc255964}{
+\index{robOS2::serial::Connection@{robOS2::serial::Connection}!\_\-listener@{\_\-listener}}
+\index{\_\-listener@{\_\-listener}!robOS2::serial::Connection@{robOS2::serial::Connection}}
+\subsubsection[{\_\-listener}]{\setlength{\rightskip}{0pt plus 5cm}SerialPortEventListener {\bf robOS2.serial.Connection.\_\-listener}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1serial_1_1_connection_a1a198c25163fcf23c5b2f47ecc255964}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_ab4e8643f6de52c775351ab10fed7883a}{
+\index{robOS2::serial::Connection@{robOS2::serial::Connection}!\_\-name@{\_\-name}}
+\index{\_\-name@{\_\-name}!robOS2::serial::Connection@{robOS2::serial::Connection}}
+\subsubsection[{\_\-name}]{\setlength{\rightskip}{0pt plus 5cm}String {\bf robOS2.serial.Connection.\_\-name}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1serial_1_1_connection_ab4e8643f6de52c775351ab10fed7883a}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_a23fab90427d12e2151e938670c308256}{
+\index{robOS2::serial::Connection@{robOS2::serial::Connection}!\_\-os@{\_\-os}}
+\index{\_\-os@{\_\-os}!robOS2::serial::Connection@{robOS2::serial::Connection}}
+\subsubsection[{\_\-os}]{\setlength{\rightskip}{0pt plus 5cm}OutputStream {\bf robOS2.serial.Connection.\_\-os}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1serial_1_1_connection_a23fab90427d12e2151e938670c308256}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_a1787c87797135695b944e4ac8b49e1f5}{
+\index{robOS2::serial::Connection@{robOS2::serial::Connection}!\_\-sp@{\_\-sp}}
+\index{\_\-sp@{\_\-sp}!robOS2::serial::Connection@{robOS2::serial::Connection}}
+\subsubsection[{\_\-sp}]{\setlength{\rightskip}{0pt plus 5cm}SerialPort {\bf robOS2.serial.Connection.\_\-sp}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1serial_1_1_connection_a1787c87797135695b944e4ac8b49e1f5}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_af1dd535a373bf73b4855d9be6b3f7b06}{
+\index{robOS2::serial::Connection@{robOS2::serial::Connection}!log@{log}}
+\index{log@{log}!robOS2::serial::Connection@{robOS2::serial::Connection}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.serial.Connection.log} = Logger.getLogger(Connection.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1serial_1_1_connection_af1dd535a373bf73b4855d9be6b3f7b06}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/serial/\hyperlink{_connection_8java}{Connection.java}\end{DoxyCompactItemize}

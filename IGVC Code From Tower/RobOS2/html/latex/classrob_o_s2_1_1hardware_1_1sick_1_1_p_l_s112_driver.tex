@@ -1,0 +1,311 @@
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver}{
+\section{robOS2.hardware.sick.PLS112Driver Class Reference}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver}\index{robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}}
+}
+
+
+Inheritance diagram for robOS2.hardware.sick.PLS112Driver:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for robOS2.hardware.sick.PLS112Driver:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a0ed3936ad852d0a9d7125d889589fcd4}{PLS112Driver} ()
+\item 
+\hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1marker_1_1_i_universal_hardware_device}{IUniversalHardwareDevice} \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a9dd22a73932855b2d36561a571df5b14}{getDriver} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a3b0fe31001bfc91e72cc4274873d4ec0}{constantBaud} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a73c99e3cc39a30e3500684cd66037e53}{query} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_ab5134b0e8bf4537ff618790323a4553f}{to56000Baud} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a1c7d82e16f1288b004d35866124ad688}{toRequestOnlyMode} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a4ab4fff2287b96016f2a575754fe391b}{toSetupMode} ()
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a4d762dedd8d9558f8c5c08411663a142}{getMaxRange} ()
+\item 
+double \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_ade7abc610d8d8a106cb108bf618024ff}{getAngleToNearestObsticle} ()
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_aa174923072f5b72c3587ee2b135697da}{getDistanceToNearestObsticle} ()
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a91283ec515219344524cb268d7fae1c0}{getScanRadius} ()
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a7587c6bb7a1c9ae858173ce0f235258a}{getScanSteps} ()
+\item 
+\hyperlink{interfacerob_o_s2_1_1mapping_1_1lidar_1_1_i_l_i_d_a_r_map}{ILIDARMap} \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_aa28e3b0e3871a8bce6b89aa388231458}{getLIDARMap} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_ae446554289e06a00edd367330ed2b191}{log} = Logger.getLogger(PLS112Driver.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1serial_1_1_connection}{Connection} \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a6f883a143f3f1fcc94c08281edeee250}{\_\-conn}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a0ed3936ad852d0a9d7125d889589fcd4}{
+\index{robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}!PLS112Driver@{PLS112Driver}}
+\index{PLS112Driver@{PLS112Driver}!robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}}
+\subsubsection[{PLS112Driver}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.hardware.sick.PLS112Driver.PLS112Driver (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a0ed3936ad852d0a9d7125d889589fcd4}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a0ed3936ad852d0a9d7125d889589fcd4_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a3b0fe31001bfc91e72cc4274873d4ec0}{
+\index{robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}!constantBaud@{constantBaud}}
+\index{constantBaud@{constantBaud}!robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}}
+\subsubsection[{constantBaud}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.sick.PLS112Driver.constantBaud (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a3b0fe31001bfc91e72cc4274873d4ec0}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a3b0fe31001bfc91e72cc4274873d4ec0_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_ade7abc610d8d8a106cb108bf618024ff}{
+\index{robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}!getAngleToNearestObsticle@{getAngleToNearestObsticle}}
+\index{getAngleToNearestObsticle@{getAngleToNearestObsticle}!robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}}
+\subsubsection[{getAngleToNearestObsticle}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.sick.PLS112Driver.getAngleToNearestObsticle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_ade7abc610d8d8a106cb108bf618024ff}
+Returns the measured angle to the object that is nearest to the LIDAR unit.
+
+NOTE: This value is relative to the scan radius of the LIDAR, not the Cartesian cord. system. If you have a LIDAR with a scan radius of 180 degrees the angles will need to be interpreted differently than if you have a LIDAR with a scan radius of 270 degrees. \begin{DoxyReturn}{Returns}
+Measured angle to the nearest object 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_l_i_d_a_r_a82dc3c4240240a960632efb4d9020dd5}{robOS2.hardware.interfaces.drivers.ILIDAR}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_aa174923072f5b72c3587ee2b135697da}{
+\index{robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}!getDistanceToNearestObsticle@{getDistanceToNearestObsticle}}
+\index{getDistanceToNearestObsticle@{getDistanceToNearestObsticle}!robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}}
+\subsubsection[{getDistanceToNearestObsticle}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.sick.PLS112Driver.getDistanceToNearestObsticle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_aa174923072f5b72c3587ee2b135697da}
+Returns the measured distance to the nearest object in centimeters. e.g. 1750 would be returned for a object thats 1.750 meters away. \begin{DoxyReturn}{Returns}
+Distance to the nearest object in centimeters 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_l_i_d_a_r_a05eb2f2405065ac384dd27b9321a0636}{robOS2.hardware.interfaces.drivers.ILIDAR}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a9dd22a73932855b2d36561a571df5b14}{
+\index{robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}!getDriver@{getDriver}}
+\index{getDriver@{getDriver}!robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}}
+\subsubsection[{getDriver}]{\setlength{\rightskip}{0pt plus 5cm}{\bf IUniversalHardwareDevice} robOS2.hardware.sick.PLS112Driver.getDriver (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a9dd22a73932855b2d36561a571df5b14}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_aa28e3b0e3871a8bce6b89aa388231458}{
+\index{robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}!getLIDARMap@{getLIDARMap}}
+\index{getLIDARMap@{getLIDARMap}!robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}}
+\subsubsection[{getLIDARMap}]{\setlength{\rightskip}{0pt plus 5cm}{\bf ILIDARMap} robOS2.hardware.sick.PLS112Driver.getLIDARMap (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_aa28e3b0e3871a8bce6b89aa388231458}
+Returns a \char`\"{}map\char`\"{} of the last known objects picked up by the LIDAR. This map has been pre-\/configured based on the XML setup file that was provided when RobOS2 was started. \begin{DoxyReturn}{Returns}
+Representation of the last known obstacles to the LIDAR. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_l_i_d_a_r_a04abdad26d8b532a254ecbba618178b9}{robOS2.hardware.interfaces.drivers.ILIDAR}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a4d762dedd8d9558f8c5c08411663a142}{
+\index{robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}!getMaxRange@{getMaxRange}}
+\index{getMaxRange@{getMaxRange}!robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}}
+\subsubsection[{getMaxRange}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.sick.PLS112Driver.getMaxRange (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a4d762dedd8d9558f8c5c08411663a142}
+Returns the maximum supported range of the LIDAR. e.g. 5000 for 5000mm
+
+This method returns -\/1 if there is no max range defined. 
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_l_i_d_a_r_a1db41dea5434217065d807cea3fc4f4a}{robOS2.hardware.interfaces.drivers.ILIDAR}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a91283ec515219344524cb268d7fae1c0}{
+\index{robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}!getScanRadius@{getScanRadius}}
+\index{getScanRadius@{getScanRadius}!robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}}
+\subsubsection[{getScanRadius}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.sick.PLS112Driver.getScanRadius (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a91283ec515219344524cb268d7fae1c0}
+Returns the current scan radius of the unit in degrees. e.g. 180 for 180 degrees or 270 for 270 degrees. \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_l_i_d_a_r_ab37045fad0152f11401b08d4d8b4c9a8}{robOS2.hardware.interfaces.drivers.ILIDAR}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a7587c6bb7a1c9ae858173ce0f235258a}{
+\index{robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}!getScanSteps@{getScanSteps}}
+\index{getScanSteps@{getScanSteps}!robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}}
+\subsubsection[{getScanSteps}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.sick.PLS112Driver.getScanSteps (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a7587c6bb7a1c9ae858173ce0f235258a}
+Returns the number of data-\/points sampled by the LIDAR. e.g. if the LIDAR unit has 0.5 degree resolution and a scan radius of 180 degrees 360 would be returned. \begin{DoxyReturn}{Returns}
+Number of data points sampled in a scan 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_l_i_d_a_r_aac89f3cd52c76cf3fde736262f833d23}{robOS2.hardware.interfaces.drivers.ILIDAR}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a73c99e3cc39a30e3500684cd66037e53}{
+\index{robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}!query@{query}}
+\index{query@{query}!robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}}
+\subsubsection[{query}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.sick.PLS112Driver.query (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a73c99e3cc39a30e3500684cd66037e53}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a73c99e3cc39a30e3500684cd66037e53_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_ab5134b0e8bf4537ff618790323a4553f}{
+\index{robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}!to56000Baud@{to56000Baud}}
+\index{to56000Baud@{to56000Baud}!robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}}
+\subsubsection[{to56000Baud}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.sick.PLS112Driver.to56000Baud (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_ab5134b0e8bf4537ff618790323a4553f}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_ab5134b0e8bf4537ff618790323a4553f_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a1c7d82e16f1288b004d35866124ad688}{
+\index{robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}!toRequestOnlyMode@{toRequestOnlyMode}}
+\index{toRequestOnlyMode@{toRequestOnlyMode}!robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}}
+\subsubsection[{toRequestOnlyMode}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.sick.PLS112Driver.toRequestOnlyMode (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a1c7d82e16f1288b004d35866124ad688}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a1c7d82e16f1288b004d35866124ad688_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a4ab4fff2287b96016f2a575754fe391b}{
+\index{robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}!toSetupMode@{toSetupMode}}
+\index{toSetupMode@{toSetupMode}!robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}}
+\subsubsection[{toSetupMode}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.sick.PLS112Driver.toSetupMode (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a4ab4fff2287b96016f2a575754fe391b}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a4ab4fff2287b96016f2a575754fe391b_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a6f883a143f3f1fcc94c08281edeee250}{
+\index{robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}!\_\-conn@{\_\-conn}}
+\index{\_\-conn@{\_\-conn}!robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}}
+\subsubsection[{\_\-conn}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Connection} {\bf robOS2.hardware.sick.PLS112Driver.\_\-conn}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_a6f883a143f3f1fcc94c08281edeee250}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_ae446554289e06a00edd367330ed2b191}{
+\index{robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}!log@{log}}
+\index{log@{log}!robOS2::hardware::sick::PLS112Driver@{robOS2::hardware::sick::PLS112Driver}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.hardware.sick.PLS112Driver.log} = Logger.getLogger(PLS112Driver.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver_ae446554289e06a00edd367330ed2b191}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/hardware/sick/\hyperlink{_p_l_s112_driver_8java}{PLS112Driver.java}\end{DoxyCompactItemize}

@@ -1,0 +1,261 @@
+\hypertarget{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map}{
+\section{robOS2.mapping.lidar.LIDARMap Class Reference}
+\label{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map}\index{robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}}
+}
+
+
+Inheritance diagram for robOS2.mapping.lidar.LIDARMap:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for robOS2.mapping.lidar.LIDARMap:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=300pt]{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a956eeb52a3e02581dca5df7189bfaf4e}{Clear} ()
+\item 
+static double \hyperlink{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_ab88847da43c40f6dc7012b819dd0add5}{getDistanceAtAngle} (double angle)
+\item 
+static void \hyperlink{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a55e75264e5aa42882ecd3f621907221f}{setDistanceAtAngle} (double angle, double distance)
+\item 
+static void \hyperlink{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_ae6677cb436fb8c3f0b61e33aef6c2d4a}{setDistanceAtIndex} (int index, double distance)
+\item 
+static int \hyperlink{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_ac212fa99e616a34891c443b14a98a0b8}{getTotalSteps} ()
+\item 
+static double \hyperlink{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a2842c9da8fccf97b1509d80fa4c54637}{getDistanceAtStep} (int step)
+\item 
+static void \hyperlink{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a5b0e36479f492cc84f462fc04e80ca50}{setMaxRange} (int maxRange)
+\item 
+static int \hyperlink{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_afefa5759a715adb34399917ac70a1088}{getMaxRange} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a7ff4ce0be4c094b430db51d5f5c6ad26}{log} = Logger.getLogger(LIDARMap.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_aef8872f73d969c4272f5ae856b5ea2e5}{convertAngle} (double angle)
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a32da3d190e33fac2f60da7622ce2356b}{\_\-totalSize} = (int)(\hyperlink{interfacerob_o_s2_1_1mapping_1_1_i_map_config_aac55d698a7eb94f9856a6ea5456bbfb0}{LIDAR\_\-TOTAL\_\-RANGE} $\ast$ Math.Inverse(\hyperlink{interfacerob_o_s2_1_1mapping_1_1_i_map_config_a37623bad1f37c915845c510b1d54a40b}{LIDAR\_\-STEP\_\-SIZE}))
+\item 
+static double\mbox{[}$\,$\mbox{]} \hyperlink{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a29d31c11e9609308771da7bf39082857}{\_\-map} = new double\mbox{[}\hyperlink{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a32da3d190e33fac2f60da7622ce2356b}{\_\-totalSize}\mbox{]}
+\item 
+static int \hyperlink{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a092247bd3333b8a7ee3d23d5bb8f6f40}{\_\-maxRange} = -\/1
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a956eeb52a3e02581dca5df7189bfaf4e}{
+\index{robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}!Clear@{Clear}}
+\index{Clear@{Clear}!robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}}
+\subsubsection[{Clear}]{\setlength{\rightskip}{0pt plus 5cm}static void robOS2.mapping.lidar.LIDARMap.Clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a956eeb52a3e02581dca5df7189bfaf4e}
+Clears the LIDAR Map \hypertarget{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_aef8872f73d969c4272f5ae856b5ea2e5}{
+\index{robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}!convertAngle@{convertAngle}}
+\index{convertAngle@{convertAngle}!robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}}
+\subsubsection[{convertAngle}]{\setlength{\rightskip}{0pt plus 5cm}static int robOS2.mapping.lidar.LIDARMap.convertAngle (
+\begin{DoxyParamCaption}
+\item[{double}]{angle}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_aef8872f73d969c4272f5ae856b5ea2e5}
+Converts the angle in degrees to its corresponding array position for position updates.
+
+
+\begin{DoxyParams}{Parameters}
+{\em angle} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_aef8872f73d969c4272f5ae856b5ea2e5_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_ab88847da43c40f6dc7012b819dd0add5}{
+\index{robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}!getDistanceAtAngle@{getDistanceAtAngle}}
+\index{getDistanceAtAngle@{getDistanceAtAngle}!robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}}
+\subsubsection[{getDistanceAtAngle}]{\setlength{\rightskip}{0pt plus 5cm}static double robOS2.mapping.lidar.LIDARMap.getDistanceAtAngle (
+\begin{DoxyParamCaption}
+\item[{double}]{angle}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_ab88847da43c40f6dc7012b819dd0add5}
+Returns the last known distance from the lidar at the requested angle.
+
+
+\begin{DoxyParams}{Parameters}
+{\em angle} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_ab88847da43c40f6dc7012b819dd0add5_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a2842c9da8fccf97b1509d80fa4c54637}{
+\index{robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}!getDistanceAtStep@{getDistanceAtStep}}
+\index{getDistanceAtStep@{getDistanceAtStep}!robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}}
+\subsubsection[{getDistanceAtStep}]{\setlength{\rightskip}{0pt plus 5cm}static double robOS2.mapping.lidar.LIDARMap.getDistanceAtStep (
+\begin{DoxyParamCaption}
+\item[{int}]{step}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a2842c9da8fccf97b1509d80fa4c54637}
+Returns the distance recorded by the LIDAR at a specific step. This will return a -\/1 if you request a step outside of the array.
+
+
+\begin{DoxyParams}{Parameters}
+{\em step} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_afefa5759a715adb34399917ac70a1088}{
+\index{robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}!getMaxRange@{getMaxRange}}
+\index{getMaxRange@{getMaxRange}!robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}}
+\subsubsection[{getMaxRange}]{\setlength{\rightskip}{0pt plus 5cm}static int robOS2.mapping.lidar.LIDARMap.getMaxRange (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_afefa5759a715adb34399917ac70a1088}
+Returns the maximum supported range of the LIDAR in the map. If there has been no maximum range set -\/1 will be returned. \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_ac212fa99e616a34891c443b14a98a0b8}{
+\index{robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}!getTotalSteps@{getTotalSteps}}
+\index{getTotalSteps@{getTotalSteps}!robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}}
+\subsubsection[{getTotalSteps}]{\setlength{\rightskip}{0pt plus 5cm}static int robOS2.mapping.lidar.LIDARMap.getTotalSteps (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_ac212fa99e616a34891c443b14a98a0b8}
+Returns the total size of the array holding the distance information from the LIDAR unit.
+
+{\bfseries NOTE:} As this array is indexed from 0 you MUST subtract 1 from its size to get the maximum step you can refer to in other calls.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a55e75264e5aa42882ecd3f621907221f}{
+\index{robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}!setDistanceAtAngle@{setDistanceAtAngle}}
+\index{setDistanceAtAngle@{setDistanceAtAngle}!robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}}
+\subsubsection[{setDistanceAtAngle}]{\setlength{\rightskip}{0pt plus 5cm}static void robOS2.mapping.lidar.LIDARMap.setDistanceAtAngle (
+\begin{DoxyParamCaption}
+\item[{double}]{angle, }
+\item[{double}]{distance}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a55e75264e5aa42882ecd3f621907221f}
+Sets the clear distance from LIDAR data.
+
+
+\begin{DoxyParams}{Parameters}
+{\em angle} & \\
+\hline
+{\em distance} & \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a55e75264e5aa42882ecd3f621907221f_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_ae6677cb436fb8c3f0b61e33aef6c2d4a}{
+\index{robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}!setDistanceAtIndex@{setDistanceAtIndex}}
+\index{setDistanceAtIndex@{setDistanceAtIndex}!robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}}
+\subsubsection[{setDistanceAtIndex}]{\setlength{\rightskip}{0pt plus 5cm}static void robOS2.mapping.lidar.LIDARMap.setDistanceAtIndex (
+\begin{DoxyParamCaption}
+\item[{int}]{index, }
+\item[{double}]{distance}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_ae6677cb436fb8c3f0b61e33aef6c2d4a}
+\hypertarget{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a5b0e36479f492cc84f462fc04e80ca50}{
+\index{robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}!setMaxRange@{setMaxRange}}
+\index{setMaxRange@{setMaxRange}!robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}}
+\subsubsection[{setMaxRange}]{\setlength{\rightskip}{0pt plus 5cm}static void robOS2.mapping.lidar.LIDARMap.setMaxRange (
+\begin{DoxyParamCaption}
+\item[{int}]{maxRange}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a5b0e36479f492cc84f462fc04e80ca50}
+Sets the maximum supported range of the LIDAR in the map. 
+\begin{DoxyParams}{Parameters}
+{\em maxRange} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a29d31c11e9609308771da7bf39082857}{
+\index{robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}!\_\-map@{\_\-map}}
+\index{\_\-map@{\_\-map}!robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}}
+\subsubsection[{\_\-map}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]} {\bf robOS2.mapping.lidar.LIDARMap.\_\-map} = new double\mbox{[}{\bf \_\-totalSize}\mbox{]}\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a29d31c11e9609308771da7bf39082857}
+\hypertarget{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a092247bd3333b8a7ee3d23d5bb8f6f40}{
+\index{robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}!\_\-maxRange@{\_\-maxRange}}
+\index{\_\-maxRange@{\_\-maxRange}!robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}}
+\subsubsection[{\_\-maxRange}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf robOS2.mapping.lidar.LIDARMap.\_\-maxRange} = -\/1\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a092247bd3333b8a7ee3d23d5bb8f6f40}
+\hypertarget{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a32da3d190e33fac2f60da7622ce2356b}{
+\index{robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}!\_\-totalSize@{\_\-totalSize}}
+\index{\_\-totalSize@{\_\-totalSize}!robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}}
+\subsubsection[{\_\-totalSize}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf robOS2.mapping.lidar.LIDARMap.\_\-totalSize} = (int)({\bf LIDAR\_\-TOTAL\_\-RANGE} $\ast$ Math.Inverse({\bf LIDAR\_\-STEP\_\-SIZE}))\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a32da3d190e33fac2f60da7622ce2356b}
+\hypertarget{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a7ff4ce0be4c094b430db51d5f5c6ad26}{
+\index{robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}!log@{log}}
+\index{log@{log}!robOS2::mapping::lidar::LIDARMap@{robOS2::mapping::lidar::LIDARMap}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.mapping.lidar.LIDARMap.log} = Logger.getLogger(LIDARMap.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map_a7ff4ce0be4c094b430db51d5f5c6ad26}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/mapping/lidar/\hyperlink{_l_i_d_a_r_map_8java}{LIDARMap.java}\end{DoxyCompactItemize}

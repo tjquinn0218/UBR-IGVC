@@ -1,0 +1,11 @@
+\hypertarget{namespacerob_o_s2_1_1hardware_1_1sparkfun_1_1imu}{
+\section{Package robOS2.hardware.sparkfun.imu}
+\label{namespacerob_o_s2_1_1hardware_1_1sparkfun_1_1imu}\index{robOS2.hardware.sparkfun.imu@{robOS2.hardware.sparkfun.imu}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classrob_o_s2_1_1hardware_1_1sparkfun_1_1imu_1_1_atomic_i_m_u}{AtomicIMU}
+\item 
+class \hyperlink{classrob_o_s2_1_1hardware_1_1sparkfun_1_1imu_1_1_atomic_i_m_u_listener}{AtomicIMUListener}
+\end{DoxyCompactItemize}

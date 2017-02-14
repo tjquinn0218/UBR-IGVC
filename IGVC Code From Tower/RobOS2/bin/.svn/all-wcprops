@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/software/!svn/ver/250/RobOS2/src
+END
+hardware_config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/software/!svn/ver/203/RobOS2/src/hardware_config.xml
+END
+gps_waypoints.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/software/!svn/ver/183/RobOS2/src/gps_waypoints.xml
+END
+gui_config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/software/!svn/ver/193/RobOS2/src/gui_config.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/software/!svn/ver/249/RobOS2/src/log4j.properties
+END
+gui_config.out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/software/!svn/ver/193/RobOS2/src/gui_config.out.xml
+END

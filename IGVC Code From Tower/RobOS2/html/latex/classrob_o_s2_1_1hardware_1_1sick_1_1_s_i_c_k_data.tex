@@ -1,0 +1,405 @@
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data}{
+\section{robOS2.hardware.sick.SICKData Class Reference}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data}\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a2b8bcc2dfc7bf21cda76b48876e75240}{SICKData} (byte\mbox{[}$\,$\mbox{]} data)
+\item 
+\hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a4f2ab2b633ce549a625344c8e30b05a4}{SICKData} (int\mbox{[}$\,$\mbox{]} data)
+\item 
+\hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a143517e8bb7134ab2e11019a2a882900}{SICKData} (String fileName)
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a127893dfc7f3b48b8b8723a55eefc07e}{buildFromFile} (String fileName)
+\item 
+byte \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_ad861b6d70409038fdb92cd2448d6675d}{get} (int index)
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_ab7bb5bed81dbfc5b65e9b957f63ca46e}{getData} (int index)
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_ac209acfe021ca459348e0b8ac835c1ab}{getLength} ()
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_ab347e9c70a6ac309680bea6974667ee4}{getRealLength} ()
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a2767d3cac322bb5a7750d069525a1c0e}{getSICKSize} ()
+\item 
+String \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a00ed794ce760704a07948d7503f74e4c}{toString} ()
+\item 
+boolean \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a391092e2e9e510f8f86307884b0d24fa}{validHeader} ()
+\item 
+boolean \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a3bcaf690808639ebcf0cdd6838c928b0}{verifyCRC} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a9549594124ef8a0373d178019315d671}{writeToFile} (String fileName)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static String \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a6b1d1ffa9ac768dba604b904b2685e04}{byteString} (byte b)
+\item 
+static int \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a5eb2e29b4aee279f2b0eae12812d3959}{compare} (\hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data}{SICKData} l1, \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data}{SICKData} l2)
+\item 
+static int \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a7920383a21b85149de52543f48e3440b}{compareHeader} (\hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data}{SICKData} l1, \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data}{SICKData} l2)
+\item 
+static int \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a64cb8126748f2020a8ff35c752639edf}{intFromByte} (byte b)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a701e9b4039a1f89eb14210bfda765629}{getSICKData} (byte b1, byte b2)
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_af185f7636ae55b3fe7ddfd0c4c68a9a1}{processLine} (String line)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+byte\mbox{[}$\,$\mbox{]} \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a120f6d87bf9eb0eb33599599cd525621}{\_\-data}
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a0953b6fb6dcd24714a616fcc32e63323}{\_\-length}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_ad3d9cca0b532b4831f1b7d23a6a30535}{OFFSET} = 7
+\item 
+static int \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_afb16b2c2129a29ea71ad62d4d3d09ca0}{CRC16\_\-GEN\_\-POL} = 0x8005
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a2b8bcc2dfc7bf21cda76b48876e75240}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!SICKData@{SICKData}}
+\index{SICKData@{SICKData}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{SICKData}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.hardware.sick.SICKData.SICKData (
+\begin{DoxyParamCaption}
+\item[{byte\mbox{[}$\,$\mbox{]}}]{data}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a2b8bcc2dfc7bf21cda76b48876e75240}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a4f2ab2b633ce549a625344c8e30b05a4}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!SICKData@{SICKData}}
+\index{SICKData@{SICKData}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{SICKData}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.hardware.sick.SICKData.SICKData (
+\begin{DoxyParamCaption}
+\item[{int\mbox{[}$\,$\mbox{]}}]{data}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a4f2ab2b633ce549a625344c8e30b05a4}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a4f2ab2b633ce549a625344c8e30b05a4_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a143517e8bb7134ab2e11019a2a882900}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!SICKData@{SICKData}}
+\index{SICKData@{SICKData}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{SICKData}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.hardware.sick.SICKData.SICKData (
+\begin{DoxyParamCaption}
+\item[{String}]{fileName}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a143517e8bb7134ab2e11019a2a882900}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a143517e8bb7134ab2e11019a2a882900_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a127893dfc7f3b48b8b8723a55eefc07e}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!buildFromFile@{buildFromFile}}
+\index{buildFromFile@{buildFromFile}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{buildFromFile}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.sick.SICKData.buildFromFile (
+\begin{DoxyParamCaption}
+\item[{String}]{fileName}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a127893dfc7f3b48b8b8723a55eefc07e}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a127893dfc7f3b48b8b8723a55eefc07e_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a6b1d1ffa9ac768dba604b904b2685e04}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!byteString@{byteString}}
+\index{byteString@{byteString}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{byteString}]{\setlength{\rightskip}{0pt plus 5cm}static String robOS2.hardware.sick.SICKData.byteString (
+\begin{DoxyParamCaption}
+\item[{byte}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a6b1d1ffa9ac768dba604b904b2685e04}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a5eb2e29b4aee279f2b0eae12812d3959}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!compare@{compare}}
+\index{compare@{compare}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{compare}]{\setlength{\rightskip}{0pt plus 5cm}static int robOS2.hardware.sick.SICKData.compare (
+\begin{DoxyParamCaption}
+\item[{{\bf SICKData}}]{l1, }
+\item[{{\bf SICKData}}]{l2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a5eb2e29b4aee279f2b0eae12812d3959}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a5eb2e29b4aee279f2b0eae12812d3959_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a7920383a21b85149de52543f48e3440b}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!compareHeader@{compareHeader}}
+\index{compareHeader@{compareHeader}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{compareHeader}]{\setlength{\rightskip}{0pt plus 5cm}static int robOS2.hardware.sick.SICKData.compareHeader (
+\begin{DoxyParamCaption}
+\item[{{\bf SICKData}}]{l1, }
+\item[{{\bf SICKData}}]{l2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a7920383a21b85149de52543f48e3440b}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a7920383a21b85149de52543f48e3440b_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_ad861b6d70409038fdb92cd2448d6675d}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!get@{get}}
+\index{get@{get}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{get}]{\setlength{\rightskip}{0pt plus 5cm}byte robOS2.hardware.sick.SICKData.get (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_ad861b6d70409038fdb92cd2448d6675d}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_ab7bb5bed81dbfc5b65e9b957f63ca46e}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!getData@{getData}}
+\index{getData@{getData}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{getData}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.sick.SICKData.getData (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_ab7bb5bed81dbfc5b65e9b957f63ca46e}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_ab7bb5bed81dbfc5b65e9b957f63ca46e_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_ac209acfe021ca459348e0b8ac835c1ab}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!getLength@{getLength}}
+\index{getLength@{getLength}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{getLength}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.sick.SICKData.getLength (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_ac209acfe021ca459348e0b8ac835c1ab}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_ab347e9c70a6ac309680bea6974667ee4}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!getRealLength@{getRealLength}}
+\index{getRealLength@{getRealLength}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{getRealLength}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.sick.SICKData.getRealLength (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_ab347e9c70a6ac309680bea6974667ee4}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_ab347e9c70a6ac309680bea6974667ee4_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a701e9b4039a1f89eb14210bfda765629}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!getSICKData@{getSICKData}}
+\index{getSICKData@{getSICKData}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{getSICKData}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.sick.SICKData.getSICKData (
+\begin{DoxyParamCaption}
+\item[{byte}]{b1, }
+\item[{byte}]{b2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a701e9b4039a1f89eb14210bfda765629}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a2767d3cac322bb5a7750d069525a1c0e}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!getSICKSize@{getSICKSize}}
+\index{getSICKSize@{getSICKSize}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{getSICKSize}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.sick.SICKData.getSICKSize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a2767d3cac322bb5a7750d069525a1c0e}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a2767d3cac322bb5a7750d069525a1c0e_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a64cb8126748f2020a8ff35c752639edf}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!intFromByte@{intFromByte}}
+\index{intFromByte@{intFromByte}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{intFromByte}]{\setlength{\rightskip}{0pt plus 5cm}static int robOS2.hardware.sick.SICKData.intFromByte (
+\begin{DoxyParamCaption}
+\item[{byte}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a64cb8126748f2020a8ff35c752639edf}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_af185f7636ae55b3fe7ddfd0c4c68a9a1}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!processLine@{processLine}}
+\index{processLine@{processLine}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{processLine}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.sick.SICKData.processLine (
+\begin{DoxyParamCaption}
+\item[{String}]{line}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_af185f7636ae55b3fe7ddfd0c4c68a9a1}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a00ed794ce760704a07948d7503f74e4c}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!toString@{toString}}
+\index{toString@{toString}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{toString}]{\setlength{\rightskip}{0pt plus 5cm}String robOS2.hardware.sick.SICKData.toString (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a00ed794ce760704a07948d7503f74e4c}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a00ed794ce760704a07948d7503f74e4c_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a391092e2e9e510f8f86307884b0d24fa}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!validHeader@{validHeader}}
+\index{validHeader@{validHeader}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{validHeader}]{\setlength{\rightskip}{0pt plus 5cm}boolean robOS2.hardware.sick.SICKData.validHeader (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a391092e2e9e510f8f86307884b0d24fa}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a391092e2e9e510f8f86307884b0d24fa_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a3bcaf690808639ebcf0cdd6838c928b0}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!verifyCRC@{verifyCRC}}
+\index{verifyCRC@{verifyCRC}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{verifyCRC}]{\setlength{\rightskip}{0pt plus 5cm}boolean robOS2.hardware.sick.SICKData.verifyCRC (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a3bcaf690808639ebcf0cdd6838c928b0}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a3bcaf690808639ebcf0cdd6838c928b0_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a9549594124ef8a0373d178019315d671}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!writeToFile@{writeToFile}}
+\index{writeToFile@{writeToFile}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{writeToFile}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.sick.SICKData.writeToFile (
+\begin{DoxyParamCaption}
+\item[{String}]{fileName}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a9549594124ef8a0373d178019315d671}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a9549594124ef8a0373d178019315d671_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a120f6d87bf9eb0eb33599599cd525621}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!\_\-data@{\_\-data}}
+\index{\_\-data@{\_\-data}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}byte \mbox{[}$\,$\mbox{]} {\bf robOS2.hardware.sick.SICKData.\_\-data}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a120f6d87bf9eb0eb33599599cd525621}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a0953b6fb6dcd24714a616fcc32e63323}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!\_\-length@{\_\-length}}
+\index{\_\-length@{\_\-length}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{\_\-length}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf robOS2.hardware.sick.SICKData.\_\-length}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_a0953b6fb6dcd24714a616fcc32e63323}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_afb16b2c2129a29ea71ad62d4d3d09ca0}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!CRC16\_\-GEN\_\-POL@{CRC16\_\-GEN\_\-POL}}
+\index{CRC16\_\-GEN\_\-POL@{CRC16\_\-GEN\_\-POL}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{CRC16\_\-GEN\_\-POL}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf robOS2.hardware.sick.SICKData.CRC16\_\-GEN\_\-POL} = 0x8005\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_afb16b2c2129a29ea71ad62d4d3d09ca0}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_ad3d9cca0b532b4831f1b7d23a6a30535}{
+\index{robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}!OFFSET@{OFFSET}}
+\index{OFFSET@{OFFSET}!robOS2::hardware::sick::SICKData@{robOS2::hardware::sick::SICKData}}
+\subsubsection[{OFFSET}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf robOS2.hardware.sick.SICKData.OFFSET} = 7\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data_ad3d9cca0b532b4831f1b7d23a6a30535}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/hardware/sick/\hyperlink{_s_i_c_k_data_8java}{SICKData.java}\end{DoxyCompactItemize}

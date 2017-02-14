@@ -1,0 +1,18 @@
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1marker_1_1_i_sensor_listener}{
+\section{robOS2.hardware.interfaces.marker.ISensorListener Interface Reference}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1marker_1_1_i_sensor_listener}\index{robOS2::hardware::interfaces::marker::ISensorListener@{robOS2::hardware::interfaces::marker::ISensorListener}}
+}
+
+
+Inheritance diagram for robOS2.hardware.interfaces.marker.ISensorListener:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1marker_1_1_i_sensor_listener__inherit__graph}
+\end{center}
+\end{figure}
+
+
+The documentation for this interface was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/hardware/interfaces/marker/\hyperlink{_i_sensor_listener_8java}{ISensorListener.java}\end{DoxyCompactItemize}

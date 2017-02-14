@@ -1,0 +1,14 @@
+\hypertarget{_connection_manager_8java}{
+\section{src/robOS2/serial/ConnectionManager.java File Reference}
+\label{_connection_manager_8java}\index{src/robOS2/serial/ConnectionManager.java@{src/robOS2/serial/ConnectionManager.java}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classrob_o_s2_1_1serial_1_1_connection_manager}{robOS2.serial.ConnectionManager}
+\end{DoxyCompactItemize}
+\subsection*{Packages}
+\begin{DoxyCompactItemize}
+\item 
+package \hyperlink{namespacerob_o_s2_1_1serial}{robOS2.serial}
+\end{DoxyCompactItemize}

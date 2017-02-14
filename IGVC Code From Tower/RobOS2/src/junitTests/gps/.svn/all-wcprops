@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/software/!svn/ver/162/RobOS2/src/junitTests/gps
+END
+WaypointManagerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/software/!svn/ver/162/RobOS2/src/junitTests/gps/WaypointManagerTest.java
+END
+XMLWaypointManagerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/software/!svn/ver/162/RobOS2/src/junitTests/gps/XMLWaypointManagerTest.java
+END
+WaypointTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/software/!svn/ver/162/RobOS2/src/junitTests/gps/WaypointTest.java
+END
+XMLTestWaypoints.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/software/!svn/ver/162/RobOS2/src/junitTests/gps/XMLTestWaypoints.xml
+END

@@ -1,0 +1,38 @@
+\hypertarget{interfacerob_o_s2_1_1jaus_1_1_i_j_a_u_s_config}{
+\section{robOS2.jaus.IJAUSConfig Interface Reference}
+\label{interfacerob_o_s2_1_1jaus_1_1_i_j_a_u_s_config}\index{robOS2::jaus::IJAUSConfig@{robOS2::jaus::IJAUSConfig}}
+}
+
+
+Inheritance diagram for robOS2.jaus.IJAUSConfig:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{interfacerob_o_s2_1_1jaus_1_1_i_j_a_u_s_config__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final byte\mbox{[}$\,$\mbox{]} \hyperlink{interfacerob_o_s2_1_1jaus_1_1_i_j_a_u_s_config_a19c69476ca2c0cac980e6a36b01dd236}{IP\_\-ADDRESS} = \{127, 0, 0, 1\}
+\item 
+static final int \hyperlink{interfacerob_o_s2_1_1jaus_1_1_i_j_a_u_s_config_a8e37b52931fe576a44a7882d3b4f5c53}{PORT} = 9000
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{interfacerob_o_s2_1_1jaus_1_1_i_j_a_u_s_config_a19c69476ca2c0cac980e6a36b01dd236}{
+\index{robOS2::jaus::IJAUSConfig@{robOS2::jaus::IJAUSConfig}!IP\_\-ADDRESS@{IP\_\-ADDRESS}}
+\index{IP\_\-ADDRESS@{IP\_\-ADDRESS}!robOS2::jaus::IJAUSConfig@{robOS2::jaus::IJAUSConfig}}
+\subsubsection[{IP\_\-ADDRESS}]{\setlength{\rightskip}{0pt plus 5cm}final byte \mbox{[}$\,$\mbox{]} {\bf robOS2.jaus.IJAUSConfig.IP\_\-ADDRESS} = \{127, 0, 0, 1\}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{interfacerob_o_s2_1_1jaus_1_1_i_j_a_u_s_config_a19c69476ca2c0cac980e6a36b01dd236}
+IP Address to use for the JAUS Competition. This should be updated based on what they give us. \hypertarget{interfacerob_o_s2_1_1jaus_1_1_i_j_a_u_s_config_a8e37b52931fe576a44a7882d3b4f5c53}{
+\index{robOS2::jaus::IJAUSConfig@{robOS2::jaus::IJAUSConfig}!PORT@{PORT}}
+\index{PORT@{PORT}!robOS2::jaus::IJAUSConfig@{robOS2::jaus::IJAUSConfig}}
+\subsubsection[{PORT}]{\setlength{\rightskip}{0pt plus 5cm}final int {\bf robOS2.jaus.IJAUSConfig.PORT} = 9000\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{interfacerob_o_s2_1_1jaus_1_1_i_j_a_u_s_config_a8e37b52931fe576a44a7882d3b4f5c53}
+Network port to use for the JAUS Competition. This should be updated based on what they give us at competition. 
+
+The documentation for this interface was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/jaus/\hyperlink{_i_j_a_u_s_config_8java}{IJAUSConfig.java}\end{DoxyCompactItemize}

@@ -1,0 +1,36 @@
+\hypertarget{classrob_o_s2_1_1utility_1_1_math}{
+\section{robOS2.utility.Math Class Reference}
+\label{classrob_o_s2_1_1utility_1_1_math}\index{robOS2::utility::Math@{robOS2::utility::Math}}
+}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static double \hyperlink{classrob_o_s2_1_1utility_1_1_math_a17df8bbe4a929b413d27d94bd1c18ed6}{Inverse} (double num)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1utility_1_1_math_a17df8bbe4a929b413d27d94bd1c18ed6}{
+\index{robOS2::utility::Math@{robOS2::utility::Math}!Inverse@{Inverse}}
+\index{Inverse@{Inverse}!robOS2::utility::Math@{robOS2::utility::Math}}
+\subsubsection[{Inverse}]{\setlength{\rightskip}{0pt plus 5cm}static double robOS2.utility.Math.Inverse (
+\begin{DoxyParamCaption}
+\item[{double}]{num}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1utility_1_1_math_a17df8bbe4a929b413d27d94bd1c18ed6}
+Returns the inverse of the provided number.
+
+
+\begin{DoxyParams}{Parameters}
+{\em num} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/utility/\hyperlink{_math_8java}{Math.java}\end{DoxyCompactItemize}

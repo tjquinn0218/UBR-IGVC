@@ -1,0 +1,204 @@
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener}{
+\section{robOS2.hardware.ubr.UBRMotorControllerListener Class Reference}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener}\index{robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}}
+}
+
+
+Inheritance diagram for robOS2.hardware.ubr.UBRMotorControllerListener:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=366pt]{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for robOS2.hardware.ubr.UBRMotorControllerListener:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_aeec13602e53e21f2bf36567195498118}{UBRMotorControllerListener} (InputStream \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a45a48cca4f8ba67eb9566eea4aa8db70}{in})
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_aca59d4c966d3022d600c17848c88722b}{serialEvent} (SerialPortEvent arg0)
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a1eb4635a2ec521a5bf071221c02716c5}{getLastE1} ()
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a94ec47599565e91a0c3ab0d9a29c15d7}{getLastE2} ()
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a83c4fbfea2e9c2b1957f0493c96a9255}{getLastE3} ()
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a9e5534a1b501d71fd551f0bfede96269}{getLastE4} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_afd1f1f6b2c2a33a5bb26d871301c3971}{log} = Logger.getLogger(UBRMotorController.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+InputStream \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a45a48cca4f8ba67eb9566eea4aa8db70}{in}
+\item 
+byte\mbox{[}$\,$\mbox{]} \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a75999c94910236d2248d6be6e82c7546}{buffer} = new byte\mbox{[}1024\mbox{]}
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a2fe9967ca31a4167d6586892dc59b414}{\_\-lastE1} = Integer.MIN\_\-VALUE
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_afd5a74ea6a22cd86b77b933cda442367}{\_\-lastE2} = Integer.MIN\_\-VALUE
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a38bbf41336b0f9f020418e435a2afd44}{\_\-lastE3} = Integer.MIN\_\-VALUE
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a3650f51a7354bef1f04b3117b6ff1281}{\_\-lastE4} = Integer.MIN\_\-VALUE
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_aeec13602e53e21f2bf36567195498118}{
+\index{robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}!UBRMotorControllerListener@{UBRMotorControllerListener}}
+\index{UBRMotorControllerListener@{UBRMotorControllerListener}!robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}}
+\subsubsection[{UBRMotorControllerListener}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.hardware.ubr.UBRMotorControllerListener.UBRMotorControllerListener (
+\begin{DoxyParamCaption}
+\item[{InputStream}]{in}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_aeec13602e53e21f2bf36567195498118}
+Creates a new motor controller listener based on the provided input stream. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a1eb4635a2ec521a5bf071221c02716c5}{
+\index{robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}!getLastE1@{getLastE1}}
+\index{getLastE1@{getLastE1}!robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}}
+\subsubsection[{getLastE1}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.ubr.UBRMotorControllerListener.getLastE1 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a1eb4635a2ec521a5bf071221c02716c5}
+Returns the last left front encoder value that was pushed up
+
+If no values have been pushed up this method will simply return then minimum value of an integer. (Integer.MIN\_\-VALUE)
+
+\begin{DoxyReturn}{Returns}
+int -\/ last known value of the left front encoder 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener_a342b17854213f20b29bfab0c8f515ba2}{robOS2.hardware.interfaces.listeners.IFourMotorListener}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a94ec47599565e91a0c3ab0d9a29c15d7}{
+\index{robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}!getLastE2@{getLastE2}}
+\index{getLastE2@{getLastE2}!robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}}
+\subsubsection[{getLastE2}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.ubr.UBRMotorControllerListener.getLastE2 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a94ec47599565e91a0c3ab0d9a29c15d7}
+Returns the last left rear encoder value that was pushed up
+
+If no values have been pushed up this method will simply return then minimum value of an integer. (Integer.MIN\_\-VALUE)
+
+\begin{DoxyReturn}{Returns}
+int -\/ last known value of the left rear encoder 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener_a0b0c165e5d6d7303244dbeb860dc16d0}{robOS2.hardware.interfaces.listeners.IFourMotorListener}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a83c4fbfea2e9c2b1957f0493c96a9255}{
+\index{robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}!getLastE3@{getLastE3}}
+\index{getLastE3@{getLastE3}!robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}}
+\subsubsection[{getLastE3}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.ubr.UBRMotorControllerListener.getLastE3 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a83c4fbfea2e9c2b1957f0493c96a9255}
+Returns the last right front encoder value that was pushed up
+
+If no values have been pushed up this method will simply return then minimum value of an integer. (Integer.MIN\_\-VALUE)
+
+\begin{DoxyReturn}{Returns}
+int -\/ last known value of the right front encoder 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener_a9ee167a01b1317aa9103ff15514acb7b}{robOS2.hardware.interfaces.listeners.IFourMotorListener}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a9e5534a1b501d71fd551f0bfede96269}{
+\index{robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}!getLastE4@{getLastE4}}
+\index{getLastE4@{getLastE4}!robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}}
+\subsubsection[{getLastE4}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.ubr.UBRMotorControllerListener.getLastE4 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a9e5534a1b501d71fd551f0bfede96269}
+Returns the last right rear encoder value that was pushed up
+
+If no values have been pushed up this method will simply return then minimum value of an integer. (Integer.MIN\_\-VALUE)
+
+\begin{DoxyReturn}{Returns}
+int -\/ last known value of the right rear encoder 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener_a27f56c9af69e288d1107842520fde5f3}{robOS2.hardware.interfaces.listeners.IFourMotorListener}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_aca59d4c966d3022d600c17848c88722b}{
+\index{robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}!serialEvent@{serialEvent}}
+\index{serialEvent@{serialEvent}!robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}}
+\subsubsection[{serialEvent}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.ubr.UBRMotorControllerListener.serialEvent (
+\begin{DoxyParamCaption}
+\item[{SerialPortEvent}]{arg0}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_aca59d4c966d3022d600c17848c88722b}
+Listens for new data received on the serial line. 
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a2fe9967ca31a4167d6586892dc59b414}{
+\index{robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}!\_\-lastE1@{\_\-lastE1}}
+\index{\_\-lastE1@{\_\-lastE1}!robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}}
+\subsubsection[{\_\-lastE1}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf robOS2.hardware.ubr.UBRMotorControllerListener.\_\-lastE1} = Integer.MIN\_\-VALUE\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a2fe9967ca31a4167d6586892dc59b414}
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_afd5a74ea6a22cd86b77b933cda442367}{
+\index{robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}!\_\-lastE2@{\_\-lastE2}}
+\index{\_\-lastE2@{\_\-lastE2}!robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}}
+\subsubsection[{\_\-lastE2}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf robOS2.hardware.ubr.UBRMotorControllerListener.\_\-lastE2} = Integer.MIN\_\-VALUE\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_afd5a74ea6a22cd86b77b933cda442367}
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a38bbf41336b0f9f020418e435a2afd44}{
+\index{robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}!\_\-lastE3@{\_\-lastE3}}
+\index{\_\-lastE3@{\_\-lastE3}!robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}}
+\subsubsection[{\_\-lastE3}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf robOS2.hardware.ubr.UBRMotorControllerListener.\_\-lastE3} = Integer.MIN\_\-VALUE\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a38bbf41336b0f9f020418e435a2afd44}
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a3650f51a7354bef1f04b3117b6ff1281}{
+\index{robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}!\_\-lastE4@{\_\-lastE4}}
+\index{\_\-lastE4@{\_\-lastE4}!robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}}
+\subsubsection[{\_\-lastE4}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf robOS2.hardware.ubr.UBRMotorControllerListener.\_\-lastE4} = Integer.MIN\_\-VALUE\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a3650f51a7354bef1f04b3117b6ff1281}
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a75999c94910236d2248d6be6e82c7546}{
+\index{robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}!buffer@{buffer}}
+\index{buffer@{buffer}!robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}}
+\subsubsection[{buffer}]{\setlength{\rightskip}{0pt plus 5cm}byte \mbox{[}$\,$\mbox{]} {\bf robOS2.hardware.ubr.UBRMotorControllerListener.buffer} = new byte\mbox{[}1024\mbox{]}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a75999c94910236d2248d6be6e82c7546}
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a45a48cca4f8ba67eb9566eea4aa8db70}{
+\index{robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}!in@{in}}
+\index{in@{in}!robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}}
+\subsubsection[{in}]{\setlength{\rightskip}{0pt plus 5cm}InputStream {\bf robOS2.hardware.ubr.UBRMotorControllerListener.in}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a45a48cca4f8ba67eb9566eea4aa8db70}
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_afd1f1f6b2c2a33a5bb26d871301c3971}{
+\index{robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}!log@{log}}
+\index{log@{log}!robOS2::hardware::ubr::UBRMotorControllerListener@{robOS2::hardware::ubr::UBRMotorControllerListener}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.hardware.ubr.UBRMotorControllerListener.log} = Logger.getLogger(UBRMotorController.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_afd1f1f6b2c2a33a5bb26d871301c3971}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/hardware/ubr/\hyperlink{_u_b_r_motor_controller_listener_8java}{UBRMotorControllerListener.java}\end{DoxyCompactItemize}

@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title></title>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="search.css"/>
+<script type="text/javascript" src="search.js"></script>
+</head>
+<body class="SRPage">
+<div id="SRIndex">
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRResult" id="SR_ubrmotorcontroller">
+ <div class="SREntry">
+  <a id="Item0" onkeydown="return searchResults.Nav(event,0)" onkeypress="return searchResults.Nav(event,0)" onkeyup="return searchResults.Nav(event,0)" class="SRSymbol" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller.html#ad5ccd4646c65fedde35212ad0603f376" target="_parent">UBRMotorController</a>
+  <span class="SRScope">robOS2::hardware::ubr::UBRMotorController</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_ubrmotorcontrollerlistener">
+ <div class="SREntry">
+  <a id="Item1" onkeydown="return searchResults.Nav(event,1)" onkeypress="return searchResults.Nav(event,1)" onkeyup="return searchResults.Nav(event,1)" class="SRSymbol" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener.html#aeec13602e53e21f2bf36567195498118" target="_parent">UBRMotorControllerListener</a>
+  <span class="SRScope">robOS2::hardware::ubr::UBRMotorControllerListener</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_udpclose">
+ <div class="SREntry">
+  <a id="Item2" onkeydown="return searchResults.Nav(event,2)" onkeypress="return searchResults.Nav(event,2)" onkeyup="return searchResults.Nav(event,2)" class="SRSymbol" href="../classrob_o_s2_1_1jaus_1_1_u_d_p_connect.html#a20e99dd17863acc0c6acfa98adb5f49b" target="_parent">UDPClose</a>
+  <span class="SRScope">robOS2::jaus::UDPConnect</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_udpconnect">
+ <div class="SREntry">
+  <a id="Item3" onkeydown="return searchResults.Nav(event,3)" onkeypress="return searchResults.Nav(event,3)" onkeyup="return searchResults.Nav(event,3)" class="SRSymbol" href="../classrob_o_s2_1_1jaus_1_1_u_d_p_connect.html#adaca88f42b6f4c630ed2c1576a16044e" target="_parent">UDPConnect</a>
+  <span class="SRScope">robOS2::jaus::UDPConnect</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_updatedisplay">
+ <div class="SREntry">
+  <a id="Item4" onkeydown="return searchResults.Nav(event,4)" onkeypress="return searchResults.Nav(event,4)" onkeyup="return searchResults.Nav(event,4)" class="SRSymbol" href="../classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board.html#aef0119fc18fba35d0876f37b8a6488f8" target="_parent">updateDisplay</a>
+  <span class="SRScope">robOS2::hardware::baratta::DemoBoard</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_updateleftfront">
+ <div class="SREntry">
+  <a id="Item5" onkeydown="return searchResults.Nav(event,5)" onkeypress="return searchResults.Nav(event,5)" onkeyup="return searchResults.Nav(event,5)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_updateleftfront')">updateLeftFront</a>
+  <div class="SRChildren">
+    <a id="Item5_c0" onkeydown="return searchResults.NavChild(event,5,0)" onkeypress="return searchResults.NavChild(event,5,0)" onkeyup="return searchResults.NavChild(event,5,0)" class="SRScope" href="../interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface.html#a117a524c4bd642a0234b40786393d300" target="_parent">robOS2::hardware::interfaces::listeners::IFourMotorInterface.updateLeftFront()</a>
+    <a id="Item5_c1" onkeydown="return searchResults.NavChild(event,5,1)" onkeypress="return searchResults.NavChild(event,5,1)" onkeyup="return searchResults.NavChild(event,5,1)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller.html#acf9f1d94cf501667daee73ce24f647fc" target="_parent">robOS2::hardware::ubr::LittleBlueMotorController.updateLeftFront()</a>
+    <a id="Item5_c2" onkeydown="return searchResults.NavChild(event,5,2)" onkeypress="return searchResults.NavChild(event,5,2)" onkeyup="return searchResults.NavChild(event,5,2)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller.html#a856c51793b288ba9915c71e6c6999d68" target="_parent">robOS2::hardware::ubr::UBRMotorController.updateLeftFront()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_updateleftrear">
+ <div class="SREntry">
+  <a id="Item6" onkeydown="return searchResults.Nav(event,6)" onkeypress="return searchResults.Nav(event,6)" onkeyup="return searchResults.Nav(event,6)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_updateleftrear')">updateLeftRear</a>
+  <div class="SRChildren">
+    <a id="Item6_c0" onkeydown="return searchResults.NavChild(event,6,0)" onkeypress="return searchResults.NavChild(event,6,0)" onkeyup="return searchResults.NavChild(event,6,0)" class="SRScope" href="../interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface.html#af838619ebdee4ba9043d0c4daef6268e" target="_parent">robOS2::hardware::interfaces::listeners::IFourMotorInterface.updateLeftRear()</a>
+    <a id="Item6_c1" onkeydown="return searchResults.NavChild(event,6,1)" onkeypress="return searchResults.NavChild(event,6,1)" onkeyup="return searchResults.NavChild(event,6,1)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller.html#a2ad423db4736a5abea159c49f4ea0c75" target="_parent">robOS2::hardware::ubr::LittleBlueMotorController.updateLeftRear()</a>
+    <a id="Item6_c2" onkeydown="return searchResults.NavChild(event,6,2)" onkeypress="return searchResults.NavChild(event,6,2)" onkeyup="return searchResults.NavChild(event,6,2)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller.html#a09718777847ba02ea1ebedc60b5d4191" target="_parent">robOS2::hardware::ubr::UBRMotorController.updateLeftRear()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_updateremotestatusscreen">
+ <div class="SREntry">
+  <a id="Item7" onkeydown="return searchResults.Nav(event,7)" onkeypress="return searchResults.Nav(event,7)" onkeyup="return searchResults.Nav(event,7)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_updateremotestatusscreen')">updateRemoteStatusScreen</a>
+  <div class="SRChildren">
+    <a id="Item7_c0" onkeydown="return searchResults.NavChild(event,7,0)" onkeypress="return searchResults.NavChild(event,7,0)" onkeyup="return searchResults.NavChild(event,7,0)" class="SRScope" href="../interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface.html#aacfac6e16c31709ca3facd068b6cf0b5" target="_parent">robOS2::hardware::interfaces::listeners::IFourMotorInterface.updateRemoteStatusScreen()</a>
+    <a id="Item7_c1" onkeydown="return searchResults.NavChild(event,7,1)" onkeypress="return searchResults.NavChild(event,7,1)" onkeyup="return searchResults.NavChild(event,7,1)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller.html#a64d869d11666f32d249af8ec9fe5d83b" target="_parent">robOS2::hardware::ubr::LittleBlueMotorController.updateRemoteStatusScreen()</a>
+    <a id="Item7_c2" onkeydown="return searchResults.NavChild(event,7,2)" onkeypress="return searchResults.NavChild(event,7,2)" onkeyup="return searchResults.NavChild(event,7,2)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller.html#aa1f76853ae979f1fe0a9f5305aff261c" target="_parent">robOS2::hardware::ubr::UBRMotorController.updateRemoteStatusScreen()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_updaterightfront">
+ <div class="SREntry">
+  <a id="Item8" onkeydown="return searchResults.Nav(event,8)" onkeypress="return searchResults.Nav(event,8)" onkeyup="return searchResults.Nav(event,8)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_updaterightfront')">updateRightFront</a>
+  <div class="SRChildren">
+    <a id="Item8_c0" onkeydown="return searchResults.NavChild(event,8,0)" onkeypress="return searchResults.NavChild(event,8,0)" onkeyup="return searchResults.NavChild(event,8,0)" class="SRScope" href="../interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface.html#a4dc323e62063fd24eb210771d082c46b" target="_parent">robOS2::hardware::interfaces::listeners::IFourMotorInterface.updateRightFront()</a>
+    <a id="Item8_c1" onkeydown="return searchResults.NavChild(event,8,1)" onkeypress="return searchResults.NavChild(event,8,1)" onkeyup="return searchResults.NavChild(event,8,1)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller.html#a32cf0b193daa1c7288f421675c1a81f6" target="_parent">robOS2::hardware::ubr::LittleBlueMotorController.updateRightFront()</a>
+    <a id="Item8_c2" onkeydown="return searchResults.NavChild(event,8,2)" onkeypress="return searchResults.NavChild(event,8,2)" onkeyup="return searchResults.NavChild(event,8,2)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller.html#a4e531ebba3367e2c5c5c514348558623" target="_parent">robOS2::hardware::ubr::UBRMotorController.updateRightFront()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_updaterightrear">
+ <div class="SREntry">
+  <a id="Item9" onkeydown="return searchResults.Nav(event,9)" onkeypress="return searchResults.Nav(event,9)" onkeyup="return searchResults.Nav(event,9)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_updaterightrear')">updateRightRear</a>
+  <div class="SRChildren">
+    <a id="Item9_c0" onkeydown="return searchResults.NavChild(event,9,0)" onkeypress="return searchResults.NavChild(event,9,0)" onkeyup="return searchResults.NavChild(event,9,0)" class="SRScope" href="../interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface.html#a780ba70dc7968836e1184af63ff541c3" target="_parent">robOS2::hardware::interfaces::listeners::IFourMotorInterface.updateRightRear()</a>
+    <a id="Item9_c1" onkeydown="return searchResults.NavChild(event,9,1)" onkeypress="return searchResults.NavChild(event,9,1)" onkeyup="return searchResults.NavChild(event,9,1)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller.html#aa3896bb853c9d88ca43795bd33a5d2a8" target="_parent">robOS2::hardware::ubr::LittleBlueMotorController.updateRightRear()</a>
+    <a id="Item9_c2" onkeydown="return searchResults.NavChild(event,9,2)" onkeypress="return searchResults.NavChild(event,9,2)" onkeyup="return searchResults.NavChild(event,9,2)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller.html#a07f2ac00ceb7c3a049192297d9624d39" target="_parent">robOS2::hardware::ubr::UBRMotorController.updateRightRear()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_updaterobotstatusscreen">
+ <div class="SREntry">
+  <a id="Item10" onkeydown="return searchResults.Nav(event,10)" onkeypress="return searchResults.Nav(event,10)" onkeyup="return searchResults.Nav(event,10)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_updaterobotstatusscreen')">updateRobotStatusScreen</a>
+  <div class="SRChildren">
+    <a id="Item10_c0" onkeydown="return searchResults.NavChild(event,10,0)" onkeypress="return searchResults.NavChild(event,10,0)" onkeyup="return searchResults.NavChild(event,10,0)" class="SRScope" href="../interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface.html#a1ca67978782c1b0dad0ca77df2a7a699" target="_parent">robOS2::hardware::interfaces::listeners::IFourMotorInterface.updateRobotStatusScreen()</a>
+    <a id="Item10_c1" onkeydown="return searchResults.NavChild(event,10,1)" onkeypress="return searchResults.NavChild(event,10,1)" onkeyup="return searchResults.NavChild(event,10,1)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller.html#aafeb3c0f1e4f568fdd33ef6c0c3c201b" target="_parent">robOS2::hardware::ubr::LittleBlueMotorController.updateRobotStatusScreen()</a>
+    <a id="Item10_c2" onkeydown="return searchResults.NavChild(event,10,2)" onkeypress="return searchResults.NavChild(event,10,2)" onkeyup="return searchResults.NavChild(event,10,2)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller.html#a241ca402b048c4d674b1daa159ff2452" target="_parent">robOS2::hardware::ubr::UBRMotorController.updateRobotStatusScreen()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_updatevelocities">
+ <div class="SREntry">
+  <a id="Item11" onkeydown="return searchResults.Nav(event,11)" onkeypress="return searchResults.Nav(event,11)" onkeyup="return searchResults.Nav(event,11)" class="SRSymbol" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller.html#a5216544fd2d07f43e810091833ce119c" target="_parent">updateVelocities</a>
+  <span class="SRScope">robOS2::hardware::ubr::LittleBlueMotorController</span>
+ </div>
+</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+<script type="text/javascript"><!--
+document.getElementById("Loading").style.display="none";
+document.getElementById("NoMatches").style.display="none";
+var searchResults = new SearchResults("searchResults");
+searchResults.Search();
+--></script>
+</div>
+</body>
+</html>

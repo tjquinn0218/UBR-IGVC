@@ -1,0 +1,61 @@
+10
+
+dir
+250
+https://ubrobotics.dyndns.org/svn/software/RobOS2/src/robOS2/hardware
+https://ubrobotics.dyndns.org/svn/software
+
+
+
+2011-11-12T19:38:19.357596Z
+250
+cbnugent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d2ed2c5f-3e13-4d48-a657-0805422b5ad0
+
+lynxMotion
+dir
+
+interfaces
+dir
+
+clearPath
+dir
+
+simulation
+dir
+
+pni
+dir
+
+novatel
+dir
+
+ubr
+dir
+
+sick
+dir
+
+sparkfun
+dir
+
+baratta
+dir
+
+hokuyo
+dir
+

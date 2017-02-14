@@ -1,0 +1,18 @@
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_g_p_s_listener}{
+\section{robOS2.hardware.interfaces.listeners.IGPSListener Interface Reference}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_g_p_s_listener}\index{robOS2::hardware::interfaces::listeners::IGPSListener@{robOS2::hardware::interfaces::listeners::IGPSListener}}
+}
+
+
+Inheritance diagram for robOS2.hardware.interfaces.listeners.IGPSListener:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_g_p_s_listener__inherit__graph}
+\end{center}
+\end{figure}
+
+
+The documentation for this interface was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/hardware/interfaces/listeners/\hyperlink{_i_g_p_s_listener_8java}{IGPSListener.java}\end{DoxyCompactItemize}

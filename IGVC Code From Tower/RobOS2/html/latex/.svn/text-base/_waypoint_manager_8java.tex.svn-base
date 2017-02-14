@@ -1,0 +1,14 @@
+\hypertarget{_waypoint_manager_8java}{
+\section{src/robOS2/gps/WaypointManager.java File Reference}
+\label{_waypoint_manager_8java}\index{src/robOS2/gps/WaypointManager.java@{src/robOS2/gps/WaypointManager.java}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_manager}{robOS2.gps.WaypointManager}
+\end{DoxyCompactItemize}
+\subsection*{Packages}
+\begin{DoxyCompactItemize}
+\item 
+package \hyperlink{namespacerob_o_s2_1_1gps}{robOS2.gps}
+\end{DoxyCompactItemize}

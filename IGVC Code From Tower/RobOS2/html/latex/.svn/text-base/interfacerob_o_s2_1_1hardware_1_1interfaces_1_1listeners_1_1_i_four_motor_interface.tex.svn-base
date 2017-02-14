@@ -1,0 +1,207 @@
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface}{
+\section{robOS2.hardware.interfaces.listeners.IFourMotorInterface Interface Reference}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface}\index{robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}}
+}
+
+
+Inheritance diagram for robOS2.hardware.interfaces.listeners.IFourMotorInterface:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_af838619ebdee4ba9043d0c4daef6268e}{updateLeftRear} (int speed)
+\item 
+void \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a4dc323e62063fd24eb210771d082c46b}{updateRightFront} (int speed)
+\item 
+void \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a780ba70dc7968836e1184af63ff541c3}{updateRightRear} (int speed)
+\item 
+void \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_ab7a4b66f6f136eeac77512efe967d548}{setForwardVelocity} (int velocity)
+\item 
+void \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a30ae749f610cf916f29a6f803e0b5dc8}{setRotationalVelocity} (int velocity)
+\item 
+void \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a1ca67978782c1b0dad0ca77df2a7a699}{updateRobotStatusScreen} (String update)
+\item 
+void \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_aacfac6e16c31709ca3facd068b6cf0b5}{updateRemoteStatusScreen} (String update)
+\item 
+int \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a19ac90a7caad0954584123eee6fb0e89}{queryLeftFrontEncoder} ()
+\item 
+int \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a0d16bb0c12845da37be096fef5bef3ae}{queryLeftRearEncoder} ()
+\item 
+int \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_af7584c99b5aabb9c4aaa1db6dc50c027}{queryRightFrontEncoder} ()
+\item 
+int \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a95c31cbad1aa2f5c9b3d3e4ac413e013}{queryRightRearEncoder} ()
+\end{DoxyCompactItemize}
+\subsection*{Package Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a117a524c4bd642a0234b40786393d300}{updateLeftFront} (int speed)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a19ac90a7caad0954584123eee6fb0e89}{
+\index{robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}!queryLeftFrontEncoder@{queryLeftFrontEncoder}}
+\index{queryLeftFrontEncoder@{queryLeftFrontEncoder}!robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}}
+\subsubsection[{queryLeftFrontEncoder}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.interfaces.listeners.IFourMotorInterface.queryLeftFrontEncoder (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a19ac90a7caad0954584123eee6fb0e89}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller_a3a97afa18b439c393af84e5b6b03d834}{robOS2.hardware.ubr.LittleBlueMotorController}, and \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_adceffdbe553d88fcd36a823c159d5e18}{robOS2.hardware.ubr.UBRMotorController}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a0d16bb0c12845da37be096fef5bef3ae}{
+\index{robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}!queryLeftRearEncoder@{queryLeftRearEncoder}}
+\index{queryLeftRearEncoder@{queryLeftRearEncoder}!robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}}
+\subsubsection[{queryLeftRearEncoder}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.interfaces.listeners.IFourMotorInterface.queryLeftRearEncoder (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a0d16bb0c12845da37be096fef5bef3ae}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller_a4b35c000218cbe2b0a77eec389e09836}{robOS2.hardware.ubr.LittleBlueMotorController}, and \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_ad51ea50c3ebd0e6482403f69a05723e5}{robOS2.hardware.ubr.UBRMotorController}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_af7584c99b5aabb9c4aaa1db6dc50c027}{
+\index{robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}!queryRightFrontEncoder@{queryRightFrontEncoder}}
+\index{queryRightFrontEncoder@{queryRightFrontEncoder}!robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}}
+\subsubsection[{queryRightFrontEncoder}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.interfaces.listeners.IFourMotorInterface.queryRightFrontEncoder (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_af7584c99b5aabb9c4aaa1db6dc50c027}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller_a98fc8c4936fcb790153080ff7de1c450}{robOS2.hardware.ubr.LittleBlueMotorController}, and \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a72fad7167d6c070778e07f8796ba0675}{robOS2.hardware.ubr.UBRMotorController}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a95c31cbad1aa2f5c9b3d3e4ac413e013}{
+\index{robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}!queryRightRearEncoder@{queryRightRearEncoder}}
+\index{queryRightRearEncoder@{queryRightRearEncoder}!robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}}
+\subsubsection[{queryRightRearEncoder}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.interfaces.listeners.IFourMotorInterface.queryRightRearEncoder (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a95c31cbad1aa2f5c9b3d3e4ac413e013}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller_a916ab62002b7eddc2ce77d859f20abbf}{robOS2.hardware.ubr.LittleBlueMotorController}, and \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a9c60bd82bc367a7bd69e78659a1713a8}{robOS2.hardware.ubr.UBRMotorController}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_ab7a4b66f6f136eeac77512efe967d548}{
+\index{robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}!setForwardVelocity@{setForwardVelocity}}
+\index{setForwardVelocity@{setForwardVelocity}!robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}}
+\subsubsection[{setForwardVelocity}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.interfaces.listeners.IFourMotorInterface.setForwardVelocity (
+\begin{DoxyParamCaption}
+\item[{int}]{velocity}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_ab7a4b66f6f136eeac77512efe967d548}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller_a5117676bb0d8d1e22bdc799895741d3b}{robOS2.hardware.ubr.LittleBlueMotorController}, and \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a3f984e684040e73552fa339385c99005}{robOS2.hardware.ubr.UBRMotorController}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a30ae749f610cf916f29a6f803e0b5dc8}{
+\index{robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}!setRotationalVelocity@{setRotationalVelocity}}
+\index{setRotationalVelocity@{setRotationalVelocity}!robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}}
+\subsubsection[{setRotationalVelocity}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.interfaces.listeners.IFourMotorInterface.setRotationalVelocity (
+\begin{DoxyParamCaption}
+\item[{int}]{velocity}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a30ae749f610cf916f29a6f803e0b5dc8}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller_a61e8cfcad3264beae9b11f1e543b90fc}{robOS2.hardware.ubr.LittleBlueMotorController}, and \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a4d2c1782b95262a73c4f20165a366c6e}{robOS2.hardware.ubr.UBRMotorController}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a117a524c4bd642a0234b40786393d300}{
+\index{robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}!updateLeftFront@{updateLeftFront}}
+\index{updateLeftFront@{updateLeftFront}!robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}}
+\subsubsection[{updateLeftFront}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.interfaces.listeners.IFourMotorInterface.updateLeftFront (
+\begin{DoxyParamCaption}
+\item[{int}]{speed}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}package\mbox{]}}}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a117a524c4bd642a0234b40786393d300}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller_acf9f1d94cf501667daee73ce24f647fc}{robOS2.hardware.ubr.LittleBlueMotorController}, and \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a856c51793b288ba9915c71e6c6999d68}{robOS2.hardware.ubr.UBRMotorController}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_af838619ebdee4ba9043d0c4daef6268e}{
+\index{robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}!updateLeftRear@{updateLeftRear}}
+\index{updateLeftRear@{updateLeftRear}!robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}}
+\subsubsection[{updateLeftRear}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.interfaces.listeners.IFourMotorInterface.updateLeftRear (
+\begin{DoxyParamCaption}
+\item[{int}]{speed}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_af838619ebdee4ba9043d0c4daef6268e}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller_a2ad423db4736a5abea159c49f4ea0c75}{robOS2.hardware.ubr.LittleBlueMotorController}, and \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a09718777847ba02ea1ebedc60b5d4191}{robOS2.hardware.ubr.UBRMotorController}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_aacfac6e16c31709ca3facd068b6cf0b5}{
+\index{robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}!updateRemoteStatusScreen@{updateRemoteStatusScreen}}
+\index{updateRemoteStatusScreen@{updateRemoteStatusScreen}!robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}}
+\subsubsection[{updateRemoteStatusScreen}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.interfaces.listeners.IFourMotorInterface.updateRemoteStatusScreen (
+\begin{DoxyParamCaption}
+\item[{String}]{update}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_aacfac6e16c31709ca3facd068b6cf0b5}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller_a64d869d11666f32d249af8ec9fe5d83b}{robOS2.hardware.ubr.LittleBlueMotorController}, and \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_aa1f76853ae979f1fe0a9f5305aff261c}{robOS2.hardware.ubr.UBRMotorController}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a4dc323e62063fd24eb210771d082c46b}{
+\index{robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}!updateRightFront@{updateRightFront}}
+\index{updateRightFront@{updateRightFront}!robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}}
+\subsubsection[{updateRightFront}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.interfaces.listeners.IFourMotorInterface.updateRightFront (
+\begin{DoxyParamCaption}
+\item[{int}]{speed}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a4dc323e62063fd24eb210771d082c46b}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller_a32cf0b193daa1c7288f421675c1a81f6}{robOS2.hardware.ubr.LittleBlueMotorController}, and \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a4e531ebba3367e2c5c5c514348558623}{robOS2.hardware.ubr.UBRMotorController}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a780ba70dc7968836e1184af63ff541c3}{
+\index{robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}!updateRightRear@{updateRightRear}}
+\index{updateRightRear@{updateRightRear}!robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}}
+\subsubsection[{updateRightRear}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.interfaces.listeners.IFourMotorInterface.updateRightRear (
+\begin{DoxyParamCaption}
+\item[{int}]{speed}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a780ba70dc7968836e1184af63ff541c3}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller_aa3896bb853c9d88ca43795bd33a5d2a8}{robOS2.hardware.ubr.LittleBlueMotorController}, and \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a07f2ac00ceb7c3a049192297d9624d39}{robOS2.hardware.ubr.UBRMotorController}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a1ca67978782c1b0dad0ca77df2a7a699}{
+\index{robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}!updateRobotStatusScreen@{updateRobotStatusScreen}}
+\index{updateRobotStatusScreen@{updateRobotStatusScreen}!robOS2::hardware::interfaces::listeners::IFourMotorInterface@{robOS2::hardware::interfaces::listeners::IFourMotorInterface}}
+\subsubsection[{updateRobotStatusScreen}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.interfaces.listeners.IFourMotorInterface.updateRobotStatusScreen (
+\begin{DoxyParamCaption}
+\item[{String}]{update}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a1ca67978782c1b0dad0ca77df2a7a699}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller_aafeb3c0f1e4f568fdd33ef6c0c3c201b}{robOS2.hardware.ubr.LittleBlueMotorController}, and \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a241ca402b048c4d674b1daa159ff2452}{robOS2.hardware.ubr.UBRMotorController}.
+
+
+
+The documentation for this interface was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/hardware/interfaces/listeners/\hyperlink{_i_four_motor_interface_8java}{IFourMotorInterface.java}\end{DoxyCompactItemize}

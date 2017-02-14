@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/software/!svn/ver/245/RobOS2/src/robOS2/hardware/ubr
+END
+UBRMotorControllerDirectDrive.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/software/!svn/ver/245/RobOS2/src/robOS2/hardware/ubr/UBRMotorControllerDirectDrive.java
+END
+UBRMotorControllerListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/software/!svn/ver/160/RobOS2/src/robOS2/hardware/ubr/UBRMotorControllerListener.java
+END
+SimulationMotorController.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/software/!svn/ver/225/RobOS2/src/robOS2/hardware/ubr/SimulationMotorController.java
+END
+LittleBlueMotorController.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/software/!svn/ver/197/RobOS2/src/robOS2/hardware/ubr/LittleBlueMotorController.java
+END
+UBRMotorController.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/software/!svn/ver/209/RobOS2/src/robOS2/hardware/ubr/UBRMotorController.java
+END

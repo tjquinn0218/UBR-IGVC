@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$interfacerob_o_s2_1_1mapping_1_1_i_map_config.html" title="robOS2.mapping.IMapConfig" alt="" coords="7,32,209,61"/>
+<area shape="rect" id="node3" href="$classrob_o_s2_1_1gui_1_1tests_1_1_l_i_d_a_r_gui_test.html" title="robOS2.gui.tests.LIDARGuiTest" alt="" coords="265,5,481,35"/>
+<area shape="rect" id="node5" href="$classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map.html" title="robOS2.mapping.lidar.LIDARMap" alt="" coords="260,59,487,88"/>
+</map>

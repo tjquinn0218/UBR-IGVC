@@ -1,0 +1,165 @@
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_manager}{
+\section{robOS2.gps.WaypointManager Class Reference}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_manager}\index{robOS2::gps::WaypointManager@{robOS2::gps::WaypointManager}}
+}
+
+
+Collaboration diagram for robOS2.gps.WaypointManager:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=278pt]{classrob_o_s2_1_1gps_1_1_waypoint_manager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_manager_a37328421433740b4ab0474c80b97d91d}{addWaypoint} (String name, double latitude, double longitude)
+\item 
+static void \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_manager_abfc1d1d22e446474e365cfdb13f9d2dc}{addExistingWaypoint} (\hyperlink{classrob_o_s2_1_1gps_1_1_waypoint}{Waypoint} wpt)
+\item 
+static \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint}{Waypoint} \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_manager_a1038572b3c993a8d3191efafbc3ae31a}{popNextWaypoint} ()
+\item 
+static \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint}{Waypoint} \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_manager_a299c03fec3596735666da302198516a8}{peekNextWaypoint} ()
+\item 
+static void \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_manager_a8185bac57710dbaafc77b6d7916c1591}{clearWaypoints} ()
+\item 
+static LinkedList$<$ \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint}{Waypoint} $>$ \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_manager_ab25908fbf87694d59e6b0a5a2ebe802f}{getList} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_manager_a09d4cc1af107fb1aafb45042b3707cfe}{log} = Logger.getLogger(WaypointManager.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static LinkedList$<$ \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint}{Waypoint} $>$ \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_manager_ad1cbf84ee21f806c672f906fe2abeeb1}{\_\-waypoints} = new LinkedList$<$\hyperlink{classrob_o_s2_1_1gps_1_1_waypoint}{Waypoint}$>$()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Maintains a listing of waypoint's which are still left to \char`\"{}visit\char`\"{}. This is implemented as a linked list and provides most of the standard functions that you would expect.
+
+\begin{DoxyAuthor}{Author}
+dbaratta 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_manager_abfc1d1d22e446474e365cfdb13f9d2dc}{
+\index{robOS2::gps::WaypointManager@{robOS2::gps::WaypointManager}!addExistingWaypoint@{addExistingWaypoint}}
+\index{addExistingWaypoint@{addExistingWaypoint}!robOS2::gps::WaypointManager@{robOS2::gps::WaypointManager}}
+\subsubsection[{addExistingWaypoint}]{\setlength{\rightskip}{0pt plus 5cm}static void robOS2.gps.WaypointManager.addExistingWaypoint (
+\begin{DoxyParamCaption}
+\item[{{\bf Waypoint}}]{wpt}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_manager_abfc1d1d22e446474e365cfdb13f9d2dc}
+Adds a pre-\/existing waypoint to the list of waypoint's to be visited.
+
+
+\begin{DoxyParams}{Parameters}
+{\em wpt} & \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1gps_1_1_waypoint_manager_abfc1d1d22e446474e365cfdb13f9d2dc_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_manager_a37328421433740b4ab0474c80b97d91d}{
+\index{robOS2::gps::WaypointManager@{robOS2::gps::WaypointManager}!addWaypoint@{addWaypoint}}
+\index{addWaypoint@{addWaypoint}!robOS2::gps::WaypointManager@{robOS2::gps::WaypointManager}}
+\subsubsection[{addWaypoint}]{\setlength{\rightskip}{0pt plus 5cm}static void robOS2.gps.WaypointManager.addWaypoint (
+\begin{DoxyParamCaption}
+\item[{String}]{name, }
+\item[{double}]{latitude, }
+\item[{double}]{longitude}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_manager_a37328421433740b4ab0474c80b97d91d}
+Creates \& adds a waypoint to the list to be visited.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & -\/ Name of the waypoint (e.g. TARDEC) \\
+\hline
+{\em latitude} & -\/ Latitude of the waypoint \\
+\hline
+{\em longitude} & -\/ Longitude of the waypoint \\
+\hline
+\end{DoxyParams}
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_manager_a8185bac57710dbaafc77b6d7916c1591}{
+\index{robOS2::gps::WaypointManager@{robOS2::gps::WaypointManager}!clearWaypoints@{clearWaypoints}}
+\index{clearWaypoints@{clearWaypoints}!robOS2::gps::WaypointManager@{robOS2::gps::WaypointManager}}
+\subsubsection[{clearWaypoints}]{\setlength{\rightskip}{0pt plus 5cm}static void robOS2.gps.WaypointManager.clearWaypoints (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_manager_a8185bac57710dbaafc77b6d7916c1591}
+Removes ALL waypoint's from the queue to be visited. NOTE: If you have another class that has already polled and cached a waypoint this will NOT remove that waypoint from your class. \hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_manager_ab25908fbf87694d59e6b0a5a2ebe802f}{
+\index{robOS2::gps::WaypointManager@{robOS2::gps::WaypointManager}!getList@{getList}}
+\index{getList@{getList}!robOS2::gps::WaypointManager@{robOS2::gps::WaypointManager}}
+\subsubsection[{getList}]{\setlength{\rightskip}{0pt plus 5cm}static LinkedList$<${\bf Waypoint}$>$ robOS2.gps.WaypointManager.getList (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_manager_ab25908fbf87694d59e6b0a5a2ebe802f}
+Returns the entire list of waypoints as a linked list \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_manager_a299c03fec3596735666da302198516a8}{
+\index{robOS2::gps::WaypointManager@{robOS2::gps::WaypointManager}!peekNextWaypoint@{peekNextWaypoint}}
+\index{peekNextWaypoint@{peekNextWaypoint}!robOS2::gps::WaypointManager@{robOS2::gps::WaypointManager}}
+\subsubsection[{peekNextWaypoint}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Waypoint} robOS2.gps.WaypointManager.peekNextWaypoint (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_manager_a299c03fec3596735666da302198516a8}
+Returns the next waypoint that we need to visit. However, this leaves the waypoint on the queue to be visited.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_manager_a1038572b3c993a8d3191efafbc3ae31a}{
+\index{robOS2::gps::WaypointManager@{robOS2::gps::WaypointManager}!popNextWaypoint@{popNextWaypoint}}
+\index{popNextWaypoint@{popNextWaypoint}!robOS2::gps::WaypointManager@{robOS2::gps::WaypointManager}}
+\subsubsection[{popNextWaypoint}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Waypoint} robOS2.gps.WaypointManager.popNextWaypoint (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_manager_a1038572b3c993a8d3191efafbc3ae31a}
+Returns the next waypoint that we need to visit. This also removes the waypoint from the queue to be visited.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_manager_ad1cbf84ee21f806c672f906fe2abeeb1}{
+\index{robOS2::gps::WaypointManager@{robOS2::gps::WaypointManager}!\_\-waypoints@{\_\-waypoints}}
+\index{\_\-waypoints@{\_\-waypoints}!robOS2::gps::WaypointManager@{robOS2::gps::WaypointManager}}
+\subsubsection[{\_\-waypoints}]{\setlength{\rightskip}{0pt plus 5cm}LinkedList$<${\bf Waypoint}$>$ {\bf robOS2.gps.WaypointManager.\_\-waypoints} = new LinkedList$<${\bf Waypoint}$>$()\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_manager_ad1cbf84ee21f806c672f906fe2abeeb1}
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_manager_a09d4cc1af107fb1aafb45042b3707cfe}{
+\index{robOS2::gps::WaypointManager@{robOS2::gps::WaypointManager}!log@{log}}
+\index{log@{log}!robOS2::gps::WaypointManager@{robOS2::gps::WaypointManager}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.gps.WaypointManager.log} = Logger.getLogger(WaypointManager.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_manager_a09d4cc1af107fb1aafb45042b3707cfe}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/gps/\hyperlink{_waypoint_manager_8java}{WaypointManager.java}\end{DoxyCompactItemize}

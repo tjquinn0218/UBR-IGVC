@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/software/!svn/ver/121/RobOS2/src/robOS2/jaus
+END
+IJAUSConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/software/!svn/ver/116/RobOS2/src/robOS2/jaus/IJAUSConfig.java
+END
+UDPConnect.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/software/!svn/ver/121/RobOS2/src/robOS2/jaus/UDPConnect.java
+END
+JAUSService.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/software/!svn/ver/121/RobOS2/src/robOS2/jaus/JAUSService.java
+END
+JAUSReciever.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/software/!svn/ver/121/RobOS2/src/robOS2/jaus/JAUSReciever.java
+END

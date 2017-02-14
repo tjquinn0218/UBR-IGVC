@@ -1,0 +1,14 @@
+\hypertarget{_extended_kalman_8java}{
+\section{src/robOS2/localization/ExtendedKalman.java File Reference}
+\label{_extended_kalman_8java}\index{src/robOS2/localization/ExtendedKalman.java@{src/robOS2/localization/ExtendedKalman.java}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classrob_o_s2_1_1localization_1_1_extended_kalman}{robOS2.localization.ExtendedKalman}
+\end{DoxyCompactItemize}
+\subsection*{Packages}
+\begin{DoxyCompactItemize}
+\item 
+package \hyperlink{namespacerob_o_s2_1_1localization}{robOS2.localization}
+\end{DoxyCompactItemize}

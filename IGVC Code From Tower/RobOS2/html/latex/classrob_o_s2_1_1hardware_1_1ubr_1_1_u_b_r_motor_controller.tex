@@ -1,0 +1,439 @@
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller}{
+\section{robOS2.hardware.ubr.UBRMotorController Class Reference}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller}\index{robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}}
+}
+
+
+Inheritance diagram for robOS2.hardware.ubr.UBRMotorController:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for robOS2.hardware.ubr.UBRMotorController:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_ad5ccd4646c65fedde35212ad0603f376}{UBRMotorController} (\hyperlink{classrob_o_s2_1_1serial_1_1_connection}{Connection} conn)
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a856c51793b288ba9915c71e6c6999d68}{updateLeftFront} (int speed)
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a09718777847ba02ea1ebedc60b5d4191}{updateLeftRear} (int speed)
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a4e531ebba3367e2c5c5c514348558623}{updateRightFront} (int speed)
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a07f2ac00ceb7c3a049192297d9624d39}{updateRightRear} (int speed)
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a3f984e684040e73552fa339385c99005}{setForwardVelocity} (int velocity)
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a4d2c1782b95262a73c4f20165a366c6e}{setRotationalVelocity} (int velocity)
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a241ca402b048c4d674b1daa159ff2452}{updateRobotStatusScreen} (String update)
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_aa1f76853ae979f1fe0a9f5305aff261c}{updateRemoteStatusScreen} (String update)
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_adceffdbe553d88fcd36a823c159d5e18}{queryLeftFrontEncoder} ()
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_ad51ea50c3ebd0e6482403f69a05723e5}{queryLeftRearEncoder} ()
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a72fad7167d6c070778e07f8796ba0675}{queryRightFrontEncoder} ()
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a9c60bd82bc367a7bd69e78659a1713a8}{queryRightRearEncoder} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a4c13ad8f98f44e253d3706ccf135f19d}{sendCommand} (String command)
+\item 
+\hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener}{IFourMotorListener} \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_acb575fdaa57745d0de0567674f0e42f2}{getListener} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_af8e67a4d4db3c5a75756496299dfd7d9}{log} = Logger.getLogger(UBRMotorController.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1serial_1_1_connection}{Connection} \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_aa21ac20410d49cc6785cfb0bb860c56e}{\_\-serialConnection}
+\item 
+\hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener}{IFourMotorListener} \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_ae5120436c87a1e689b05f72232e59714}{\_\-listener}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_ad5ccd4646c65fedde35212ad0603f376}{
+\index{robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}!UBRMotorController@{UBRMotorController}}
+\index{UBRMotorController@{UBRMotorController}!robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}}
+\subsubsection[{UBRMotorController}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.hardware.ubr.UBRMotorController.UBRMotorController (
+\begin{DoxyParamCaption}
+\item[{{\bf Connection}}]{conn}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_ad5ccd4646c65fedde35212ad0603f376}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_ad5ccd4646c65fedde35212ad0603f376_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_acb575fdaa57745d0de0567674f0e42f2}{
+\index{robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}!getListener@{getListener}}
+\index{getListener@{getListener}!robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}}
+\subsubsection[{getListener}]{\setlength{\rightskip}{0pt plus 5cm}{\bf IFourMotorListener} robOS2.hardware.ubr.UBRMotorController.getListener (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_acb575fdaa57745d0de0567674f0e42f2}
+Returns the sensor listener thats monitoring replies from the motor controller.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_adceffdbe553d88fcd36a823c159d5e18}{
+\index{robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}!queryLeftFrontEncoder@{queryLeftFrontEncoder}}
+\index{queryLeftFrontEncoder@{queryLeftFrontEncoder}!robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}}
+\subsubsection[{queryLeftFrontEncoder}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.ubr.UBRMotorController.queryLeftFrontEncoder (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_adceffdbe553d88fcd36a823c159d5e18}
+Method to query the count on the left front encoder. If the encoder can not be read this method will return the minimum value for and integer -\/-\/$>$ Integer.MIN\_\-VALUE
+
+\begin{DoxyReturn}{Returns}
+int -\/ Current encoder count since this was last called 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a19ac90a7caad0954584123eee6fb0e89}{robOS2.hardware.interfaces.listeners.IFourMotorInterface}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_ad51ea50c3ebd0e6482403f69a05723e5}{
+\index{robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}!queryLeftRearEncoder@{queryLeftRearEncoder}}
+\index{queryLeftRearEncoder@{queryLeftRearEncoder}!robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}}
+\subsubsection[{queryLeftRearEncoder}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.ubr.UBRMotorController.queryLeftRearEncoder (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_ad51ea50c3ebd0e6482403f69a05723e5}
+Method to query the count on the left rear encoder. If the encoder can not be read this method will return the minimum value for and integer -\/-\/$>$ Integer.MIN\_\-VALUE
+
+\begin{DoxyReturn}{Returns}
+int -\/ Current encoder count since this was last called 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a0d16bb0c12845da37be096fef5bef3ae}{robOS2.hardware.interfaces.listeners.IFourMotorInterface}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a72fad7167d6c070778e07f8796ba0675}{
+\index{robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}!queryRightFrontEncoder@{queryRightFrontEncoder}}
+\index{queryRightFrontEncoder@{queryRightFrontEncoder}!robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}}
+\subsubsection[{queryRightFrontEncoder}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.ubr.UBRMotorController.queryRightFrontEncoder (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a72fad7167d6c070778e07f8796ba0675}
+Method to query the count on the right front encoder. If the encoder can not be read this method will return the minimum value for and integer -\/-\/$>$ Integer.MIN\_\-VALUE
+
+\begin{DoxyReturn}{Returns}
+int -\/ Current encoder count since this was last called 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_af7584c99b5aabb9c4aaa1db6dc50c027}{robOS2.hardware.interfaces.listeners.IFourMotorInterface}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a9c60bd82bc367a7bd69e78659a1713a8}{
+\index{robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}!queryRightRearEncoder@{queryRightRearEncoder}}
+\index{queryRightRearEncoder@{queryRightRearEncoder}!robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}}
+\subsubsection[{queryRightRearEncoder}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.ubr.UBRMotorController.queryRightRearEncoder (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a9c60bd82bc367a7bd69e78659a1713a8}
+Method to query the count on the right rear encoder. If the encoder can not be read this method will return the minimum value for and integer -\/-\/$>$ Integer.MIN\_\-VALUE
+
+\begin{DoxyReturn}{Returns}
+int -\/ Current encoder count since this was last called 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a95c31cbad1aa2f5c9b3d3e4ac413e013}{robOS2.hardware.interfaces.listeners.IFourMotorInterface}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a4c13ad8f98f44e253d3706ccf135f19d}{
+\index{robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}!sendCommand@{sendCommand}}
+\index{sendCommand@{sendCommand}!robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}}
+\subsubsection[{sendCommand}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.ubr.UBRMotorController.sendCommand (
+\begin{DoxyParamCaption}
+\item[{String}]{command}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a4c13ad8f98f44e253d3706ccf135f19d}
+Send down a raw command to the motor controller. This may be useful for temporary debug functions that do not warrant a full method in this driver class.
+
+This command is not null-\/terminated by this driver!
+
+
+\begin{DoxyParams}{Parameters}
+{\em command} & -\/ Raw command for the platform \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a4c13ad8f98f44e253d3706ccf135f19d_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a3f984e684040e73552fa339385c99005}{
+\index{robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}!setForwardVelocity@{setForwardVelocity}}
+\index{setForwardVelocity@{setForwardVelocity}!robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}}
+\subsubsection[{setForwardVelocity}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.ubr.UBRMotorController.setForwardVelocity (
+\begin{DoxyParamCaption}
+\item[{int}]{velocity}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a3f984e684040e73552fa339385c99005}
+Method to update the forward velocity of the platform. This will update the speed of all 4 motors while keeping the rotation velocity set to what it was before this method was called.
+
+
+\begin{DoxyParams}{Parameters}
+{\em velocity} & -\/ Forward / Reverse velocity. Pass this in as a signed integer. Units to be determined. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_ab7a4b66f6f136eeac77512efe967d548}{robOS2.hardware.interfaces.listeners.IFourMotorInterface}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a4d2c1782b95262a73c4f20165a366c6e}{
+\index{robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}!setRotationalVelocity@{setRotationalVelocity}}
+\index{setRotationalVelocity@{setRotationalVelocity}!robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}}
+\subsubsection[{setRotationalVelocity}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.ubr.UBRMotorController.setRotationalVelocity (
+\begin{DoxyParamCaption}
+\item[{int}]{velocity}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a4d2c1782b95262a73c4f20165a366c6e}
+Method to update the rotational velocity of the platform. This will update the speed of all 4 motors while keeping the forward velocity set to what it was before this method was called.
+
+
+\begin{DoxyParams}{Parameters}
+{\em velocity} & -\/ Left / Right velocity. Pass this in as a signed integer. Units to be determined. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a30ae749f610cf916f29a6f803e0b5dc8}{robOS2.hardware.interfaces.listeners.IFourMotorInterface}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a856c51793b288ba9915c71e6c6999d68}{
+\index{robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}!updateLeftFront@{updateLeftFront}}
+\index{updateLeftFront@{updateLeftFront}!robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}}
+\subsubsection[{updateLeftFront}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.ubr.UBRMotorController.updateLeftFront (
+\begin{DoxyParamCaption}
+\item[{int}]{speed}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a856c51793b288ba9915c71e6c6999d68}
+Method to update the speed of the left front motor ONLY! The synthax of the motor controller is: !M1$<$speed$>$ for forward speed !m1$<$speed$>$ for reverse speed
+
+
+\begin{DoxyParams}{Parameters}
+{\em speed} & -\/ Signed int for the desired speed of the motor. This is a value between 100 and -\/100. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a117a524c4bd642a0234b40786393d300}{robOS2.hardware.interfaces.listeners.IFourMotorInterface}.
+
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a856c51793b288ba9915c71e6c6999d68_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a09718777847ba02ea1ebedc60b5d4191}{
+\index{robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}!updateLeftRear@{updateLeftRear}}
+\index{updateLeftRear@{updateLeftRear}!robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}}
+\subsubsection[{updateLeftRear}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.ubr.UBRMotorController.updateLeftRear (
+\begin{DoxyParamCaption}
+\item[{int}]{speed}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a09718777847ba02ea1ebedc60b5d4191}
+Method to update the speed of the left rear motor ONLY! The synthax of the motor controller is: !M2$<$speed$>$ for forward speed !m2$<$speed$>$ for reverse speed
+
+
+\begin{DoxyParams}{Parameters}
+{\em speed} & -\/ Signed int for the desired speed of the motor. This is a value between 100 and -\/100. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_af838619ebdee4ba9043d0c4daef6268e}{robOS2.hardware.interfaces.listeners.IFourMotorInterface}.
+
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a09718777847ba02ea1ebedc60b5d4191_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_aa1f76853ae979f1fe0a9f5305aff261c}{
+\index{robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}!updateRemoteStatusScreen@{updateRemoteStatusScreen}}
+\index{updateRemoteStatusScreen@{updateRemoteStatusScreen}!robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}}
+\subsubsection[{updateRemoteStatusScreen}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.ubr.UBRMotorController.updateRemoteStatusScreen (
+\begin{DoxyParamCaption}
+\item[{String}]{update}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_aa1f76853ae979f1fe0a9f5305aff261c}
+Not implemented since the remote does not have a display on it 
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_aacfac6e16c31709ca3facd068b6cf0b5}{robOS2.hardware.interfaces.listeners.IFourMotorInterface}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a4e531ebba3367e2c5c5c514348558623}{
+\index{robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}!updateRightFront@{updateRightFront}}
+\index{updateRightFront@{updateRightFront}!robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}}
+\subsubsection[{updateRightFront}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.ubr.UBRMotorController.updateRightFront (
+\begin{DoxyParamCaption}
+\item[{int}]{speed}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a4e531ebba3367e2c5c5c514348558623}
+Method to update the speed of the right front motor ONLY! The synthax of the motor controller is: !M3$<$speed$>$ for forward speed !m3$<$speed$>$ for reverse speed
+
+
+\begin{DoxyParams}{Parameters}
+{\em speed} & -\/ Signed int for the desired speed of the motor. This is a value between 100 and -\/100. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a4dc323e62063fd24eb210771d082c46b}{robOS2.hardware.interfaces.listeners.IFourMotorInterface}.
+
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a4e531ebba3367e2c5c5c514348558623_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a07f2ac00ceb7c3a049192297d9624d39}{
+\index{robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}!updateRightRear@{updateRightRear}}
+\index{updateRightRear@{updateRightRear}!robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}}
+\subsubsection[{updateRightRear}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.ubr.UBRMotorController.updateRightRear (
+\begin{DoxyParamCaption}
+\item[{int}]{speed}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a07f2ac00ceb7c3a049192297d9624d39}
+Method to update the speed of the right rear motor ONLY! The synthax of the motor controller is: !M4$<$speed$>$ for forward speed !m4$<$speed$>$ for reverse speed
+
+
+\begin{DoxyParams}{Parameters}
+{\em speed} & -\/ Signed int for the desired speed of the motor. This is a value between 100 and -\/100. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a780ba70dc7968836e1184af63ff541c3}{robOS2.hardware.interfaces.listeners.IFourMotorInterface}.
+
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a07f2ac00ceb7c3a049192297d9624d39_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a241ca402b048c4d674b1daa159ff2452}{
+\index{robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}!updateRobotStatusScreen@{updateRobotStatusScreen}}
+\index{updateRobotStatusScreen@{updateRobotStatusScreen}!robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}}
+\subsubsection[{updateRobotStatusScreen}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.ubr.UBRMotorController.updateRobotStatusScreen (
+\begin{DoxyParamCaption}
+\item[{String}]{update}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a241ca402b048c4d674b1daa159ff2452}
+Sends a text update to the LCD display mounted on the robot. Please refer to the documentation of the platform for the maximum length the string can be, as this driver most likely won't be the limiting factor.
+
+
+\begin{DoxyParams}{Parameters}
+{\em update} & -\/ Text update for the display on the platform \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface_a1ca67978782c1b0dad0ca77df2a7a699}{robOS2.hardware.interfaces.listeners.IFourMotorInterface}.
+
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_a241ca402b048c4d674b1daa159ff2452_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_ae5120436c87a1e689b05f72232e59714}{
+\index{robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}!\_\-listener@{\_\-listener}}
+\index{\_\-listener@{\_\-listener}!robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}}
+\subsubsection[{\_\-listener}]{\setlength{\rightskip}{0pt plus 5cm}{\bf IFourMotorListener} {\bf robOS2.hardware.ubr.UBRMotorController.\_\-listener}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_ae5120436c87a1e689b05f72232e59714}
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_aa21ac20410d49cc6785cfb0bb860c56e}{
+\index{robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}!\_\-serialConnection@{\_\-serialConnection}}
+\index{\_\-serialConnection@{\_\-serialConnection}!robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}}
+\subsubsection[{\_\-serialConnection}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Connection} {\bf robOS2.hardware.ubr.UBRMotorController.\_\-serialConnection}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_aa21ac20410d49cc6785cfb0bb860c56e}
+\hypertarget{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_af8e67a4d4db3c5a75756496299dfd7d9}{
+\index{robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}!log@{log}}
+\index{log@{log}!robOS2::hardware::ubr::UBRMotorController@{robOS2::hardware::ubr::UBRMotorController}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.hardware.ubr.UBRMotorController.log} = Logger.getLogger(UBRMotorController.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_af8e67a4d4db3c5a75756496299dfd7d9}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/hardware/ubr/\hyperlink{_u_b_r_motor_controller_8java}{UBRMotorController.java}\end{DoxyCompactItemize}

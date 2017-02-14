@@ -1,0 +1,169 @@
+\hypertarget{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board}{
+\section{robOS2.hardware.baratta.DemoBoard Class Reference}
+\label{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board}\index{robOS2::hardware::baratta::DemoBoard@{robOS2::hardware::baratta::DemoBoard}}
+}
+
+
+Inheritance diagram for robOS2.hardware.baratta.DemoBoard:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=394pt]{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for robOS2.hardware.baratta.DemoBoard:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_a5564ffc2eacf8f3c733141d99adcdf17}{DemoBoard} (\hyperlink{classrob_o_s2_1_1serial_1_1_connection}{Connection} conn)
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_aef0119fc18fba35d0876f37b8a6488f8}{updateDisplay} (String text)
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_a0bf2f4bf168a9dbaf303d93eb3114fae}{driveMotorForward} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_a6db0b214ba57e82f32840acd869352e1}{driveMotorReverse} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_aa8efc5927f83ba0ad1b3ce331b3729b0}{stopMotor} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_a1faa9111e6c6adb19eb51f709532b77d}{log} = Logger.getLogger(DemoBoard.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1serial_1_1_connection}{Connection} \hyperlink{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_ae24ad624c42e0ab252e19ac9e6b2aa55}{\_\-sc}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_a5564ffc2eacf8f3c733141d99adcdf17}{
+\index{robOS2::hardware::baratta::DemoBoard@{robOS2::hardware::baratta::DemoBoard}!DemoBoard@{DemoBoard}}
+\index{DemoBoard@{DemoBoard}!robOS2::hardware::baratta::DemoBoard@{robOS2::hardware::baratta::DemoBoard}}
+\subsubsection[{DemoBoard}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.hardware.baratta.DemoBoard.DemoBoard (
+\begin{DoxyParamCaption}
+\item[{{\bf Connection}}]{conn}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_a5564ffc2eacf8f3c733141d99adcdf17}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_a5564ffc2eacf8f3c733141d99adcdf17_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_a0bf2f4bf168a9dbaf303d93eb3114fae}{
+\index{robOS2::hardware::baratta::DemoBoard@{robOS2::hardware::baratta::DemoBoard}!driveMotorForward@{driveMotorForward}}
+\index{driveMotorForward@{driveMotorForward}!robOS2::hardware::baratta::DemoBoard@{robOS2::hardware::baratta::DemoBoard}}
+\subsubsection[{driveMotorForward}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.baratta.DemoBoard.driveMotorForward (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_a0bf2f4bf168a9dbaf303d93eb3114fae}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_a0bf2f4bf168a9dbaf303d93eb3114fae_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_a6db0b214ba57e82f32840acd869352e1}{
+\index{robOS2::hardware::baratta::DemoBoard@{robOS2::hardware::baratta::DemoBoard}!driveMotorReverse@{driveMotorReverse}}
+\index{driveMotorReverse@{driveMotorReverse}!robOS2::hardware::baratta::DemoBoard@{robOS2::hardware::baratta::DemoBoard}}
+\subsubsection[{driveMotorReverse}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.baratta.DemoBoard.driveMotorReverse (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_a6db0b214ba57e82f32840acd869352e1}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_a6db0b214ba57e82f32840acd869352e1_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_aa8efc5927f83ba0ad1b3ce331b3729b0}{
+\index{robOS2::hardware::baratta::DemoBoard@{robOS2::hardware::baratta::DemoBoard}!stopMotor@{stopMotor}}
+\index{stopMotor@{stopMotor}!robOS2::hardware::baratta::DemoBoard@{robOS2::hardware::baratta::DemoBoard}}
+\subsubsection[{stopMotor}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.baratta.DemoBoard.stopMotor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_aa8efc5927f83ba0ad1b3ce331b3729b0}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_aa8efc5927f83ba0ad1b3ce331b3729b0_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_aef0119fc18fba35d0876f37b8a6488f8}{
+\index{robOS2::hardware::baratta::DemoBoard@{robOS2::hardware::baratta::DemoBoard}!updateDisplay@{updateDisplay}}
+\index{updateDisplay@{updateDisplay}!robOS2::hardware::baratta::DemoBoard@{robOS2::hardware::baratta::DemoBoard}}
+\subsubsection[{updateDisplay}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.baratta.DemoBoard.updateDisplay (
+\begin{DoxyParamCaption}
+\item[{String}]{text}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_aef0119fc18fba35d0876f37b8a6488f8}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_aef0119fc18fba35d0876f37b8a6488f8_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_ae24ad624c42e0ab252e19ac9e6b2aa55}{
+\index{robOS2::hardware::baratta::DemoBoard@{robOS2::hardware::baratta::DemoBoard}!\_\-sc@{\_\-sc}}
+\index{\_\-sc@{\_\-sc}!robOS2::hardware::baratta::DemoBoard@{robOS2::hardware::baratta::DemoBoard}}
+\subsubsection[{\_\-sc}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Connection} {\bf robOS2.hardware.baratta.DemoBoard.\_\-sc}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_ae24ad624c42e0ab252e19ac9e6b2aa55}
+\hypertarget{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_a1faa9111e6c6adb19eb51f709532b77d}{
+\index{robOS2::hardware::baratta::DemoBoard@{robOS2::hardware::baratta::DemoBoard}!log@{log}}
+\index{log@{log}!robOS2::hardware::baratta::DemoBoard@{robOS2::hardware::baratta::DemoBoard}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.hardware.baratta.DemoBoard.log} = Logger.getLogger(DemoBoard.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1baratta_1_1_demo_board_a1faa9111e6c6adb19eb51f709532b77d}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/hardware/baratta/\hyperlink{_demo_board_8java}{DemoBoard.java}\end{DoxyCompactItemize}

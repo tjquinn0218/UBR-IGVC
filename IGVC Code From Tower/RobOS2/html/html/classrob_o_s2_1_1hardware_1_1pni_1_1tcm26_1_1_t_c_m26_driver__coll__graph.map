@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$interfacerob_o_s2_1_1hardware_1_1interfaces_1_1marker_1_1_i_universal_hardware_device.html" title="robOS2.hardware.interfaces.marker.IUniversalHardwareDevice" alt="" coords="675,5,1093,35"/>
+<area shape="rect" id="node4" href="$interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_compass.html" title="robOS2.hardware.interfaces.drivers.ICompass" alt="" coords="727,59,1041,88"/>
+<area shape="rect" id="node8" href="$classrob_o_s2_1_1serial_1_1_connection.html" title="robOS2.serial.Connection" alt="" coords="792,353,976,383"/>
+<area shape="rect" id="node19" href="$classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener.html" title="robOS2.hardware.pni.tcm26.TCM26Listener" alt="" coords="735,187,1033,216"/>
+<area shape="rect" id="node21" href="$interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_compass_listener.html" title="robOS2.hardware.interfaces.listeners.ICompassListener" alt="" coords="227,219,603,248"/>
+</map>

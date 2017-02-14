@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classrob_o_s2_1_1gps_1_1_waypoint_manager.html#abfc1d1d22e446474e365cfdb13f9d2dc" title="robOS2.gps.WaypointManager.addExistingWaypoint" alt="" coords="445,5,792,35"/>
+<area shape="rect" id="node5" href="$classrob_o_s2_1_1gps_1_1_waypoint.html#a7807c267d07f8c0df058e9ee6daba714" title="robOS2.gps.Waypoint.getName" alt="" coords="841,32,1063,61"/>
+<area shape="rect" id="node7" href="$classrob_o_s2_1_1gps_1_1_waypoint_manager.html#a37328421433740b4ab0474c80b97d91d" title="robOS2.gps.WaypointManager.addWaypoint" alt="" coords="469,109,768,139"/>
+<area shape="rect" id="node9" href="$classrob_o_s2_1_1gps_1_1_waypoint.html#a05e9f5fdcdf284e92aa4abeb827ce407" title="robOS2.gps.Waypoint.getLatitude" alt="" coords="501,163,736,192"/>
+<area shape="rect" id="node11" href="$classrob_o_s2_1_1gps_1_1_waypoint.html#a2f218a8a7251cf96d3e769b2eeb98e14" title="robOS2.gps.Waypoint.getLongitude" alt="" coords="496,216,741,245"/>
+<area shape="rect" id="node14" href="$classrob_o_s2_1_1gps_1_1_waypoint_manager.html#a1038572b3c993a8d3191efafbc3ae31a" title="robOS2.gps.WaypointManager.popNextWaypoint" alt="" coords="455,269,783,299"/>
+</map>

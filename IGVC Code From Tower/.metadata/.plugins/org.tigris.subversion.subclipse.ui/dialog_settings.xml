@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="500" key="CommitDialog.weights.0"/>
+	<item value="500" key="CommitDialog.weights.1"/>
+	<item value="447" key="MarkResolvedDialog.location.x"/>
+	<item value="147" key="MarkResolvedDialog.location.y"/>
+	<item value="120" key="CommitDialog.location.y"/>
+	<item value="139" key="CommitDialog.location.x"/>
+	<item value="C:/Users/ub.robotics/workspace/RobOS2" key="TreeConflictsView.resource"/>
+	<item value="546" key="MarkResolvedDialog.size.x"/>
+	<item value="433" key="MarkResolvedDialog.size.y"/>
+	<item value="1163" key="CommitDialog.size.x"/>
+	<item value="473" key="CommitDialog.size.y"/>
+	<item value="true" key="TreeConflictsView.container"/>
+	<item value="168" key="TreeConflictsView.col.Resource"/>
+	<item value="1005" key="TreeConflictsView.col.Description"/>
+	<section name="CommitWizard">
+		<item value="false" key="ShowCompare"/>
+		<item value="500" key="VWeight2"/>
+		<item value="500" key="VWeight1"/>
+	</section>
+	<section name="NewLocationWizard">
+		<list key="ConfigurationWizardMainPage.STORE_URL_ID">
+			<item value="https://ubrobotics.dyndns.org/svn/software"/>
+		</list>
+	</section>
+</section>

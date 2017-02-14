@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data.html#ab7bb5bed81dbfc5b65e9b957f63ca46e" title="robOS2.hardware.sick.SICKData.getData" alt="" coords="423,5,703,35"/>
+<area shape="rect" id="node7" href="$classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data.html#ac209acfe021ca459348e0b8ac835c1ab" title="robOS2.hardware.sick.SICKData.getLength" alt="" coords="416,59,709,88"/>
+<area shape="rect" id="node9" href="$classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map.html#ae6677cb436fb8c3f0b61e33aef6c2d4a" title="robOS2.mapping.lidar.LIDARMap.setDistanceAtIndex" alt="" coords="385,112,740,141"/>
+<area shape="rect" id="node5" href="$classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data.html#a701e9b4039a1f89eb14210bfda765629" title="robOS2.hardware.sick.SICKData.getSICKData" alt="" coords="791,5,1100,35"/>
+</map>

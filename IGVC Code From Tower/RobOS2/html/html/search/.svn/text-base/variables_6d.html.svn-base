@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title></title>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="search.css"/>
+<script type="text/javascript" src="search.js"></script>
+</head>
+<body class="SRPage">
+<div id="SRIndex">
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRResult" id="SR_main_5fwindow_5fx_5fbound">
+ <div class="SREntry">
+  <a id="Item0" onkeydown="return searchResults.Nav(event,0)" onkeypress="return searchResults.Nav(event,0)" onkeyup="return searchResults.Nav(event,0)" class="SRSymbol" href="../classrob_o_s2_1_1gui_1_1_lidar_viewer.html#accdbde5c52e0366a5e3800294e995307" target="_parent">MAIN_WINDOW_X_BOUND</a>
+  <span class="SRScope">robOS2::gui::LidarViewer</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_main_5fwindow_5fy_5fbound">
+ <div class="SREntry">
+  <a id="Item1" onkeydown="return searchResults.Nav(event,1)" onkeypress="return searchResults.Nav(event,1)" onkeyup="return searchResults.Nav(event,1)" class="SRSymbol" href="../classrob_o_s2_1_1gui_1_1_lidar_viewer.html#a657bb0da8b96b760227992fa461faf57" target="_parent">MAIN_WINDOW_Y_BOUND</a>
+  <span class="SRScope">robOS2::gui::LidarViewer</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_mapsizex">
+ <div class="SREntry">
+  <a id="Item2" onkeydown="return searchResults.Nav(event,2)" onkeypress="return searchResults.Nav(event,2)" onkeyup="return searchResults.Nav(event,2)" class="SRSymbol" href="../classrob_o_s2_1_1mapping_1_1quad_map_1_1_map.html#ade7c8efb858e4d1a1c6644b68f8ca49e" target="_parent">mapSizeX</a>
+  <span class="SRScope">robOS2::mapping::quadMap::Map</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_mapsizey">
+ <div class="SREntry">
+  <a id="Item3" onkeydown="return searchResults.Nav(event,3)" onkeypress="return searchResults.Nav(event,3)" onkeyup="return searchResults.Nav(event,3)" class="SRSymbol" href="../classrob_o_s2_1_1mapping_1_1quad_map_1_1_map.html#ae9dac59680de2b57a89102072f00f565" target="_parent">mapSizeY</a>
+  <span class="SRScope">robOS2::mapping::quadMap::Map</span>
+ </div>
+</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+<script type="text/javascript"><!--
+document.getElementById("Loading").style.display="none";
+document.getElementById("NoMatches").style.display="none";
+var searchResults = new SearchResults("searchResults");
+searchResults.Search();
+--></script>
+</div>
+</body>
+</html>

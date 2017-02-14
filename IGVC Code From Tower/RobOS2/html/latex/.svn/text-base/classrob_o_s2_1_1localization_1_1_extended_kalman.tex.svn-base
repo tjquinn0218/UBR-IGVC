@@ -1,0 +1,26 @@
+\hypertarget{classrob_o_s2_1_1localization_1_1_extended_kalman}{
+\section{robOS2.localization.ExtendedKalman Class Reference}
+\label{classrob_o_s2_1_1localization_1_1_extended_kalman}\index{robOS2::localization::ExtendedKalman@{robOS2::localization::ExtendedKalman}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1localization_1_1_extended_kalman_a86da8754b0ca0d1f02e36e86e624819a}{ExtendedKalman} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1localization_1_1_extended_kalman_a86da8754b0ca0d1f02e36e86e624819a}{
+\index{robOS2::localization::ExtendedKalman@{robOS2::localization::ExtendedKalman}!ExtendedKalman@{ExtendedKalman}}
+\index{ExtendedKalman@{ExtendedKalman}!robOS2::localization::ExtendedKalman@{robOS2::localization::ExtendedKalman}}
+\subsubsection[{ExtendedKalman}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.localization.ExtendedKalman.ExtendedKalman (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1localization_1_1_extended_kalman_a86da8754b0ca0d1f02e36e86e624819a}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/localization/\hyperlink{_extended_kalman_8java}{ExtendedKalman.java}\end{DoxyCompactItemize}

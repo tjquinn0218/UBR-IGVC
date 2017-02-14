@@ -1,0 +1,77 @@
+\hypertarget{classrob_o_s2_1_1network_1_1rmi_1_1_r_m_i_l_i_d_a_r}{
+\section{robOS2.network.rmi.RMILIDAR Class Reference}
+\label{classrob_o_s2_1_1network_1_1rmi_1_1_r_m_i_l_i_d_a_r}\index{robOS2::network::rmi::RMILIDAR@{robOS2::network::rmi::RMILIDAR}}
+}
+
+
+Inheritance diagram for robOS2.network.rmi.RMILIDAR:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=393pt]{classrob_o_s2_1_1network_1_1rmi_1_1_r_m_i_l_i_d_a_r__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for robOS2.network.rmi.RMILIDAR:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=393pt]{classrob_o_s2_1_1network_1_1rmi_1_1_r_m_i_l_i_d_a_r__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1network_1_1rmi_1_1_r_m_i_l_i_d_a_r_acc2ded4be8578afa64000697831ae87b}{RMILIDAR} ()  throws RemoteException
+\item 
+int \hyperlink{classrob_o_s2_1_1network_1_1rmi_1_1_r_m_i_l_i_d_a_r_a73a7c9a3acef9fcb93c62a5c3037ad14}{getMaxRange} ()  throws RemoteException 
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final long \hyperlink{classrob_o_s2_1_1network_1_1rmi_1_1_r_m_i_l_i_d_a_r_ad268aaca2d2a77ac9341792f57706804}{serialVersionUID} = 1L
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1network_1_1rmi_1_1_r_m_i_l_i_d_a_r_acc2ded4be8578afa64000697831ae87b}{
+\index{robOS2::network::rmi::RMILIDAR@{robOS2::network::rmi::RMILIDAR}!RMILIDAR@{RMILIDAR}}
+\index{RMILIDAR@{RMILIDAR}!robOS2::network::rmi::RMILIDAR@{robOS2::network::rmi::RMILIDAR}}
+\subsubsection[{RMILIDAR}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.network.rmi.RMILIDAR.RMILIDAR (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws RemoteException}}
+\label{classrob_o_s2_1_1network_1_1rmi_1_1_r_m_i_l_i_d_a_r_acc2ded4be8578afa64000697831ae87b}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1network_1_1rmi_1_1_r_m_i_l_i_d_a_r_a73a7c9a3acef9fcb93c62a5c3037ad14}{
+\index{robOS2::network::rmi::RMILIDAR@{robOS2::network::rmi::RMILIDAR}!getMaxRange@{getMaxRange}}
+\index{getMaxRange@{getMaxRange}!robOS2::network::rmi::RMILIDAR@{robOS2::network::rmi::RMILIDAR}}
+\subsubsection[{getMaxRange}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.network.rmi.RMILIDAR.getMaxRange (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws RemoteException }}
+\label{classrob_o_s2_1_1network_1_1rmi_1_1_r_m_i_l_i_d_a_r_a73a7c9a3acef9fcb93c62a5c3037ad14}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1network_1_1rmi_1_1_r_m_i_l_i_d_a_r_interface_a3c08c8a5051ab464e7ba4571409f7084}{robOS2.network.rmi.RMILIDARInterface}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1network_1_1rmi_1_1_r_m_i_l_i_d_a_r_ad268aaca2d2a77ac9341792f57706804}{
+\index{robOS2::network::rmi::RMILIDAR@{robOS2::network::rmi::RMILIDAR}!serialVersionUID@{serialVersionUID}}
+\index{serialVersionUID@{serialVersionUID}!robOS2::network::rmi::RMILIDAR@{robOS2::network::rmi::RMILIDAR}}
+\subsubsection[{serialVersionUID}]{\setlength{\rightskip}{0pt plus 5cm}final long {\bf robOS2.network.rmi.RMILIDAR.serialVersionUID} = 1L\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classrob_o_s2_1_1network_1_1rmi_1_1_r_m_i_l_i_d_a_r_ad268aaca2d2a77ac9341792f57706804}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/network/rmi/\hyperlink{_r_m_i_l_i_d_a_r_8java}{RMILIDAR.java}\end{DoxyCompactItemize}

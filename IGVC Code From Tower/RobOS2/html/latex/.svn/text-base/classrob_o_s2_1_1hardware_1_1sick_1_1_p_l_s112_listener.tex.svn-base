@@ -1,0 +1,171 @@
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener}{
+\section{robOS2.hardware.sick.PLS112Listener Class Reference}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener}\index{robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}}
+}
+
+
+Inheritance diagram for robOS2.hardware.sick.PLS112Listener:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for robOS2.hardware.sick.PLS112Listener:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a11bbf7fab96052a52c8045a80d6ce223}{PLS112Listener} (InputStream in)
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a9fc96335368cf4f032ad912481af0e20}{serialEvent} (SerialPortEvent arg0)
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_ac6666efbc16789688698b655a6372758}{checkForPacket} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a0ec74ab07a29cd7bf33f09ca17bb4e16}{reset} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a6349493f0d1682a3db808cae18da77ae}{log} = Logger.getLogger(PLS112Listener.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+InputStream \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a81e5f7a7b39486c5d465e6bc97fcf596}{\_\-in}
+\item 
+byte\mbox{[}$\,$\mbox{]} \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a675212c3e9e0ec27b7e43c53b1cfdfb8}{\_\-total} = new byte\mbox{[}4096\mbox{]}
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_aa35c6098573140ef53ee0c3ea5900545}{\_\-totalIndex} = 0
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a1e01ae9d75dcec71f92f8605564ca854}{\_\-startIndex} = 0
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a6ed57d80752e5094bb4b5d0c6cd93770}{\_\-size} = -\/1
+\item 
+boolean \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a996fd3da89c76a356ceb756649ec6636}{\_\-foundStart} = false
+\item 
+\hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_processor}{PLS112Processor} \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a29a28482ecbd77314ac307b256877496}{\_\-processor} = new \hyperlink{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_processor}{PLS112Processor}()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a11bbf7fab96052a52c8045a80d6ce223}{
+\index{robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}!PLS112Listener@{PLS112Listener}}
+\index{PLS112Listener@{PLS112Listener}!robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}}
+\subsubsection[{PLS112Listener}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.hardware.sick.PLS112Listener.PLS112Listener (
+\begin{DoxyParamCaption}
+\item[{InputStream}]{in}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a11bbf7fab96052a52c8045a80d6ce223}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_ac6666efbc16789688698b655a6372758}{
+\index{robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}!checkForPacket@{checkForPacket}}
+\index{checkForPacket@{checkForPacket}!robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}}
+\subsubsection[{checkForPacket}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.sick.PLS112Listener.checkForPacket (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_ac6666efbc16789688698b655a6372758}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_ac6666efbc16789688698b655a6372758_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a0ec74ab07a29cd7bf33f09ca17bb4e16}{
+\index{robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}!reset@{reset}}
+\index{reset@{reset}!robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}}
+\subsubsection[{reset}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.sick.PLS112Listener.reset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a0ec74ab07a29cd7bf33f09ca17bb4e16}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_l_i_d_a_r_listener_a5b919dc34029b32da28d4340011b258c}{robOS2.hardware.interfaces.listeners.ILIDARListener}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a9fc96335368cf4f032ad912481af0e20}{
+\index{robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}!serialEvent@{serialEvent}}
+\index{serialEvent@{serialEvent}!robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}}
+\subsubsection[{serialEvent}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.sick.PLS112Listener.serialEvent (
+\begin{DoxyParamCaption}
+\item[{SerialPortEvent}]{arg0}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a9fc96335368cf4f032ad912481af0e20}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a9fc96335368cf4f032ad912481af0e20_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a996fd3da89c76a356ceb756649ec6636}{
+\index{robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}!\_\-foundStart@{\_\-foundStart}}
+\index{\_\-foundStart@{\_\-foundStart}!robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}}
+\subsubsection[{\_\-foundStart}]{\setlength{\rightskip}{0pt plus 5cm}boolean {\bf robOS2.hardware.sick.PLS112Listener.\_\-foundStart} = false\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a996fd3da89c76a356ceb756649ec6636}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a81e5f7a7b39486c5d465e6bc97fcf596}{
+\index{robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}!\_\-in@{\_\-in}}
+\index{\_\-in@{\_\-in}!robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}}
+\subsubsection[{\_\-in}]{\setlength{\rightskip}{0pt plus 5cm}InputStream {\bf robOS2.hardware.sick.PLS112Listener.\_\-in}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a81e5f7a7b39486c5d465e6bc97fcf596}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a29a28482ecbd77314ac307b256877496}{
+\index{robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}!\_\-processor@{\_\-processor}}
+\index{\_\-processor@{\_\-processor}!robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}}
+\subsubsection[{\_\-processor}]{\setlength{\rightskip}{0pt plus 5cm}{\bf PLS112Processor} {\bf robOS2.hardware.sick.PLS112Listener.\_\-processor} = new {\bf PLS112Processor}()\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a29a28482ecbd77314ac307b256877496}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a6ed57d80752e5094bb4b5d0c6cd93770}{
+\index{robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}!\_\-size@{\_\-size}}
+\index{\_\-size@{\_\-size}!robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}}
+\subsubsection[{\_\-size}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf robOS2.hardware.sick.PLS112Listener.\_\-size} = -\/1\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a6ed57d80752e5094bb4b5d0c6cd93770}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a1e01ae9d75dcec71f92f8605564ca854}{
+\index{robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}!\_\-startIndex@{\_\-startIndex}}
+\index{\_\-startIndex@{\_\-startIndex}!robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}}
+\subsubsection[{\_\-startIndex}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf robOS2.hardware.sick.PLS112Listener.\_\-startIndex} = 0\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a1e01ae9d75dcec71f92f8605564ca854}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a675212c3e9e0ec27b7e43c53b1cfdfb8}{
+\index{robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}!\_\-total@{\_\-total}}
+\index{\_\-total@{\_\-total}!robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}}
+\subsubsection[{\_\-total}]{\setlength{\rightskip}{0pt plus 5cm}byte \mbox{[}$\,$\mbox{]} {\bf robOS2.hardware.sick.PLS112Listener.\_\-total} = new byte\mbox{[}4096\mbox{]}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a675212c3e9e0ec27b7e43c53b1cfdfb8}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_aa35c6098573140ef53ee0c3ea5900545}{
+\index{robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}!\_\-totalIndex@{\_\-totalIndex}}
+\index{\_\-totalIndex@{\_\-totalIndex}!robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}}
+\subsubsection[{\_\-totalIndex}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf robOS2.hardware.sick.PLS112Listener.\_\-totalIndex} = 0\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_aa35c6098573140ef53ee0c3ea5900545}
+\hypertarget{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a6349493f0d1682a3db808cae18da77ae}{
+\index{robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}!log@{log}}
+\index{log@{log}!robOS2::hardware::sick::PLS112Listener@{robOS2::hardware::sick::PLS112Listener}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.hardware.sick.PLS112Listener.log} = Logger.getLogger(PLS112Listener.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener_a6349493f0d1682a3db808cae18da77ae}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/hardware/sick/\hyperlink{_p_l_s112_listener_8java}{PLS112Listener.java}\end{DoxyCompactItemize}

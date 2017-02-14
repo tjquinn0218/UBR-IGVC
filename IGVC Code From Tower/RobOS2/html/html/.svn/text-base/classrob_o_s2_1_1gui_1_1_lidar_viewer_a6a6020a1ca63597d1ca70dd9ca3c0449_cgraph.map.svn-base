@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map.html#a2842c9da8fccf97b1509d80fa4c54637" title="robOS2.mapping.lidar.LIDARMap.getDistanceAtStep" alt="" coords="303,5,655,35"/>
+<area shape="rect" id="node5" href="$classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map.html#afefa5759a715adb34399917ac70a1088" title="robOS2.mapping.lidar.LIDARMap.getMaxRange" alt="" coords="320,59,637,88"/>
+<area shape="rect" id="node7" href="$classrob_o_s2_1_1gui_1_1_lidar_viewer.html#a9b1dcbc75775c9d83bfe9c9676779a44" title="robOS2.gui.LidarViewer.run" alt="" coords="381,112,576,141"/>
+</map>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/software/!svn/ver/192/RobOS2/src/robOS2/xml/handler
+END
+DefaultHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/software/!svn/ver/50/RobOS2/src/robOS2/xml/handler/DefaultHandler.java
+END
+GUIHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/software/!svn/ver/192/RobOS2/src/robOS2/xml/handler/GUIHandler.java
+END
+GPSHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/software/!svn/ver/162/RobOS2/src/robOS2/xml/handler/GPSHandler.java
+END
+HardwareHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/software/!svn/ver/183/RobOS2/src/robOS2/xml/handler/HardwareHandler.java
+END

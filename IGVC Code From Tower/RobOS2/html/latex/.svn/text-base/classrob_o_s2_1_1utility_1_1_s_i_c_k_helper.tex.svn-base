@@ -1,0 +1,72 @@
+\hypertarget{classrob_o_s2_1_1utility_1_1_s_i_c_k_helper}{
+\section{robOS2.utility.SICKHelper Class Reference}
+\label{classrob_o_s2_1_1utility_1_1_s_i_c_k_helper}\index{robOS2::utility::SICKHelper@{robOS2::utility::SICKHelper}}
+}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{classrob_o_s2_1_1utility_1_1_s_i_c_k_helper_af412c49be703bfb9b763f1e1e90282d6}{getSICKData} (byte b1, byte b2)
+\item 
+static int \hyperlink{classrob_o_s2_1_1utility_1_1_s_i_c_k_helper_a3564660693f3a0a43a35f44bc12f52df}{getSICKData} (int b1, int b2)
+\item 
+static int \hyperlink{classrob_o_s2_1_1utility_1_1_s_i_c_k_helper_af4f52c44795986892dc139dc530bd170}{intFromByte} (byte b)
+\item 
+static byte\mbox{[}$\,$\mbox{]} \hyperlink{classrob_o_s2_1_1utility_1_1_s_i_c_k_helper_ae4f3cfd7bc397acf4563754e59a2045d}{intToByteArray} (int\mbox{[}$\,$\mbox{]} array)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1utility_1_1_s_i_c_k_helper_af412c49be703bfb9b763f1e1e90282d6}{
+\index{robOS2::utility::SICKHelper@{robOS2::utility::SICKHelper}!getSICKData@{getSICKData}}
+\index{getSICKData@{getSICKData}!robOS2::utility::SICKHelper@{robOS2::utility::SICKHelper}}
+\subsubsection[{getSICKData}]{\setlength{\rightskip}{0pt plus 5cm}static int robOS2.utility.SICKHelper.getSICKData (
+\begin{DoxyParamCaption}
+\item[{byte}]{b1, }
+\item[{byte}]{b2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1utility_1_1_s_i_c_k_helper_af412c49be703bfb9b763f1e1e90282d6}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1utility_1_1_s_i_c_k_helper_af412c49be703bfb9b763f1e1e90282d6_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1utility_1_1_s_i_c_k_helper_a3564660693f3a0a43a35f44bc12f52df}{
+\index{robOS2::utility::SICKHelper@{robOS2::utility::SICKHelper}!getSICKData@{getSICKData}}
+\index{getSICKData@{getSICKData}!robOS2::utility::SICKHelper@{robOS2::utility::SICKHelper}}
+\subsubsection[{getSICKData}]{\setlength{\rightskip}{0pt plus 5cm}static int robOS2.utility.SICKHelper.getSICKData (
+\begin{DoxyParamCaption}
+\item[{int}]{b1, }
+\item[{int}]{b2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1utility_1_1_s_i_c_k_helper_a3564660693f3a0a43a35f44bc12f52df}
+\hypertarget{classrob_o_s2_1_1utility_1_1_s_i_c_k_helper_af4f52c44795986892dc139dc530bd170}{
+\index{robOS2::utility::SICKHelper@{robOS2::utility::SICKHelper}!intFromByte@{intFromByte}}
+\index{intFromByte@{intFromByte}!robOS2::utility::SICKHelper@{robOS2::utility::SICKHelper}}
+\subsubsection[{intFromByte}]{\setlength{\rightskip}{0pt plus 5cm}static int robOS2.utility.SICKHelper.intFromByte (
+\begin{DoxyParamCaption}
+\item[{byte}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1utility_1_1_s_i_c_k_helper_af4f52c44795986892dc139dc530bd170}
+\hypertarget{classrob_o_s2_1_1utility_1_1_s_i_c_k_helper_ae4f3cfd7bc397acf4563754e59a2045d}{
+\index{robOS2::utility::SICKHelper@{robOS2::utility::SICKHelper}!intToByteArray@{intToByteArray}}
+\index{intToByteArray@{intToByteArray}!robOS2::utility::SICKHelper@{robOS2::utility::SICKHelper}}
+\subsubsection[{intToByteArray}]{\setlength{\rightskip}{0pt plus 5cm}static byte \mbox{[}$\,$\mbox{]} robOS2.utility.SICKHelper.intToByteArray (
+\begin{DoxyParamCaption}
+\item[{int\mbox{[}$\,$\mbox{]}}]{array}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1utility_1_1_s_i_c_k_helper_ae4f3cfd7bc397acf4563754e59a2045d}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/utility/\hyperlink{_s_i_c_k_helper_8java}{SICKHelper.java}\end{DoxyCompactItemize}

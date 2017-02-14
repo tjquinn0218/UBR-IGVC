@@ -1,0 +1,201 @@
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener}{
+\section{robOS2.hardware.novatel.propak3.ProPak3Listener Class Reference}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener}\index{robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}}
+}
+
+
+Inheritance diagram for robOS2.hardware.novatel.propak3.ProPak3Listener:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for robOS2.hardware.novatel.propak3.ProPak3Listener:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_ac65bc578f3cb296235a33f76c5f5d22e}{ProPak3Listener} (InputStream in)
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_ada1051fa1103cac4f0f1fdd349f83e1b}{serialEvent} (SerialPortEvent arg0)
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a3359485107edaf9214aeb65772de4121}{processString} (String s, int mode)
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a518ddf185db61a68386f10eecc07d0a7}{setPositionData} (String data)
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_ad568c719fbbe10cbf303ff284a183cd5}{setVelocityData} (String s)
+\end{DoxyCompactItemize}
+\subsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+InputStream \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a14e32e6b6e65b49a48a0516d7b89ec30}{\_\-in}
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a5c823b5e0bdf0b1b0b42d8a41d5e2683}{\_\-mode} = 0
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a565ec13051b6c6e2f12212c399e75378}{log} = Logger.getLogger(ProPak3Listener.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a4cb920f415901bde4108caf87824f8a2}{modeSet} (String s)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_packet}{ProPak3Packet} \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_af0ae51bcf619aff7d2b364bc43bff319}{\_\-packet}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_ac65bc578f3cb296235a33f76c5f5d22e}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}!ProPak3Listener@{ProPak3Listener}}
+\index{ProPak3Listener@{ProPak3Listener}!robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}}
+\subsubsection[{ProPak3Listener}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.hardware.novatel.propak3.ProPak3Listener.ProPak3Listener (
+\begin{DoxyParamCaption}
+\item[{InputStream}]{in}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_ac65bc578f3cb296235a33f76c5f5d22e}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a4cb920f415901bde4108caf87824f8a2}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}!modeSet@{modeSet}}
+\index{modeSet@{modeSet}!robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}}
+\subsubsection[{modeSet}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.novatel.propak3.ProPak3Listener.modeSet (
+\begin{DoxyParamCaption}
+\item[{String}]{s}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a4cb920f415901bde4108caf87824f8a2}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a4cb920f415901bde4108caf87824f8a2_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a3359485107edaf9214aeb65772de4121}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}!processString@{processString}}
+\index{processString@{processString}!robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}}
+\subsubsection[{processString}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.novatel.propak3.ProPak3Listener.processString (
+\begin{DoxyParamCaption}
+\item[{String}]{s, }
+\item[{int}]{mode}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a3359485107edaf9214aeb65772de4121}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a3359485107edaf9214aeb65772de4121_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_ada1051fa1103cac4f0f1fdd349f83e1b}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}!serialEvent@{serialEvent}}
+\index{serialEvent@{serialEvent}!robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}}
+\subsubsection[{serialEvent}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.novatel.propak3.ProPak3Listener.serialEvent (
+\begin{DoxyParamCaption}
+\item[{SerialPortEvent}]{arg0}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_ada1051fa1103cac4f0f1fdd349f83e1b}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_ada1051fa1103cac4f0f1fdd349f83e1b_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a518ddf185db61a68386f10eecc07d0a7}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}!setPositionData@{setPositionData}}
+\index{setPositionData@{setPositionData}!robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}}
+\subsubsection[{setPositionData}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.novatel.propak3.ProPak3Listener.setPositionData (
+\begin{DoxyParamCaption}
+\item[{String}]{data}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a518ddf185db61a68386f10eecc07d0a7}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a518ddf185db61a68386f10eecc07d0a7_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_ad568c719fbbe10cbf303ff284a183cd5}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}!setVelocityData@{setVelocityData}}
+\index{setVelocityData@{setVelocityData}!robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}}
+\subsubsection[{setVelocityData}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.novatel.propak3.ProPak3Listener.setVelocityData (
+\begin{DoxyParamCaption}
+\item[{String}]{s}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_ad568c719fbbe10cbf303ff284a183cd5}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_ad568c719fbbe10cbf303ff284a183cd5_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a14e32e6b6e65b49a48a0516d7b89ec30}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}!\_\-in@{\_\-in}}
+\index{\_\-in@{\_\-in}!robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}}
+\subsubsection[{\_\-in}]{\setlength{\rightskip}{0pt plus 5cm}InputStream {\bf robOS2.hardware.novatel.propak3.ProPak3Listener.\_\-in}\hspace{0.3cm}{\ttfamily  \mbox{[}package\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a14e32e6b6e65b49a48a0516d7b89ec30}
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a5c823b5e0bdf0b1b0b42d8a41d5e2683}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}!\_\-mode@{\_\-mode}}
+\index{\_\-mode@{\_\-mode}!robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}}
+\subsubsection[{\_\-mode}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf robOS2.hardware.novatel.propak3.ProPak3Listener.\_\-mode} = 0\hspace{0.3cm}{\ttfamily  \mbox{[}package\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a5c823b5e0bdf0b1b0b42d8a41d5e2683}
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_af0ae51bcf619aff7d2b364bc43bff319}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}!\_\-packet@{\_\-packet}}
+\index{\_\-packet@{\_\-packet}!robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}}
+\subsubsection[{\_\-packet}]{\setlength{\rightskip}{0pt plus 5cm}{\bf ProPak3Packet} {\bf robOS2.hardware.novatel.propak3.ProPak3Listener.\_\-packet}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_af0ae51bcf619aff7d2b364bc43bff319}
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a565ec13051b6c6e2f12212c399e75378}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}!log@{log}}
+\index{log@{log}!robOS2::hardware::novatel::propak3::ProPak3Listener@{robOS2::hardware::novatel::propak3::ProPak3Listener}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.hardware.novatel.propak3.ProPak3Listener.log} = Logger.getLogger(ProPak3Listener.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener_a565ec13051b6c6e2f12212c399e75378}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/hardware/novatel/propak3/\hyperlink{_pro_pak3_listener_8java}{ProPak3Listener.java}\end{DoxyCompactItemize}

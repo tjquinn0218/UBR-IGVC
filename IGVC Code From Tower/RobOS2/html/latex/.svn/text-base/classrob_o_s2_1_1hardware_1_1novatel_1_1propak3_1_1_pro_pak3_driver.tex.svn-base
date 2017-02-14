@@ -1,0 +1,214 @@
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver}{
+\section{robOS2.hardware.novatel.propak3.ProPak3Driver Class Reference}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver}\index{robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}}
+}
+
+
+Inheritance diagram for robOS2.hardware.novatel.propak3.ProPak3Driver:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for robOS2.hardware.novatel.propak3.ProPak3Driver:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a91b7d6a914649b67fd9216654eafb221}{ProPak3Driver} (\hyperlink{classrob_o_s2_1_1serial_1_1_connection}{Connection} conn)
+\item 
+double \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_ab886b641bd9b66c051dfdcabae214ce4}{getLatitude} ()
+\item 
+double \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a68e3d85211d88045a010da42ef6d1c76}{getLongitude} ()
+\item 
+double \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a4bac18c969e8377dc0f0d239478c149e}{getTemperature} ()
+\item 
+double \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a21e8ff2c0b18e922c30020d42ae7a270}{getVelocity} ()
+\item 
+double \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_ae138978eaa3a7fd88347ec1d4eedf01a}{getAltitude} ()
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_acf5abff3ed0b83f621f20245d4d536b6}{getNumberOfSatsConnected} ()
+\item 
+int \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a377e2755f60280b1a10087d17164a638}{getEstimatedError} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a4dd65878ceb22543155a00578e7a3232}{log} = Logger.getLogger(ProPak3Driver.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1serial_1_1_connection}{Connection} \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a07a4f3de5133b789f541178595832204}{\_\-serial}
+\item 
+\hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_listener}{ProPak3Listener} \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a4ff4696f49360463282affa44bc30561}{\_\-listener}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a91b7d6a914649b67fd9216654eafb221}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}!ProPak3Driver@{ProPak3Driver}}
+\index{ProPak3Driver@{ProPak3Driver}!robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}}
+\subsubsection[{ProPak3Driver}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.hardware.novatel.propak3.ProPak3Driver.ProPak3Driver (
+\begin{DoxyParamCaption}
+\item[{{\bf Connection}}]{conn}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a91b7d6a914649b67fd9216654eafb221}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a91b7d6a914649b67fd9216654eafb221_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_ae138978eaa3a7fd88347ec1d4eedf01a}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}!getAltitude@{getAltitude}}
+\index{getAltitude@{getAltitude}!robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}}
+\subsubsection[{getAltitude}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.novatel.propak3.ProPak3Driver.getAltitude (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_ae138978eaa3a7fd88347ec1d4eedf01a}
+Returns the current altitude of the GPS unit in (feet?) \begin{DoxyReturn}{Returns}
+Current altitude of the GPS unit 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a44e24378ffa6ca557bb56fad8482cc37}{robOS2.hardware.interfaces.drivers.IGPS}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a377e2755f60280b1a10087d17164a638}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}!getEstimatedError@{getEstimatedError}}
+\index{getEstimatedError@{getEstimatedError}!robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}}
+\subsubsection[{getEstimatedError}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.novatel.propak3.ProPak3Driver.getEstimatedError (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a377e2755f60280b1a10087d17164a638}
+Returns the last known estimated error in cm of the GPS signals. If the unit has been off or without signal for a period of time this reading may not be correct. If this feature is not implemented Integer.Max() will be returned. \begin{DoxyReturn}{Returns}
+Last known estimated error 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a5a0b25c56dda11a9e9faa2067276a5d4}{robOS2.hardware.interfaces.drivers.IGPS}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_ab886b641bd9b66c051dfdcabae214ce4}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}!getLatitude@{getLatitude}}
+\index{getLatitude@{getLatitude}!robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}}
+\subsubsection[{getLatitude}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.novatel.propak3.ProPak3Driver.getLatitude (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_ab886b641bd9b66c051dfdcabae214ce4}
+Returns the last known latitude reading of the unit. If the unit has been off or without signal for a period of time this reading may not be correct. \begin{DoxyReturn}{Returns}
+Last known latitude reading 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a9a6f138001ad7ed235cf9597aa6c9370}{robOS2.hardware.interfaces.drivers.IGPS}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a68e3d85211d88045a010da42ef6d1c76}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}!getLongitude@{getLongitude}}
+\index{getLongitude@{getLongitude}!robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}}
+\subsubsection[{getLongitude}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.novatel.propak3.ProPak3Driver.getLongitude (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a68e3d85211d88045a010da42ef6d1c76}
+Returns the last known longitude reading of the unit. If the unit has been off or without signal for a period of time this reading may not be correct. \begin{DoxyReturn}{Returns}
+Last known longitude reading 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a07d010b95292c7dae50120e5417c920e}{robOS2.hardware.interfaces.drivers.IGPS}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_acf5abff3ed0b83f621f20245d4d536b6}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}!getNumberOfSatsConnected@{getNumberOfSatsConnected}}
+\index{getNumberOfSatsConnected@{getNumberOfSatsConnected}!robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}}
+\subsubsection[{getNumberOfSatsConnected}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.novatel.propak3.ProPak3Driver.getNumberOfSatsConnected (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_acf5abff3ed0b83f621f20245d4d536b6}
+Returns how many satellites the unit is currently connected to. If this feature is not implemented Integer.Max() will be returned. \begin{DoxyReturn}{Returns}
+Number of connected satellites 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a8d94a2750e0e7203a83653d7f08686ad}{robOS2.hardware.interfaces.drivers.IGPS}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a4bac18c969e8377dc0f0d239478c149e}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}!getTemperature@{getTemperature}}
+\index{getTemperature@{getTemperature}!robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}}
+\subsubsection[{getTemperature}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.novatel.propak3.ProPak3Driver.getTemperature (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a4bac18c969e8377dc0f0d239478c149e}
+Returns the current temperature of the GPS unit. If this feature is not implemented Double.Max() will be returned. \begin{DoxyReturn}{Returns}
+Current temperature of the GPS unit 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a39e90e740aa789228076910099c0576f}{robOS2.hardware.interfaces.drivers.IGPS}.
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a21e8ff2c0b18e922c30020d42ae7a270}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}!getVelocity@{getVelocity}}
+\index{getVelocity@{getVelocity}!robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}}
+\subsubsection[{getVelocity}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.novatel.propak3.ProPak3Driver.getVelocity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a21e8ff2c0b18e922c30020d42ae7a270}
+Returns the current velocity of the platform in m/s \begin{DoxyReturn}{Returns}
+Current velocity in meters per second 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a353affd2df45ade5f7808644dd6be33f}{robOS2.hardware.interfaces.drivers.IGPS}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a4ff4696f49360463282affa44bc30561}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}!\_\-listener@{\_\-listener}}
+\index{\_\-listener@{\_\-listener}!robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}}
+\subsubsection[{\_\-listener}]{\setlength{\rightskip}{0pt plus 5cm}{\bf ProPak3Listener} {\bf robOS2.hardware.novatel.propak3.ProPak3Driver.\_\-listener}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a4ff4696f49360463282affa44bc30561}
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a07a4f3de5133b789f541178595832204}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}!\_\-serial@{\_\-serial}}
+\index{\_\-serial@{\_\-serial}!robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}}
+\subsubsection[{\_\-serial}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Connection} {\bf robOS2.hardware.novatel.propak3.ProPak3Driver.\_\-serial}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a07a4f3de5133b789f541178595832204}
+\hypertarget{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a4dd65878ceb22543155a00578e7a3232}{
+\index{robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}!log@{log}}
+\index{log@{log}!robOS2::hardware::novatel::propak3::ProPak3Driver@{robOS2::hardware::novatel::propak3::ProPak3Driver}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.hardware.novatel.propak3.ProPak3Driver.log} = Logger.getLogger(ProPak3Driver.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a4dd65878ceb22543155a00578e7a3232}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/hardware/novatel/propak3/\hyperlink{_pro_pak3_driver_8java}{ProPak3Driver.java}\end{DoxyCompactItemize}

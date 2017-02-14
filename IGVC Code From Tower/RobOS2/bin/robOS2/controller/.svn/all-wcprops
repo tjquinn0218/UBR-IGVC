@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/software/!svn/ver/250/RobOS2/src/robOS2/controller
+END
+XBoxGamepad.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/software/!svn/ver/198/RobOS2/src/robOS2/controller/XBoxGamepad.java
+END
+XBoxArmController.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/software/!svn/ver/219/RobOS2/src/robOS2/controller/XBoxArmController.java
+END
+XBoxGamepadTurtlebot.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/software/!svn/ver/250/RobOS2/src/robOS2/controller/XBoxGamepadTurtlebot.java
+END

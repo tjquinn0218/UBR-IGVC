@@ -1,0 +1,158 @@
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s}{
+\section{robOS2.hardware.interfaces.drivers.IGPS Interface Reference}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s}\index{robOS2::hardware::interfaces::drivers::IGPS@{robOS2::hardware::interfaces::drivers::IGPS}}
+}
+
+
+Inheritance diagram for robOS2.hardware.interfaces.drivers.IGPS:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a9a6f138001ad7ed235cf9597aa6c9370}{getLatitude} ()
+\item 
+double \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a07d010b95292c7dae50120e5417c920e}{getLongitude} ()
+\item 
+double \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a39e90e740aa789228076910099c0576f}{getTemperature} ()
+\item 
+double \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a353affd2df45ade5f7808644dd6be33f}{getVelocity} ()
+\item 
+double \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a44e24378ffa6ca557bb56fad8482cc37}{getAltitude} ()
+\item 
+int \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a8d94a2750e0e7203a83653d7f08686ad}{getNumberOfSatsConnected} ()
+\item 
+int \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a5a0b25c56dda11a9e9faa2067276a5d4}{getEstimatedError} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Standardized interface for receiving data from a global positioning system.
+
+Copyright 2011 UB Robotics \& The State University of New York at Buffalo \begin{DoxyAuthor}{Author}
+\href{mailto:dbaratta@buffalo.edu}{\tt Dominic Baratta} 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a44e24378ffa6ca557bb56fad8482cc37}{
+\index{robOS2::hardware::interfaces::drivers::IGPS@{robOS2::hardware::interfaces::drivers::IGPS}!getAltitude@{getAltitude}}
+\index{getAltitude@{getAltitude}!robOS2::hardware::interfaces::drivers::IGPS@{robOS2::hardware::interfaces::drivers::IGPS}}
+\subsubsection[{getAltitude}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.interfaces.drivers.IGPS.getAltitude (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a44e24378ffa6ca557bb56fad8482cc37}
+Returns the current altitude of the GPS unit in (feet?) \begin{DoxyReturn}{Returns}
+Current altitude of the GPS unit 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_ae138978eaa3a7fd88347ec1d4eedf01a}{robOS2.hardware.novatel.propak3.ProPak3Driver}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a5a0b25c56dda11a9e9faa2067276a5d4}{
+\index{robOS2::hardware::interfaces::drivers::IGPS@{robOS2::hardware::interfaces::drivers::IGPS}!getEstimatedError@{getEstimatedError}}
+\index{getEstimatedError@{getEstimatedError}!robOS2::hardware::interfaces::drivers::IGPS@{robOS2::hardware::interfaces::drivers::IGPS}}
+\subsubsection[{getEstimatedError}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.interfaces.drivers.IGPS.getEstimatedError (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a5a0b25c56dda11a9e9faa2067276a5d4}
+Returns the last known estimated error in cm of the GPS signals. If the unit has been off or without signal for a period of time this reading may not be correct. If this feature is not implemented Integer.Max() will be returned. \begin{DoxyReturn}{Returns}
+Last known estimated error 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a377e2755f60280b1a10087d17164a638}{robOS2.hardware.novatel.propak3.ProPak3Driver}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a9a6f138001ad7ed235cf9597aa6c9370}{
+\index{robOS2::hardware::interfaces::drivers::IGPS@{robOS2::hardware::interfaces::drivers::IGPS}!getLatitude@{getLatitude}}
+\index{getLatitude@{getLatitude}!robOS2::hardware::interfaces::drivers::IGPS@{robOS2::hardware::interfaces::drivers::IGPS}}
+\subsubsection[{getLatitude}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.interfaces.drivers.IGPS.getLatitude (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a9a6f138001ad7ed235cf9597aa6c9370}
+Returns the last known latitude reading of the unit. If the unit has been off or without signal for a period of time this reading may not be correct. \begin{DoxyReturn}{Returns}
+Last known latitude reading 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_ab886b641bd9b66c051dfdcabae214ce4}{robOS2.hardware.novatel.propak3.ProPak3Driver}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a07d010b95292c7dae50120e5417c920e}{
+\index{robOS2::hardware::interfaces::drivers::IGPS@{robOS2::hardware::interfaces::drivers::IGPS}!getLongitude@{getLongitude}}
+\index{getLongitude@{getLongitude}!robOS2::hardware::interfaces::drivers::IGPS@{robOS2::hardware::interfaces::drivers::IGPS}}
+\subsubsection[{getLongitude}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.interfaces.drivers.IGPS.getLongitude (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a07d010b95292c7dae50120e5417c920e}
+Returns the last known longitude reading of the unit. If the unit has been off or without signal for a period of time this reading may not be correct. \begin{DoxyReturn}{Returns}
+Last known longitude reading 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a68e3d85211d88045a010da42ef6d1c76}{robOS2.hardware.novatel.propak3.ProPak3Driver}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a8d94a2750e0e7203a83653d7f08686ad}{
+\index{robOS2::hardware::interfaces::drivers::IGPS@{robOS2::hardware::interfaces::drivers::IGPS}!getNumberOfSatsConnected@{getNumberOfSatsConnected}}
+\index{getNumberOfSatsConnected@{getNumberOfSatsConnected}!robOS2::hardware::interfaces::drivers::IGPS@{robOS2::hardware::interfaces::drivers::IGPS}}
+\subsubsection[{getNumberOfSatsConnected}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.interfaces.drivers.IGPS.getNumberOfSatsConnected (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a8d94a2750e0e7203a83653d7f08686ad}
+Returns how many satellites the unit is currently connected to. If this feature is not implemented Integer.Max() will be returned. \begin{DoxyReturn}{Returns}
+Number of connected satellites 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_acf5abff3ed0b83f621f20245d4d536b6}{robOS2.hardware.novatel.propak3.ProPak3Driver}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a39e90e740aa789228076910099c0576f}{
+\index{robOS2::hardware::interfaces::drivers::IGPS@{robOS2::hardware::interfaces::drivers::IGPS}!getTemperature@{getTemperature}}
+\index{getTemperature@{getTemperature}!robOS2::hardware::interfaces::drivers::IGPS@{robOS2::hardware::interfaces::drivers::IGPS}}
+\subsubsection[{getTemperature}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.interfaces.drivers.IGPS.getTemperature (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a39e90e740aa789228076910099c0576f}
+Returns the current temperature of the GPS unit. If this feature is not implemented Double.Max() will be returned. \begin{DoxyReturn}{Returns}
+Current temperature of the GPS unit 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a4bac18c969e8377dc0f0d239478c149e}{robOS2.hardware.novatel.propak3.ProPak3Driver}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a353affd2df45ade5f7808644dd6be33f}{
+\index{robOS2::hardware::interfaces::drivers::IGPS@{robOS2::hardware::interfaces::drivers::IGPS}!getVelocity@{getVelocity}}
+\index{getVelocity@{getVelocity}!robOS2::hardware::interfaces::drivers::IGPS@{robOS2::hardware::interfaces::drivers::IGPS}}
+\subsubsection[{getVelocity}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.interfaces.drivers.IGPS.getVelocity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1drivers_1_1_i_g_p_s_a353affd2df45ade5f7808644dd6be33f}
+Returns the current velocity of the platform in m/s \begin{DoxyReturn}{Returns}
+Current velocity in meters per second 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1novatel_1_1propak3_1_1_pro_pak3_driver_a21e8ff2c0b18e922c30020d42ae7a270}{robOS2.hardware.novatel.propak3.ProPak3Driver}.
+
+
+
+The documentation for this interface was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/hardware/interfaces/drivers/\hyperlink{_i_g_p_s_8java}{IGPS.java}\end{DoxyCompactItemize}

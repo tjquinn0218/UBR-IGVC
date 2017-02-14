@@ -1,0 +1,11 @@
+\hypertarget{namespacerob_o_s2_1_1gui_1_1simulator}{
+\section{Package robOS2.gui.simulator}
+\label{namespacerob_o_s2_1_1gui_1_1simulator}\index{robOS2.gui.simulator@{robOS2.gui.simulator}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classrob_o_s2_1_1gui_1_1simulator_1_1_resolution_dialog}{ResolutionDialog}
+\item 
+class \hyperlink{classrob_o_s2_1_1gui_1_1simulator_1_1_velocity_dialog}{VelocityDialog}
+\end{DoxyCompactItemize}

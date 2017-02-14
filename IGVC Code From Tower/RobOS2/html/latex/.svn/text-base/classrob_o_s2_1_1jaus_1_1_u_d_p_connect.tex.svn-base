@@ -1,0 +1,98 @@
+\hypertarget{classrob_o_s2_1_1jaus_1_1_u_d_p_connect}{
+\section{robOS2.jaus.UDPConnect Class Reference}
+\label{classrob_o_s2_1_1jaus_1_1_u_d_p_connect}\index{robOS2::jaus::UDPConnect@{robOS2::jaus::UDPConnect}}
+}
+
+
+Inheritance diagram for robOS2.jaus.UDPConnect:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{classrob_o_s2_1_1jaus_1_1_u_d_p_connect__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for robOS2.jaus.UDPConnect:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=398pt]{classrob_o_s2_1_1jaus_1_1_u_d_p_connect__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1jaus_1_1_u_d_p_connect_adaca88f42b6f4c630ed2c1576a16044e}{UDPConnect} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1jaus_1_1_u_d_p_connect_a20e99dd17863acc0c6acfa98adb5f49b}{UDPClose} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Package Functions}
+\begin{DoxyCompactItemize}
+\item 
+static DatagramSocket \hyperlink{classrob_o_s2_1_1jaus_1_1_u_d_p_connect_a40fd8f373120baf9011b7d15e00ca1ee}{getSocket} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1jaus_1_1_u_d_p_connect_a168f2ebd6b98cc73c15978459ce74eb9}{log} = Logger.getLogger(UDPConnect.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static DatagramSocket \hyperlink{classrob_o_s2_1_1jaus_1_1_u_d_p_connect_a9752be90a67ba9672f21020c782396c9}{\_\-socket}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1jaus_1_1_u_d_p_connect_adaca88f42b6f4c630ed2c1576a16044e}{
+\index{robOS2::jaus::UDPConnect@{robOS2::jaus::UDPConnect}!UDPConnect@{UDPConnect}}
+\index{UDPConnect@{UDPConnect}!robOS2::jaus::UDPConnect@{robOS2::jaus::UDPConnect}}
+\subsubsection[{UDPConnect}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.jaus.UDPConnect.UDPConnect (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1jaus_1_1_u_d_p_connect_adaca88f42b6f4c630ed2c1576a16044e}
+Constructor to connect to a UDP socket. The connection address is specified in the \hyperlink{interfacerob_o_s2_1_1jaus_1_1_i_j_a_u_s_config}{IJAUSConfig} file. The specific connection information should be obtained from your local JAUS official 
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1jaus_1_1_u_d_p_connect_a40fd8f373120baf9011b7d15e00ca1ee}{
+\index{robOS2::jaus::UDPConnect@{robOS2::jaus::UDPConnect}!getSocket@{getSocket}}
+\index{getSocket@{getSocket}!robOS2::jaus::UDPConnect@{robOS2::jaus::UDPConnect}}
+\subsubsection[{getSocket}]{\setlength{\rightskip}{0pt plus 5cm}static DatagramSocket robOS2.jaus.UDPConnect.getSocket (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1jaus_1_1_u_d_p_connect_a40fd8f373120baf9011b7d15e00ca1ee}
+Returns the DatagramSocket being used to communicate to the JAUS host. \begin{DoxyReturn}{Returns}
+DatagramSocket -\/ Returns the socket being used for communication. If the socket is not open it will simply return null. 
+\end{DoxyReturn}
+\hypertarget{classrob_o_s2_1_1jaus_1_1_u_d_p_connect_a20e99dd17863acc0c6acfa98adb5f49b}{
+\index{robOS2::jaus::UDPConnect@{robOS2::jaus::UDPConnect}!UDPClose@{UDPClose}}
+\index{UDPClose@{UDPClose}!robOS2::jaus::UDPConnect@{robOS2::jaus::UDPConnect}}
+\subsubsection[{UDPClose}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.jaus.UDPConnect.UDPClose (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1jaus_1_1_u_d_p_connect_a20e99dd17863acc0c6acfa98adb5f49b}
+Closes the UDP JAUS connection. After closing this you can't send or receive any more JAUS packets. 
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1jaus_1_1_u_d_p_connect_a9752be90a67ba9672f21020c782396c9}{
+\index{robOS2::jaus::UDPConnect@{robOS2::jaus::UDPConnect}!\_\-socket@{\_\-socket}}
+\index{\_\-socket@{\_\-socket}!robOS2::jaus::UDPConnect@{robOS2::jaus::UDPConnect}}
+\subsubsection[{\_\-socket}]{\setlength{\rightskip}{0pt plus 5cm}DatagramSocket {\bf robOS2.jaus.UDPConnect.\_\-socket}\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classrob_o_s2_1_1jaus_1_1_u_d_p_connect_a9752be90a67ba9672f21020c782396c9}
+\hypertarget{classrob_o_s2_1_1jaus_1_1_u_d_p_connect_a168f2ebd6b98cc73c15978459ce74eb9}{
+\index{robOS2::jaus::UDPConnect@{robOS2::jaus::UDPConnect}!log@{log}}
+\index{log@{log}!robOS2::jaus::UDPConnect@{robOS2::jaus::UDPConnect}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.jaus.UDPConnect.log} = Logger.getLogger(UDPConnect.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1jaus_1_1_u_d_p_connect_a168f2ebd6b98cc73c15978459ce74eb9}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/jaus/\hyperlink{_u_d_p_connect_8java}{UDPConnect.java}\end{DoxyCompactItemize}

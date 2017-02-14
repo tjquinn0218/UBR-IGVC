@@ -1,0 +1,14 @@
+\hypertarget{_waypoint_test_8java}{
+\section{src/junitTests/gps/WaypointTest.java File Reference}
+\label{_waypoint_test_8java}\index{src/junitTests/gps/WaypointTest.java@{src/junitTests/gps/WaypointTest.java}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classjunit_tests_1_1gps_1_1_waypoint_test}{junitTests.gps.WaypointTest}
+\end{DoxyCompactItemize}
+\subsection*{Packages}
+\begin{DoxyCompactItemize}
+\item 
+package \hyperlink{namespacejunit_tests_1_1gps}{junitTests.gps}
+\end{DoxyCompactItemize}

@@ -1,0 +1,200 @@
+package robOS2.hardware.clearPath;
+
+import java.io.UnsupportedEncodingException;
+
+import org.apache.log4j.Logger;
+
+import robOS2.controller.XBoxGamepadTurtlebot;
+import robOS2.hardware.interfaces.drivers.IFourMotorInterface;
+import robOS2.hardware.interfaces.drivers.IGenericMotor;
+import robOS2.serial.Connection;
+
+/**
+ * Provides a "driver" for Turtlebot so it can be used with RobOS2.
+ * This driver allows the robot to accomplish simple tasks, such as driving
+ * forward, turning and backing up.
+ * 
+ * @author dbaratta
+ */
+public class TurtleBot implements IGenericMotor, IFourMotorInterface, Commands{
+	private static Logger log = Logger.getLogger(TurtleBot.class.getName());
+	private Connection _conn;
+	
+	private int _velocity;
+	private int _rotVelocity;
+	
+	/**
+	 * 
+	 * @param conn
+	 */
+	public TurtleBot(Connection conn) {
+		_conn = conn;
+		_velocity = _rotVelocity = 0;
+		
+		/**
+		 * Setup commands
+		 */
+		_conn.writeData(CmdStart);
+		_conn.writeData(CmdFull);
+		/*
+		byte[] startdata = new byte[2];
+		startdata[0] = (byte)128;
+		startdata[1] = (byte)132;
+		_conn.writeData(startdata);
+		//int startCommand = 128;
+		//byte data[];
+			//data = Integer.toHexString(startCommand).getBytes();
+			//Puts into safe mode
+			//_conn.writeData((byte)startCommand);
+			//log.debug("Wrote Startup Message: " + Integer.toString(startCommand) + "\r");
+		
+*/
+
+		
+
+	}
+
+	@Override
+	public int queryLeftFrontEncoder() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	/**
+	 * The iRobot Create does NOT have a left rear encoder.
+	 * This method will ALWAYS return -1 for this platform
+	 */
+	@Deprecated
+	@Override
+	public int queryLeftRearEncoder() {
+		log.warn("The iRobot Create does NOT have a left rear motor encoder.");
+		return -1;
+	}
+
+	@Override
+	public int queryRightFrontEncoder() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	/**
+	 * The iRobot Create does NOT have a right rear encoder.
+	 * This method will ALWAYS return -1 for this platform
+	 */
+	@Deprecated
+	@Override
+	public int queryRightRearEncoder() {
+		log.warn("The iRobot Create does NOT have a right rear motor encoder.");
+		return -1;
+	}
+	/**
+	 * The iRobot Create does not have an EStop function
+	 */
+	@Deprecated
+	@Override
+	public void resetEStop() {
+		log.warn("The iRobot Create does not support EStop");		
+	}
+	@Override
+	public void setForwardVelocity(int velocity) {
+		//Multiplied by 5 because input is between -100 and 100 and turtle bot takes in
+		//between -500 and 500
+		_velocity = velocity * 5;
+		
+		log.debug("Setting forward velocity to: " + _velocity);
+		this.sendVelocity();		
+	}
+
+	@Override
+	public void setRotationalVelocity(int velocity) {
+		//Multiplied by 20 because the input is between -100 and 100 and turtle bot takes in 
+		//a value between -2000 and 2000
+		_rotVelocity = velocity * 20;	
+		log.debug("Setting rotational velocity to: " + _rotVelocity);
+		this.sendVelocity();
+	}
+	
+	private void sendVelocity() {
+		/*_conn.writeData(CmdDrive);
+		_conn.writeData(0);
+		_conn.writeData(100);
+		_conn.writeData(128);
+		_conn.writeData(0);*/
+		//byte[] velToSend = Integer.toString(_velocity).getBytes();
+		//byte[] rotToSent = (Integer.toString(_rotVelocity)).getBytes();
+		
+/*		_conn.writeData(CmdDrive);
+		if(_velocity < 256){
+			_conn.writeData((short)0);
+		}
+		_conn.writeData(((short)_velocity));
+		if(_rotVelocity < 256){
+			_conn.writeData((short)0);
+		}
+		_conn.writeData(((short)_rotVelocity));
+		byte[] data = new byte[4];
+		
+		short velo = (short)(_velocity);
+		data[0] = (byte)(velo>>8);
+		data[1] = (byte)(velo);
+		
+		short rad = (short)(_rotVelocity);
+		if (_rotVelocity == 0)
+		{
+			rad = 0x7FFF;
+		}
+		else if (_rotVelocity==Double.NEGATIVE_INFINITY)
+		{
+			rad = 0x0001;
+		}
+			
+		else if (_rotVelocity == Double.POSITIVE_INFINITY)
+		{
+			rad = (short)0xFFFF;
+		}
+		data[2] = (byte)(rad>>8);
+		data[3] = (byte)(rad);
+		_conn.writeData(data);*/
+		}
+	
+
+
+	@Override
+	public void updateLeftFront(int speed) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateLeftRear(int speed) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateRightFront(int speed) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateRightRear(int speed) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateRobotStatusScreen(String update) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateRemoteStatusScreen(String update) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+}

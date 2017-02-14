@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title></title>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="search.css"/>
+<script type="text/javascript" src="search.js"></script>
+</head>
+<body class="SRPage">
+<div id="SRIndex">
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRResult" id="SR_cameratest">
+ <div class="SREntry">
+  <a id="Item0" onkeydown="return searchResults.Nav(event,0)" onkeypress="return searchResults.Nav(event,0)" onkeyup="return searchResults.Nav(event,0)" class="SRSymbol" href="../classjunit_tests_1_1hardware_1_1_camera_test.html" target="_parent">CameraTest</a>
+  <span class="SRScope">junitTests::hardware</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_cameratest">
+ <div class="SREntry">
+  <a id="Item1" onkeydown="return searchResults.Nav(event,1)" onkeypress="return searchResults.Nav(event,1)" onkeyup="return searchResults.Nav(event,1)" class="SRSymbol" href="../classjunit_tests_1_1hardware_1_1_camera_test.html#a45697067b5c3b21d93b474b69faa08a9" target="_parent">cameraTest</a>
+  <span class="SRScope">junitTests::hardware::CameraTest</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_cameratest_2ejava">
+ <div class="SREntry">
+  <a id="Item2" onkeydown="return searchResults.Nav(event,2)" onkeypress="return searchResults.Nav(event,2)" onkeyup="return searchResults.Nav(event,2)" class="SRSymbol" href="../_camera_test_8java.html" target="_parent">CameraTest.java</a>
+ </div>
+</div>
+<div class="SRResult" id="SR_characters">
+ <div class="SREntry">
+  <a id="Item3" onkeydown="return searchResults.Nav(event,3)" onkeypress="return searchResults.Nav(event,3)" onkeyup="return searchResults.Nav(event,3)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_characters')">characters</a>
+  <div class="SRChildren">
+    <a id="Item3_c0" onkeydown="return searchResults.NavChild(event,3,0)" onkeypress="return searchResults.NavChild(event,3,0)" onkeyup="return searchResults.NavChild(event,3,0)" class="SRScope" href="../classrob_o_s2_1_1xml_1_1handler_1_1_default_handler.html#a9764697022e864dc51c936f934d62ebe" target="_parent">robOS2::xml::handler::DefaultHandler.characters()</a>
+    <a id="Item3_c1" onkeydown="return searchResults.NavChild(event,3,1)" onkeypress="return searchResults.NavChild(event,3,1)" onkeyup="return searchResults.NavChild(event,3,1)" class="SRScope" href="../classrob_o_s2_1_1xml_1_1handler_1_1_g_p_s_handler.html#a46a4efcf869fd473d0a3bcc927e5ce28" target="_parent">robOS2::xml::handler::GPSHandler.characters()</a>
+    <a id="Item3_c2" onkeydown="return searchResults.NavChild(event,3,2)" onkeypress="return searchResults.NavChild(event,3,2)" onkeyup="return searchResults.NavChild(event,3,2)" class="SRScope" href="../classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler.html#a60a7c7ba374796c2732fdbdf9ddd7f20" target="_parent">robOS2::xml::handler::HardwareHandler.characters()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_checkforpacket">
+ <div class="SREntry">
+  <a id="Item4" onkeydown="return searchResults.Nav(event,4)" onkeypress="return searchResults.Nav(event,4)" onkeyup="return searchResults.Nav(event,4)" class="SRSymbol" href="../classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_listener.html#ac6666efbc16789688698b655a6372758" target="_parent">checkForPacket</a>
+  <span class="SRScope">robOS2::hardware::sick::PLS112Listener</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_clear">
+ <div class="SREntry">
+  <a id="Item5" onkeydown="return searchResults.Nav(event,5)" onkeypress="return searchResults.Nav(event,5)" onkeyup="return searchResults.Nav(event,5)" class="SRSymbol" href="../classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map.html#a956eeb52a3e02581dca5df7189bfaf4e" target="_parent">Clear</a>
+  <span class="SRScope">robOS2::mapping::lidar::LIDARMap</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_clearwaypoints">
+ <div class="SREntry">
+  <a id="Item6" onkeydown="return searchResults.Nav(event,6)" onkeypress="return searchResults.Nav(event,6)" onkeyup="return searchResults.Nav(event,6)" class="SRSymbol" href="../classrob_o_s2_1_1gps_1_1_waypoint_manager.html#a8185bac57710dbaafc77b6d7916c1591" target="_parent">clearWaypoints</a>
+  <span class="SRScope">robOS2::gps::WaypointManager</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_compare">
+ <div class="SREntry">
+  <a id="Item7" onkeydown="return searchResults.Nav(event,7)" onkeypress="return searchResults.Nav(event,7)" onkeyup="return searchResults.Nav(event,7)" class="SRSymbol" href="../classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data.html#a5eb2e29b4aee279f2b0eae12812d3959" target="_parent">compare</a>
+  <span class="SRScope">robOS2::hardware::sick::SICKData</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_compareheader">
+ <div class="SREntry">
+  <a id="Item8" onkeydown="return searchResults.Nav(event,8)" onkeypress="return searchResults.Nav(event,8)" onkeyup="return searchResults.Nav(event,8)" class="SRSymbol" href="../classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data.html#a7920383a21b85149de52543f48e3440b" target="_parent">compareHeader</a>
+  <span class="SRScope">robOS2::hardware::sick::SICKData</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_compasstest">
+ <div class="SREntry">
+  <a id="Item9" onkeydown="return searchResults.Nav(event,9)" onkeypress="return searchResults.Nav(event,9)" onkeyup="return searchResults.Nav(event,9)" class="SRSymbol" href="../classjunit_tests_1_1hardware_1_1_compass_test.html#a8f73da7457b21dfeaf6d491492898897" target="_parent">compassTest</a>
+  <span class="SRScope">junitTests::hardware::CompassTest</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_compasstest">
+ <div class="SREntry">
+  <a id="Item10" onkeydown="return searchResults.Nav(event,10)" onkeypress="return searchResults.Nav(event,10)" onkeyup="return searchResults.Nav(event,10)" class="SRSymbol" href="../classjunit_tests_1_1hardware_1_1_compass_test.html" target="_parent">CompassTest</a>
+  <span class="SRScope">junitTests::hardware</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_compasstest_2ejava">
+ <div class="SREntry">
+  <a id="Item11" onkeydown="return searchResults.Nav(event,11)" onkeypress="return searchResults.Nav(event,11)" onkeyup="return searchResults.Nav(event,11)" class="SRSymbol" href="../_compass_test_8java.html" target="_parent">CompassTest.java</a>
+ </div>
+</div>
+<div class="SRResult" id="SR_config">
+ <div class="SREntry">
+  <a id="Item12" onkeydown="return searchResults.Nav(event,12)" onkeypress="return searchResults.Nav(event,12)" onkeyup="return searchResults.Nav(event,12)" class="SRSymbol" href="../classrob_o_s2_1_1serial_1_1_config.html#a80dbd2228453f877f4f5b6ca01280a77" target="_parent">Config</a>
+  <span class="SRScope">robOS2::serial::Config</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_config">
+ <div class="SREntry">
+  <a id="Item13" onkeydown="return searchResults.Nav(event,13)" onkeypress="return searchResults.Nav(event,13)" onkeyup="return searchResults.Nav(event,13)" class="SRSymbol" href="../classrob_o_s2_1_1serial_1_1_config.html" target="_parent">Config</a>
+  <span class="SRScope">robOS2::serial</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_config_2ejava">
+ <div class="SREntry">
+  <a id="Item14" onkeydown="return searchResults.Nav(event,14)" onkeypress="return searchResults.Nav(event,14)" onkeyup="return searchResults.Nav(event,14)" class="SRSymbol" href="../_config_8java.html" target="_parent">Config.java</a>
+ </div>
+</div>
+<div class="SRResult" id="SR_connect">
+ <div class="SREntry">
+  <a id="Item15" onkeydown="return searchResults.Nav(event,15)" onkeypress="return searchResults.Nav(event,15)" onkeyup="return searchResults.Nav(event,15)" class="SRSymbol" href="../classrob_o_s2_1_1serial_1_1_connection.html#ac257ab4cd2e8d52c3ee16d818f6fd622" target="_parent">connect</a>
+  <span class="SRScope">robOS2::serial::Connection</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_connectevenparity">
+ <div class="SREntry">
+  <a id="Item16" onkeydown="return searchResults.Nav(event,16)" onkeypress="return searchResults.Nav(event,16)" onkeyup="return searchResults.Nav(event,16)" class="SRSymbol" href="../classrob_o_s2_1_1serial_1_1_connection.html#a94a8c1eac9181dc2312867d4a0c92f15" target="_parent">connectEvenParity</a>
+  <span class="SRScope">robOS2::serial::Connection</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_connection">
+ <div class="SREntry">
+  <a id="Item17" onkeydown="return searchResults.Nav(event,17)" onkeypress="return searchResults.Nav(event,17)" onkeyup="return searchResults.Nav(event,17)" class="SRSymbol" href="../classrob_o_s2_1_1serial_1_1_connection.html" target="_parent">Connection</a>
+  <span class="SRScope">robOS2::serial</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_connection">
+ <div class="SREntry">
+  <a id="Item18" onkeydown="return searchResults.Nav(event,18)" onkeypress="return searchResults.Nav(event,18)" onkeyup="return searchResults.Nav(event,18)" class="SRSymbol" href="../classrob_o_s2_1_1serial_1_1_connection.html#a4d39b04b37c975fba14263dbc9664959" target="_parent">Connection</a>
+  <span class="SRScope">robOS2::serial::Connection</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_connection_2ejava">
+ <div class="SREntry">
+  <a id="Item19" onkeydown="return searchResults.Nav(event,19)" onkeypress="return searchResults.Nav(event,19)" onkeyup="return searchResults.Nav(event,19)" class="SRSymbol" href="../_connection_8java.html" target="_parent">Connection.java</a>
+ </div>
+</div>
+<div class="SRResult" id="SR_connectionmanager">
+ <div class="SREntry">
+  <a id="Item20" onkeydown="return searchResults.Nav(event,20)" onkeypress="return searchResults.Nav(event,20)" onkeyup="return searchResults.Nav(event,20)" class="SRSymbol" href="../classrob_o_s2_1_1serial_1_1_connection_manager.html" target="_parent">ConnectionManager</a>
+  <span class="SRScope">robOS2::serial</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_connectionmanager">
+ <div class="SREntry">
+  <a id="Item21" onkeydown="return searchResults.Nav(event,21)" onkeypress="return searchResults.Nav(event,21)" onkeyup="return searchResults.Nav(event,21)" class="SRSymbol" href="../classrob_o_s2_1_1serial_1_1_connection_manager.html#ae204bc639b148f37d6a4d7472b024fca" target="_parent">ConnectionManager</a>
+  <span class="SRScope">robOS2::serial::ConnectionManager</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_connectionmanager_2ejava">
+ <div class="SREntry">
+  <a id="Item22" onkeydown="return searchResults.Nav(event,22)" onkeypress="return searchResults.Nav(event,22)" onkeyup="return searchResults.Nav(event,22)" class="SRSymbol" href="../_connection_manager_8java.html" target="_parent">ConnectionManager.java</a>
+ </div>
+</div>
+<div class="SRResult" id="SR_connectnoparity">
+ <div class="SREntry">
+  <a id="Item23" onkeydown="return searchResults.Nav(event,23)" onkeypress="return searchResults.Nav(event,23)" onkeyup="return searchResults.Nav(event,23)" class="SRSymbol" href="../classrob_o_s2_1_1serial_1_1_connection.html#ad0f7dd19aa0d36bbee7cc1375f555018" target="_parent">connectNoParity</a>
+  <span class="SRScope">robOS2::serial::Connection</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_connectoddparity">
+ <div class="SREntry">
+  <a id="Item24" onkeydown="return searchResults.Nav(event,24)" onkeypress="return searchResults.Nav(event,24)" onkeyup="return searchResults.Nav(event,24)" class="SRSymbol" href="../classrob_o_s2_1_1serial_1_1_connection.html#a9a319757be792ba1b784eaaa313d448a" target="_parent">connectOddParity</a>
+  <span class="SRScope">robOS2::serial::Connection</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_constantbaud">
+ <div class="SREntry">
+  <a id="Item25" onkeydown="return searchResults.Nav(event,25)" onkeypress="return searchResults.Nav(event,25)" onkeyup="return searchResults.Nav(event,25)" class="SRSymbol" href="../classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver.html#a3b0fe31001bfc91e72cc4274873d4ec0" target="_parent">constantBaud</a>
+  <span class="SRScope">robOS2::hardware::sick::PLS112Driver</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_convertangle">
+ <div class="SREntry">
+  <a id="Item26" onkeydown="return searchResults.Nav(event,26)" onkeypress="return searchResults.Nav(event,26)" onkeyup="return searchResults.Nav(event,26)" class="SRSymbol" href="../classrob_o_s2_1_1mapping_1_1lidar_1_1_l_i_d_a_r_map.html#aef8872f73d969c4272f5ae856b5ea2e5" target="_parent">convertAngle</a>
+  <span class="SRScope">robOS2::mapping::lidar::LIDARMap</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_corners">
+ <div class="SREntry">
+  <a id="Item27" onkeydown="return searchResults.Nav(event,27)" onkeypress="return searchResults.Nav(event,27)" onkeyup="return searchResults.Nav(event,27)" class="SRSymbol" href="../classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map.html#a1f25a86b5c1d404f25f9e90c2311b3f2" target="_parent">corners</a>
+  <span class="SRScope">robOS2::mapping::quadMap::QuadMap</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_crc16_5fgen_5fpol">
+ <div class="SREntry">
+  <a id="Item28" onkeydown="return searchResults.Nav(event,28)" onkeypress="return searchResults.Nav(event,28)" onkeyup="return searchResults.Nav(event,28)" class="SRSymbol" href="../classrob_o_s2_1_1hardware_1_1sick_1_1_s_i_c_k_data.html#afb16b2c2129a29ea71ad62d4d3d09ca0" target="_parent">CRC16_GEN_POL</a>
+  <span class="SRScope">robOS2::hardware::sick::SICKData</span>
+ </div>
+</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+<script type="text/javascript"><!--
+document.getElementById("Loading").style.display="none";
+document.getElementById("NoMatches").style.display="none";
+var searchResults = new SearchResults("searchResults");
+searchResults.Search();
+--></script>
+</div>
+</body>
+</html>

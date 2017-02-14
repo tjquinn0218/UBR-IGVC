@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/software/!svn/ver/250/RobOS2
+END
+Jama-1.0.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/software/!svn/ver/129/RobOS2/Jama-1.0.2.jar
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/software/!svn/ver/224/RobOS2/.classpath
+END
+swing2swt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/software/!svn/ver/224/RobOS2/swing2swt.jar
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/software/!svn/ver/207/RobOS2/Doxyfile
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/software/!svn/ver/47/RobOS2/.project
+END
+libjjstick.so
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/software/!svn/ver/216/RobOS2/libjjstick.so
+END
+commons-io-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/software/!svn/ver/149/RobOS2/commons-io-1.2.jar
+END
+Joystick.jar
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/software/!svn/ver/197/RobOS2/Joystick.jar
+END
+RXTXcomm.jar
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/software/!svn/ver/84/RobOS2/RXTXcomm.jar
+END
+librxtxSerial.so
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/software/!svn/ver/216/RobOS2/librxtxSerial.so
+END
+log4j-1.2.16.jar
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/software/!svn/ver/80/RobOS2/log4j-1.2.16.jar
+END

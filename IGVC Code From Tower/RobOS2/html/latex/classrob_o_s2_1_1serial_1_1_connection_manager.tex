@@ -1,0 +1,200 @@
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_manager}{
+\section{robOS2.serial.ConnectionManager Class Reference}
+\label{classrob_o_s2_1_1serial_1_1_connection_manager}\index{robOS2::serial::ConnectionManager@{robOS2::serial::ConnectionManager}}
+}
+
+
+Collaboration diagram for robOS2.serial.ConnectionManager:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=391pt]{classrob_o_s2_1_1serial_1_1_connection_manager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1serial_1_1_connection_manager_ae204bc639b148f37d6a4d7472b024fca}{ConnectionManager} ()
+\item 
+\hyperlink{classrob_o_s2_1_1serial_1_1_connection}{Connection} \hyperlink{classrob_o_s2_1_1serial_1_1_connection_manager_ab6ea1a446959d2e8bd7b2df15fd4d17d}{getConnection} (String name)
+\item 
+void \hyperlink{classrob_o_s2_1_1serial_1_1_connection_manager_addb4b410cb943537ccabbf7166e86d05}{removeConnection} (String name)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classrob_o_s2_1_1serial_1_1_connection}{Connection} \hyperlink{classrob_o_s2_1_1serial_1_1_connection_manager_a899c94d6185dd77f76e84712c9b6b6f7}{openConnection} (String name)
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1serial_1_1_connection_manager_ae9baf7505a0fbb5ad7db4d3f8246f793}{log} = Logger.getLogger(ConnectionManager.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classrob_o_s2_1_1serial_1_1_connection}{Connection} \hyperlink{classrob_o_s2_1_1serial_1_1_connection_manager_a5780dd9b4d97ed1bdff46199fd969992}{search} (String name)
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ \hyperlink{classrob_o_s2_1_1serial_1_1_connection}{Connection} $>$ \hyperlink{classrob_o_s2_1_1serial_1_1_connection_manager_a8ccc3c8a447847f7d12ab6b5c5e5177c}{\_\-connections} = Collections.synchronizedList(new LinkedList$<$\hyperlink{classrob_o_s2_1_1serial_1_1_connection}{Connection}$>$())
+\item 
+static \hyperlink{classrob_o_s2_1_1serial_1_1_config}{Config} \hyperlink{classrob_o_s2_1_1serial_1_1_connection_manager_ad052c8a632d7e4e9362d81def15181c7}{\_\-cfg}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_manager_ae204bc639b148f37d6a4d7472b024fca}{
+\index{robOS2::serial::ConnectionManager@{robOS2::serial::ConnectionManager}!ConnectionManager@{ConnectionManager}}
+\index{ConnectionManager@{ConnectionManager}!robOS2::serial::ConnectionManager@{robOS2::serial::ConnectionManager}}
+\subsubsection[{ConnectionManager}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.serial.ConnectionManager.ConnectionManager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1serial_1_1_connection_manager_ae204bc639b148f37d6a4d7472b024fca}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1serial_1_1_connection_manager_ae204bc639b148f37d6a4d7472b024fca_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_manager_ab6ea1a446959d2e8bd7b2df15fd4d17d}{
+\index{robOS2::serial::ConnectionManager@{robOS2::serial::ConnectionManager}!getConnection@{getConnection}}
+\index{getConnection@{getConnection}!robOS2::serial::ConnectionManager@{robOS2::serial::ConnectionManager}}
+\subsubsection[{getConnection}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Connection} robOS2.serial.ConnectionManager.getConnection (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1serial_1_1_connection_manager_ab6ea1a446959d2e8bd7b2df15fd4d17d}
+Searches the current connection database for a open connection with the provided name running.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1serial_1_1_connection_manager_ab6ea1a446959d2e8bd7b2df15fd4d17d_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_manager_a899c94d6185dd77f76e84712c9b6b6f7}{
+\index{robOS2::serial::ConnectionManager@{robOS2::serial::ConnectionManager}!openConnection@{openConnection}}
+\index{openConnection@{openConnection}!robOS2::serial::ConnectionManager@{robOS2::serial::ConnectionManager}}
+\subsubsection[{openConnection}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Connection} robOS2.serial.ConnectionManager.openConnection (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1serial_1_1_connection_manager_a899c94d6185dd77f76e84712c9b6b6f7}
+Method to create a new serial connection, and add it to the open connection database. This does not take care of setting up the connection. Once the connection is opened it is up to you to setup items such as baud rate and parity.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1serial_1_1_connection_manager_a899c94d6185dd77f76e84712c9b6b6f7_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_manager_addb4b410cb943537ccabbf7166e86d05}{
+\index{robOS2::serial::ConnectionManager@{robOS2::serial::ConnectionManager}!removeConnection@{removeConnection}}
+\index{removeConnection@{removeConnection}!robOS2::serial::ConnectionManager@{robOS2::serial::ConnectionManager}}
+\subsubsection[{removeConnection}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.serial.ConnectionManager.removeConnection (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1serial_1_1_connection_manager_addb4b410cb943537ccabbf7166e86d05}
+Searches for a connection identified by the provided name, disables the connection and then removes it from the open connections database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1serial_1_1_connection_manager_addb4b410cb943537ccabbf7166e86d05_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_manager_a5780dd9b4d97ed1bdff46199fd969992}{
+\index{robOS2::serial::ConnectionManager@{robOS2::serial::ConnectionManager}!search@{search}}
+\index{search@{search}!robOS2::serial::ConnectionManager@{robOS2::serial::ConnectionManager}}
+\subsubsection[{search}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Connection} robOS2.serial.ConnectionManager.search (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classrob_o_s2_1_1serial_1_1_connection_manager_a5780dd9b4d97ed1bdff46199fd969992}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1serial_1_1_connection_manager_a5780dd9b4d97ed1bdff46199fd969992_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_manager_ad052c8a632d7e4e9362d81def15181c7}{
+\index{robOS2::serial::ConnectionManager@{robOS2::serial::ConnectionManager}!\_\-cfg@{\_\-cfg}}
+\index{\_\-cfg@{\_\-cfg}!robOS2::serial::ConnectionManager@{robOS2::serial::ConnectionManager}}
+\subsubsection[{\_\-cfg}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Config} {\bf robOS2.serial.ConnectionManager.\_\-cfg}\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classrob_o_s2_1_1serial_1_1_connection_manager_ad052c8a632d7e4e9362d81def15181c7}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_manager_a8ccc3c8a447847f7d12ab6b5c5e5177c}{
+\index{robOS2::serial::ConnectionManager@{robOS2::serial::ConnectionManager}!\_\-connections@{\_\-connections}}
+\index{\_\-connections@{\_\-connections}!robOS2::serial::ConnectionManager@{robOS2::serial::ConnectionManager}}
+\subsubsection[{\_\-connections}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Connection}$>$ {\bf robOS2.serial.ConnectionManager.\_\-connections} = Collections.synchronizedList(new LinkedList$<${\bf Connection}$>$())\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classrob_o_s2_1_1serial_1_1_connection_manager_a8ccc3c8a447847f7d12ab6b5c5e5177c}
+\hypertarget{classrob_o_s2_1_1serial_1_1_connection_manager_ae9baf7505a0fbb5ad7db4d3f8246f793}{
+\index{robOS2::serial::ConnectionManager@{robOS2::serial::ConnectionManager}!log@{log}}
+\index{log@{log}!robOS2::serial::ConnectionManager@{robOS2::serial::ConnectionManager}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.serial.ConnectionManager.log} = Logger.getLogger(ConnectionManager.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1serial_1_1_connection_manager_ae9baf7505a0fbb5ad7db4d3f8246f793}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/serial/\hyperlink{_connection_manager_8java}{ConnectionManager.java}\end{DoxyCompactItemize}

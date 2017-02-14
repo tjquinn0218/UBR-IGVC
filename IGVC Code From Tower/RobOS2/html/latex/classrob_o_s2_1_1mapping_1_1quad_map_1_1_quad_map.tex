@@ -1,0 +1,551 @@
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map}{
+\section{robOS2.mapping.quadMap.QuadMap Class Reference}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map}\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+}
+
+
+Collaboration diagram for robOS2.mapping.quadMap.QuadMap:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a0c90cc570e08c5466a6e86684ba1516a}{QuadMap} (double ULeftLat, double ULeftLong, double LRLat, double LRLong)
+\item 
+void \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_aaeb79b6d8ef9496dcab9c0da5f15e9a5}{quadCheck} (double x, double y)
+\item 
+void \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a1532b5de71e516d72d6d32d26336526e}{addChild} (\hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quadrant}{Quadrant} quad, double x, double y)
+\item 
+\hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quadrant}{Quadrant} \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a9d6cf8f6d5192b7d8e7158a1b944baf5}{query} ()
+\item 
+boolean \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_aa0313111814fd3b51ca3c34066c072fe}{search} (double x, double y)
+\item 
+boolean \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_ad8d19b03ecf80e93eb1fed8138298920}{remove} (double x, double y)
+\item 
+void \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a7502115c7bdc0b6a6ecdace22e68c7c9}{addLine} (double xLineStart, double yLineStart, double xLineEnd, double yLineEnd)
+\item 
+double\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a7bd398c8bb3243a349f6d0a258a6e540}{areaSearch} (double upperLeftX, double upperLeftY, double lowerRightX, double lowerRightY)
+\item 
+double \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a78652ee3190b887e50a57b59fd6cb74b}{dist} (double lat1, double lon1, double lat2, double lon2)
+\item 
+double\mbox{[}$\,$\mbox{]} \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a1f0463534bde99838b34c265c09cfcad}{destination} (double lat1, double lon1, double brng, double dist)
+\item 
+void \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a476ae9d095ccccdffd69ac13f0e1e9d0}{setMapSize} (double maxLat, double maxLon, double minLat, double minLon)
+\item 
+double\mbox{[}$\,$\mbox{]} \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a1f25a86b5c1d404f25f9e90c2311b3f2}{corners} (double x, double y, double lat, double lon)
+\item 
+void \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_af31a7730380b65079dcc01c03218338a}{run} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a7232e1ffc4b48c8ce4a70ef1f965c445}{start} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_ac60ab9ccdc70b389be6c7e87252f86d1}{stop} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_ac4c01d1f732a042fdfde54e6aa1358f3}{log} = Logger.getLogger(QuadMap.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a9f24ffcc536cedcc6f9b7412d716c516}{\_\-level} = 0
+\item 
+int \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a944ce3b32759689afbafe7c58737e852}{\_\-maxLvl} = 2
+\item 
+double \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_ad167b359063c6de323b09cce45d6f6c3}{\_\-maxInterval} = 0.2
+\item 
+double \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_ab3ab527c4fa6bf6772168dd17b1319ec}{\_\-mapSizeX} = 0.0
+\item 
+double \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a456395906e38ca89d316332d00bc453c}{\_\-mapSizeY} = 0.0
+\item 
+boolean \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_add1eeff613fb12f79b183939a3bef983}{\_\-isRunning} = false
+\item 
+LinkedList$<$ \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quadrant}{Quadrant} $>$ \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_afa3d61b3214d5673b2760adbab9979f3}{\_\-children} = new LinkedList$<$\hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quadrant}{Quadrant}$>$()
+\item 
+\hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_map}{Map} \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a089973d65aee27b607e5d9a3d3752f71}{\_\-map}
+\item 
+Thread \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a077771c6c78e2c1419df398b50aa4c81}{\_\-thread} = new Thread(this, \char`\"{}QuadMap\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Detects if supplied coordinates are with in a specific quadrant then divides quadrant into small quadrants and performs test again repeats to a specified level locations given as gps coordinates MUST run setMapSize first!
+
+\begin{DoxyAuthor}{Author}
+Sean Bicknell -\/ \href{mailto:seanbick@buffalo.edu}{\tt seanbick@buffalo.edu} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+I\% G\% 
+\end{DoxyVersion}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a0c90cc570e08c5466a6e86684ba1516a}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!QuadMap@{QuadMap}}
+\index{QuadMap@{QuadMap}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{QuadMap}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.mapping.quadMap.QuadMap.QuadMap (
+\begin{DoxyParamCaption}
+\item[{double}]{ULeftLat, }
+\item[{double}]{ULeftLong, }
+\item[{double}]{LRLat, }
+\item[{double}]{LRLong}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a0c90cc570e08c5466a6e86684ba1516a}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a0c90cc570e08c5466a6e86684ba1516a_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a1532b5de71e516d72d6d32d26336526e}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!addChild@{addChild}}
+\index{addChild@{addChild}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{addChild}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.mapping.quadMap.QuadMap.addChild (
+\begin{DoxyParamCaption}
+\item[{{\bf Quadrant}}]{quad, }
+\item[{double}]{x, }
+\item[{double}]{y}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a1532b5de71e516d72d6d32d26336526e}
+Adds child node to previous node based on location of x , y coords in relation to previous node.
+
+
+\begin{DoxyParams}{Parameters}
+{\em quad} & -\/ \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quadrant}{Quadrant} object from the checkQuad method \\
+\hline
+{\em x} & -\/ X coordinate of point -\/ passed from checkQuad method \\
+\hline
+{\em y} & -\/ Y coordinate of point -\/ passed from checkQuad method \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a1532b5de71e516d72d6d32d26336526e_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a7502115c7bdc0b6a6ecdace22e68c7c9}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!addLine@{addLine}}
+\index{addLine@{addLine}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{addLine}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.mapping.quadMap.QuadMap.addLine (
+\begin{DoxyParamCaption}
+\item[{double}]{xLineStart, }
+\item[{double}]{yLineStart, }
+\item[{double}]{xLineEnd, }
+\item[{double}]{yLineEnd}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a7502115c7bdc0b6a6ecdace22e68c7c9}
+requires a starting point and an end point defined by x , y coordinates determines the equation of the line and generates points on that line returns nothing
+
+
+\begin{DoxyParams}{Parameters}
+{\em xLineStart} & -\/ X coordinate of the start of the line \\
+\hline
+{\em yLineStart} & -\/ Y coordinate of the start of the line \\
+\hline
+{\em xLineEnd} & -\/ X coordinate of the end of the line \\
+\hline
+{\em yLineEnd} & -\/ Y coordinate of the end of the line \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a7502115c7bdc0b6a6ecdace22e68c7c9_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a7bd398c8bb3243a349f6d0a258a6e540}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!areaSearch@{areaSearch}}
+\index{areaSearch@{areaSearch}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{areaSearch}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} robOS2.mapping.quadMap.QuadMap.areaSearch (
+\begin{DoxyParamCaption}
+\item[{double}]{upperLeftX, }
+\item[{double}]{upperLeftY, }
+\item[{double}]{lowerRightX, }
+\item[{double}]{lowerRightY}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a7bd398c8bb3243a349f6d0a258a6e540}
+Requires the x , y coordinates of the upper left and lower right of a rectangular area searchs specified area for quadrants with center point inside search area. returns a multi-\/dimensional array of x and y values for each point found in the search area.
+
+
+\begin{DoxyParams}{Parameters}
+{\em upperLeftX} & -\/ the X coordinate of the upper left corner of the search area \\
+\hline
+{\em upperLeftY} & -\/ the Y coordinate of the upper left corner of the search area \\
+\hline
+{\em lowerRightX} & -\/ the X coordinate of the lower right corner of the search area \\
+\hline
+{\em lowerRightY} & -\/ the Y coordinate of the lower right corner of the search area \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a multi-\/dimensional array of doubles the first index 0 is x or 1 is y values second index is count 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a7bd398c8bb3243a349f6d0a258a6e540_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a1f25a86b5c1d404f25f9e90c2311b3f2}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!corners@{corners}}
+\index{corners@{corners}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{corners}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]} robOS2.mapping.quadMap.QuadMap.corners (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y, }
+\item[{double}]{lat, }
+\item[{double}]{lon}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a1f25a86b5c1d404f25f9e90c2311b3f2}
+Determines the coordinates of the upper left corner and lower right corner of a box of a given x and y size
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/ the size in the x direction of the box \\
+\hline
+{\em y} & -\/ the size in the y direction of the box \\
+\hline
+{\em lat} & -\/ the latitude of the center of the box \\
+\hline
+{\em lon} & -\/ the longitude of the center of the box \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a array of doubles of the coordinates for the upper left corner and lower right corner of of the box in the order upper left latitude, upper left longitude , lower right latitude, lower right longitude 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a1f25a86b5c1d404f25f9e90c2311b3f2_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a1f0463534bde99838b34c265c09cfcad}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!destination@{destination}}
+\index{destination@{destination}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{destination}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]} robOS2.mapping.quadMap.QuadMap.destination (
+\begin{DoxyParamCaption}
+\item[{double}]{lat1, }
+\item[{double}]{lon1, }
+\item[{double}]{brng, }
+\item[{double}]{dist}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a1f0463534bde99838b34c265c09cfcad}
+Calculate destination point given start point lat/long (numeric degrees), bearing (numeric degrees) \& distance (in m).
+
+from: Vincenty direct formula -\/ T Vincenty, \char`\"{}Direct and Inverse Solutions
+ of Geodesics on the Ellipsoid with application of nested equations\char`\"{}, Survey Review, vol XXII no 176, 1975 \href{http://www.ngs.noaa.gov/PUBS_LIB/inverse.pdf}{\tt http://www.ngs.noaa.gov/PUBS\_\-LIB/inverse.pdf} 
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a1f0463534bde99838b34c265c09cfcad_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a78652ee3190b887e50a57b59fd6cb74b}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!dist@{dist}}
+\index{dist@{dist}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{dist}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.mapping.quadMap.QuadMap.dist (
+\begin{DoxyParamCaption}
+\item[{double}]{lat1, }
+\item[{double}]{lon1, }
+\item[{double}]{lat2, }
+\item[{double}]{lon2}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a78652ee3190b887e50a57b59fd6cb74b}
+Calculates geodetic distance between two points specified by latitude/doubleitude using Vincenty inverse formula for ellipsoids
+
+
+\begin{DoxyParams}{Parameters}
+{\em \{Double\}} & lat1, lon1: first point in decimal degrees \\
+\hline
+{\em \{Double\}} & lat2, lon2: second point in decimal degrees \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\{Double\} distance in metres between points 
+\end{DoxyReturn}
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_aaeb79b6d8ef9496dcab9c0da5f15e9a5}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!quadCheck@{quadCheck}}
+\index{quadCheck@{quadCheck}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{quadCheck}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.mapping.quadMap.QuadMap.quadCheck (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_aaeb79b6d8ef9496dcab9c0da5f15e9a5}
+Check to see which quad coords are in, instantiates new copy of Quadrant() class and assigns it xy coordinates for location of its center as well as assigning a level.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/ x coordinate of the point to be inserted \\
+\hline
+{\em y} & -\/ y coordinate of the point to be inserted \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_aaeb79b6d8ef9496dcab9c0da5f15e9a5_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a9d6cf8f6d5192b7d8e7158a1b944baf5}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!query@{query}}
+\index{query@{query}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{query}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Quadrant} robOS2.mapping.quadMap.QuadMap.query (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a9d6cf8f6d5192b7d8e7158a1b944baf5}
+Looks for nodes at deepest level, returns instance of quadrant class that represents that node, allowing access to the x , y coords of the center of the quadrant and the level.
+
+\begin{DoxyReturn}{Returns}
+returns \hyperlink{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quadrant}{Quadrant} object, at the deepest level 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a9d6cf8f6d5192b7d8e7158a1b944baf5_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_ad8d19b03ecf80e93eb1fed8138298920}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!remove@{remove}}
+\index{remove@{remove}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}boolean robOS2.mapping.quadMap.QuadMap.remove (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_ad8d19b03ecf80e93eb1fed8138298920}
+searches deepest nodes from the linked list for a point specified if it is found, removes from the linked list and sets it to null causing it to be picked up by garbage collection.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/ X coordinate of point to be removed \\
+\hline
+{\em y} & -\/ Y coordinate of point to be removed \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily  true } if point found and removed,{\ttfamily  false } if point unfound 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_ad8d19b03ecf80e93eb1fed8138298920_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_af31a7730380b65079dcc01c03218338a}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!run@{run}}
+\index{run@{run}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.mapping.quadMap.QuadMap.run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_af31a7730380b65079dcc01c03218338a}
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_aa0313111814fd3b51ca3c34066c072fe}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!search@{search}}
+\index{search@{search}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{search}]{\setlength{\rightskip}{0pt plus 5cm}boolean robOS2.mapping.quadMap.QuadMap.search (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_aa0313111814fd3b51ca3c34066c072fe}
+requires an x , y coordinate, checks all of the high level quadrants to see if point falls inside its bounds
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/ X Coordinate of point to be searched \\
+\hline
+{\em y} & -\/ Y Coordinate of point to be searched \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily  true } if point found, {\ttfamily  false } if point is not found 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_aa0313111814fd3b51ca3c34066c072fe_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a476ae9d095ccccdffd69ac13f0e1e9d0}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!setMapSize@{setMapSize}}
+\index{setMapSize@{setMapSize}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{setMapSize}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.mapping.quadMap.QuadMap.setMapSize (
+\begin{DoxyParamCaption}
+\item[{double}]{maxLat, }
+\item[{double}]{maxLon, }
+\item[{double}]{minLat, }
+\item[{double}]{minLon}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a476ae9d095ccccdffd69ac13f0e1e9d0}
+Determines the size of the overall map given the coordinates for the upper left corner and the coordinates for the lower right corner and sets the mapSizeX and mapSizeY variables.
+
+
+\begin{DoxyParams}{Parameters}
+{\em maxLat} & -\/ Latitude of the upper left corner \\
+\hline
+{\em maxLon} & -\/ Longitude of the upper left corner \\
+\hline
+{\em minLat} & -\/ Latitude of the lower right corner \\
+\hline
+{\em minLon} & -\/ Longitude of the lower right corner \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a476ae9d095ccccdffd69ac13f0e1e9d0_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a7232e1ffc4b48c8ce4a70ef1f965c445}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!start@{start}}
+\index{start@{start}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{start}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.mapping.quadMap.QuadMap.start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a7232e1ffc4b48c8ce4a70ef1f965c445}
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_ac60ab9ccdc70b389be6c7e87252f86d1}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!stop@{stop}}
+\index{stop@{stop}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{stop}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.mapping.quadMap.QuadMap.stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_ac60ab9ccdc70b389be6c7e87252f86d1}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_afa3d61b3214d5673b2760adbab9979f3}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!\_\-children@{\_\-children}}
+\index{\_\-children@{\_\-children}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{\_\-children}]{\setlength{\rightskip}{0pt plus 5cm}LinkedList$<${\bf Quadrant}$>$ {\bf robOS2.mapping.quadMap.QuadMap.\_\-children} = new LinkedList$<${\bf Quadrant}$>$()\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_afa3d61b3214d5673b2760adbab9979f3}
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_add1eeff613fb12f79b183939a3bef983}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!\_\-isRunning@{\_\-isRunning}}
+\index{\_\-isRunning@{\_\-isRunning}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{\_\-isRunning}]{\setlength{\rightskip}{0pt plus 5cm}boolean {\bf robOS2.mapping.quadMap.QuadMap.\_\-isRunning} = false\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_add1eeff613fb12f79b183939a3bef983}
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a9f24ffcc536cedcc6f9b7412d716c516}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!\_\-level@{\_\-level}}
+\index{\_\-level@{\_\-level}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{\_\-level}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf robOS2.mapping.quadMap.QuadMap.\_\-level} = 0\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a9f24ffcc536cedcc6f9b7412d716c516}
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a089973d65aee27b607e5d9a3d3752f71}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!\_\-map@{\_\-map}}
+\index{\_\-map@{\_\-map}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{\_\-map}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Map} {\bf robOS2.mapping.quadMap.QuadMap.\_\-map}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a089973d65aee27b607e5d9a3d3752f71}
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_ab3ab527c4fa6bf6772168dd17b1319ec}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!\_\-mapSizeX@{\_\-mapSizeX}}
+\index{\_\-mapSizeX@{\_\-mapSizeX}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{\_\-mapSizeX}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf robOS2.mapping.quadMap.QuadMap.\_\-mapSizeX} = 0.0\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_ab3ab527c4fa6bf6772168dd17b1319ec}
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a456395906e38ca89d316332d00bc453c}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!\_\-mapSizeY@{\_\-mapSizeY}}
+\index{\_\-mapSizeY@{\_\-mapSizeY}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{\_\-mapSizeY}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf robOS2.mapping.quadMap.QuadMap.\_\-mapSizeY} = 0.0\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a456395906e38ca89d316332d00bc453c}
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_ad167b359063c6de323b09cce45d6f6c3}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!\_\-maxInterval@{\_\-maxInterval}}
+\index{\_\-maxInterval@{\_\-maxInterval}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{\_\-maxInterval}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf robOS2.mapping.quadMap.QuadMap.\_\-maxInterval} = 0.2\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_ad167b359063c6de323b09cce45d6f6c3}
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a944ce3b32759689afbafe7c58737e852}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!\_\-maxLvl@{\_\-maxLvl}}
+\index{\_\-maxLvl@{\_\-maxLvl}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{\_\-maxLvl}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf robOS2.mapping.quadMap.QuadMap.\_\-maxLvl} = 2\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a944ce3b32759689afbafe7c58737e852}
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a077771c6c78e2c1419df398b50aa4c81}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!\_\-thread@{\_\-thread}}
+\index{\_\-thread@{\_\-thread}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{\_\-thread}]{\setlength{\rightskip}{0pt plus 5cm}Thread {\bf robOS2.mapping.quadMap.QuadMap.\_\-thread} = new Thread(this, \char`\"{}QuadMap\char`\"{})\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_a077771c6c78e2c1419df398b50aa4c81}
+\hypertarget{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_ac4c01d1f732a042fdfde54e6aa1358f3}{
+\index{robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}!log@{log}}
+\index{log@{log}!robOS2::mapping::quadMap::QuadMap@{robOS2::mapping::quadMap::QuadMap}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.mapping.quadMap.QuadMap.log} = Logger.getLogger(QuadMap.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_ac4c01d1f732a042fdfde54e6aa1358f3}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/mapping/quadMap/\hyperlink{_quad_map_8java}{QuadMap.java}\end{DoxyCompactItemize}

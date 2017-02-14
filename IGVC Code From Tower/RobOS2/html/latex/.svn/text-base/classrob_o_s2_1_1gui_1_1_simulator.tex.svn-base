@@ -1,0 +1,114 @@
+\hypertarget{classrob_o_s2_1_1gui_1_1_simulator}{
+\section{robOS2.gui.Simulator Class Reference}
+\label{classrob_o_s2_1_1gui_1_1_simulator}\index{robOS2::gui::Simulator@{robOS2::gui::Simulator}}
+}
+
+
+Collaboration diagram for robOS2.gui.Simulator:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=290pt]{classrob_o_s2_1_1gui_1_1_simulator__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1gui_1_1_simulator_a173976586e61f674c3516b86f1443f6a}{Simulator} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classrob_o_s2_1_1gui_1_1_simulator_ae043d55c9fe4af96940a8f73c263aba1}{main} (String\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+\subsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1simulator_1_1_engine}{Engine} \hyperlink{classrob_o_s2_1_1gui_1_1_simulator_abb3e3a3afdcd4186e8bcf271c6e84869}{\_\-engine} = new \hyperlink{classrob_o_s2_1_1simulator_1_1_engine}{Engine}()
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1gui_1_1_simulator_aba0bd95ad41f75ad498f8de8aa54def6}{log} = Logger.getLogger(Simulator.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String \hyperlink{classrob_o_s2_1_1gui_1_1_simulator_ada532b9340755169a797cfc9501d8a7f}{\_\-name} = \char`\"{}RobOS2 \hyperlink{classrob_o_s2_1_1gui_1_1_simulator}{Simulator}\char`\"{}
+\item 
+String \hyperlink{classrob_o_s2_1_1gui_1_1_simulator_a281c0cd689aef086a7378d8409f24d46}{\_\-version} = \char`\"{}0.1.0\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1gui_1_1_simulator_a173976586e61f674c3516b86f1443f6a}{
+\index{robOS2::gui::Simulator@{robOS2::gui::Simulator}!Simulator@{Simulator}}
+\index{Simulator@{Simulator}!robOS2::gui::Simulator@{robOS2::gui::Simulator}}
+\subsubsection[{Simulator}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.gui.Simulator.Simulator (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1gui_1_1_simulator_a173976586e61f674c3516b86f1443f6a}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1gui_1_1_simulator_a173976586e61f674c3516b86f1443f6a_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1gui_1_1_simulator_ae043d55c9fe4af96940a8f73c263aba1}{
+\index{robOS2::gui::Simulator@{robOS2::gui::Simulator}!main@{main}}
+\index{main@{main}!robOS2::gui::Simulator@{robOS2::gui::Simulator}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}static void robOS2.gui.Simulator.main (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{args}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classrob_o_s2_1_1gui_1_1_simulator_ae043d55c9fe4af96940a8f73c263aba1}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1gui_1_1_simulator_ae043d55c9fe4af96940a8f73c263aba1_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1gui_1_1_simulator_abb3e3a3afdcd4186e8bcf271c6e84869}{
+\index{robOS2::gui::Simulator@{robOS2::gui::Simulator}!\_\-engine@{\_\-engine}}
+\index{\_\-engine@{\_\-engine}!robOS2::gui::Simulator@{robOS2::gui::Simulator}}
+\subsubsection[{\_\-engine}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Engine} {\bf robOS2.gui.Simulator.\_\-engine} = new {\bf Engine}()\hspace{0.3cm}{\ttfamily  \mbox{[}package\mbox{]}}}}
+\label{classrob_o_s2_1_1gui_1_1_simulator_abb3e3a3afdcd4186e8bcf271c6e84869}
+\hypertarget{classrob_o_s2_1_1gui_1_1_simulator_ada532b9340755169a797cfc9501d8a7f}{
+\index{robOS2::gui::Simulator@{robOS2::gui::Simulator}!\_\-name@{\_\-name}}
+\index{\_\-name@{\_\-name}!robOS2::gui::Simulator@{robOS2::gui::Simulator}}
+\subsubsection[{\_\-name}]{\setlength{\rightskip}{0pt plus 5cm}String {\bf robOS2.gui.Simulator.\_\-name} = \char`\"{}RobOS2 {\bf Simulator}\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1gui_1_1_simulator_ada532b9340755169a797cfc9501d8a7f}
+\hypertarget{classrob_o_s2_1_1gui_1_1_simulator_a281c0cd689aef086a7378d8409f24d46}{
+\index{robOS2::gui::Simulator@{robOS2::gui::Simulator}!\_\-version@{\_\-version}}
+\index{\_\-version@{\_\-version}!robOS2::gui::Simulator@{robOS2::gui::Simulator}}
+\subsubsection[{\_\-version}]{\setlength{\rightskip}{0pt plus 5cm}String {\bf robOS2.gui.Simulator.\_\-version} = \char`\"{}0.1.0\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1gui_1_1_simulator_a281c0cd689aef086a7378d8409f24d46}
+\hypertarget{classrob_o_s2_1_1gui_1_1_simulator_aba0bd95ad41f75ad498f8de8aa54def6}{
+\index{robOS2::gui::Simulator@{robOS2::gui::Simulator}!log@{log}}
+\index{log@{log}!robOS2::gui::Simulator@{robOS2::gui::Simulator}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.gui.Simulator.log} = Logger.getLogger(Simulator.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1gui_1_1_simulator_aba0bd95ad41f75ad498f8de8aa54def6}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/gui/\hyperlink{_simulator_8java}{Simulator.java}\end{DoxyCompactItemize}

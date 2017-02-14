@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/software/!svn/ver/162/RobOS2/src/junitTests/hardware
+END
+CompassTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/software/!svn/ver/162/RobOS2/src/junitTests/hardware/CompassTest.java
+END
+CameraTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/software/!svn/ver/162/RobOS2/src/junitTests/hardware/CameraTest.java
+END
+GPSTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/software/!svn/ver/162/RobOS2/src/junitTests/hardware/GPSTest.java
+END
+LIDARTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/software/!svn/ver/162/RobOS2/src/junitTests/hardware/LIDARTest.java
+END

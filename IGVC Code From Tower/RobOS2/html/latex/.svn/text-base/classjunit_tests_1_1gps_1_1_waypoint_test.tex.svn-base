@@ -1,0 +1,116 @@
+\hypertarget{classjunit_tests_1_1gps_1_1_waypoint_test}{
+\section{junitTests.gps.WaypointTest Class Reference}
+\label{classjunit_tests_1_1gps_1_1_waypoint_test}\index{junitTests::gps::WaypointTest@{junitTests::gps::WaypointTest}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classjunit_tests_1_1gps_1_1_waypoint_test_a8406da0c667125e7c6c4475a1c733179}{defaultConstructorTest} ()
+\item 
+void \hyperlink{classjunit_tests_1_1gps_1_1_waypoint_test_a07970672978c56cd0b3f67036db0697d}{latLongConstructor} ()
+\item 
+void \hyperlink{classjunit_tests_1_1gps_1_1_waypoint_test_a3d6c60bc01e98378b0bf2322b63323c4}{nameLatLongConstructor} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String \hyperlink{classjunit_tests_1_1gps_1_1_waypoint_test_a6dfd237edef0090fba3efa3792a63ca2}{\_\-name} = \char`\"{}TEST POINT\char`\"{}
+\item 
+double \hyperlink{classjunit_tests_1_1gps_1_1_waypoint_test_a07042ed3d7510ace27d43d53c9b7b6b9}{\_\-latitude} = -\/76.3492881
+\item 
+double \hyperlink{classjunit_tests_1_1gps_1_1_waypoint_test_a73e9de42153967b3459ac29909ba6af7}{\_\-longitude} = -\/75.1988910203
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Waypoint JUnit Test for RobOS2. This test will create a new waypoint using all 3 of the constructors for a waypoint and verify that all attributes of the waypoint were set correctly.
+
+\begin{DoxyAuthor}{Author}
+dbaratta 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classjunit_tests_1_1gps_1_1_waypoint_test_a8406da0c667125e7c6c4475a1c733179}{
+\index{junitTests::gps::WaypointTest@{junitTests::gps::WaypointTest}!defaultConstructorTest@{defaultConstructorTest}}
+\index{defaultConstructorTest@{defaultConstructorTest}!junitTests::gps::WaypointTest@{junitTests::gps::WaypointTest}}
+\subsubsection[{defaultConstructorTest}]{\setlength{\rightskip}{0pt plus 5cm}void junitTests.gps.WaypointTest.defaultConstructorTest (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjunit_tests_1_1gps_1_1_waypoint_test_a8406da0c667125e7c6c4475a1c733179}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjunit_tests_1_1gps_1_1_waypoint_test_a8406da0c667125e7c6c4475a1c733179_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjunit_tests_1_1gps_1_1_waypoint_test_a07970672978c56cd0b3f67036db0697d}{
+\index{junitTests::gps::WaypointTest@{junitTests::gps::WaypointTest}!latLongConstructor@{latLongConstructor}}
+\index{latLongConstructor@{latLongConstructor}!junitTests::gps::WaypointTest@{junitTests::gps::WaypointTest}}
+\subsubsection[{latLongConstructor}]{\setlength{\rightskip}{0pt plus 5cm}void junitTests.gps.WaypointTest.latLongConstructor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjunit_tests_1_1gps_1_1_waypoint_test_a07970672978c56cd0b3f67036db0697d}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjunit_tests_1_1gps_1_1_waypoint_test_a07970672978c56cd0b3f67036db0697d_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classjunit_tests_1_1gps_1_1_waypoint_test_a3d6c60bc01e98378b0bf2322b63323c4}{
+\index{junitTests::gps::WaypointTest@{junitTests::gps::WaypointTest}!nameLatLongConstructor@{nameLatLongConstructor}}
+\index{nameLatLongConstructor@{nameLatLongConstructor}!junitTests::gps::WaypointTest@{junitTests::gps::WaypointTest}}
+\subsubsection[{nameLatLongConstructor}]{\setlength{\rightskip}{0pt plus 5cm}void junitTests.gps.WaypointTest.nameLatLongConstructor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classjunit_tests_1_1gps_1_1_waypoint_test_a3d6c60bc01e98378b0bf2322b63323c4}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classjunit_tests_1_1gps_1_1_waypoint_test_a3d6c60bc01e98378b0bf2322b63323c4_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classjunit_tests_1_1gps_1_1_waypoint_test_a07042ed3d7510ace27d43d53c9b7b6b9}{
+\index{junitTests::gps::WaypointTest@{junitTests::gps::WaypointTest}!\_\-latitude@{\_\-latitude}}
+\index{\_\-latitude@{\_\-latitude}!junitTests::gps::WaypointTest@{junitTests::gps::WaypointTest}}
+\subsubsection[{\_\-latitude}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf junitTests.gps.WaypointTest.\_\-latitude} = -\/76.3492881\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classjunit_tests_1_1gps_1_1_waypoint_test_a07042ed3d7510ace27d43d53c9b7b6b9}
+\hypertarget{classjunit_tests_1_1gps_1_1_waypoint_test_a73e9de42153967b3459ac29909ba6af7}{
+\index{junitTests::gps::WaypointTest@{junitTests::gps::WaypointTest}!\_\-longitude@{\_\-longitude}}
+\index{\_\-longitude@{\_\-longitude}!junitTests::gps::WaypointTest@{junitTests::gps::WaypointTest}}
+\subsubsection[{\_\-longitude}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf junitTests.gps.WaypointTest.\_\-longitude} = -\/75.1988910203\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classjunit_tests_1_1gps_1_1_waypoint_test_a73e9de42153967b3459ac29909ba6af7}
+\hypertarget{classjunit_tests_1_1gps_1_1_waypoint_test_a6dfd237edef0090fba3efa3792a63ca2}{
+\index{junitTests::gps::WaypointTest@{junitTests::gps::WaypointTest}!\_\-name@{\_\-name}}
+\index{\_\-name@{\_\-name}!junitTests::gps::WaypointTest@{junitTests::gps::WaypointTest}}
+\subsubsection[{\_\-name}]{\setlength{\rightskip}{0pt plus 5cm}String {\bf junitTests.gps.WaypointTest.\_\-name} = \char`\"{}TEST POINT\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classjunit_tests_1_1gps_1_1_waypoint_test_a6dfd237edef0090fba3efa3792a63ca2}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/junitTests/gps/\hyperlink{_waypoint_test_8java}{WaypointTest.java}\end{DoxyCompactItemize}

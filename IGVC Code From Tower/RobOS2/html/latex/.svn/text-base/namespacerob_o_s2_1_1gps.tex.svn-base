@@ -1,0 +1,11 @@
+\hypertarget{namespacerob_o_s2_1_1gps}{
+\section{Package robOS2.gps}
+\label{namespacerob_o_s2_1_1gps}\index{robOS2.gps@{robOS2.gps}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint}{Waypoint}
+\item 
+class \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_manager}{WaypointManager}
+\end{DoxyCompactItemize}

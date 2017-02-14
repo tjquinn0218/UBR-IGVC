@@ -1,0 +1,17 @@
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1marker_1_1_i_device}{
+\section{robOS2.hardware.interfaces.marker.IDevice Interface Reference}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1marker_1_1_i_device}\index{robOS2::hardware::interfaces::marker::IDevice@{robOS2::hardware::interfaces::marker::IDevice}}
+}
+
+
+\subsection{Detailed Description}
+Marker interface for a hardware sensor
+
+\begin{DoxyAuthor}{Author}
+dbaratta 
+\end{DoxyAuthor}
+
+
+The documentation for this interface was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/hardware/interfaces/marker/\hyperlink{_i_device_8java}{IDevice.java}\end{DoxyCompactItemize}

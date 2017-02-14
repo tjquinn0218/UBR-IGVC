@@ -1,0 +1,105 @@
+\hypertarget{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service}{
+\section{robOS2.jaus.JAUSService Class Reference}
+\label{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service}\index{robOS2::jaus::JAUSService@{robOS2::jaus::JAUSService}}
+}
+
+
+Collaboration diagram for robOS2.jaus.JAUSService:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_a9d7253703cc3ddc31bc021f42487d610}{start} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_ac44cb1ef542e04117cd1f3de466df3f1}{stop} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_a17b2a7d7b6d30ffe542aedc5e670f091}{run} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_a882bffe223f056924834e45200d3a231}{sendPacket} (DatagramPacket packet)
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_a39cc5dec794188b51bbd97f8f2e2bd8f}{log} = Logger.getLogger(JAUSService.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_a56bbb9ad75b62c43a36d891d156b1b25}{\_\-isRunning} = false
+\item 
+DatagramSocket \hyperlink{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_ae0d22d3c379f72907a6bbc89184d6322}{\_\-socket}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_a17b2a7d7b6d30ffe542aedc5e670f091}{
+\index{robOS2::jaus::JAUSService@{robOS2::jaus::JAUSService}!run@{run}}
+\index{run@{run}!robOS2::jaus::JAUSService@{robOS2::jaus::JAUSService}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.jaus.JAUSService.run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_a17b2a7d7b6d30ffe542aedc5e670f091}
+Keeps the tread running. DO NOT call this method to start it up. Instead call the \hyperlink{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_a9d7253703cc3ddc31bc021f42487d610}{start()} method. That will take care of all the checks ensuring that everything is up and running like it should be. \hypertarget{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_a882bffe223f056924834e45200d3a231}{
+\index{robOS2::jaus::JAUSService@{robOS2::jaus::JAUSService}!sendPacket@{sendPacket}}
+\index{sendPacket@{sendPacket}!robOS2::jaus::JAUSService@{robOS2::jaus::JAUSService}}
+\subsubsection[{sendPacket}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.jaus.JAUSService.sendPacket (
+\begin{DoxyParamCaption}
+\item[{DatagramPacket}]{packet}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_a882bffe223f056924834e45200d3a231}
+Sends a UDP Packet out to the specified address and port in the \hyperlink{interfacerob_o_s2_1_1jaus_1_1_i_j_a_u_s_config}{IJAUSConfig} file. This also checks to make sure the connection is open, and if it is not issues a fatal log4j message and simply returns from the function.
+
+
+\begin{DoxyParams}{Parameters}
+{\em packet} & -\/ Datagram packet to be sent out. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_a9d7253703cc3ddc31bc021f42487d610}{
+\index{robOS2::jaus::JAUSService@{robOS2::jaus::JAUSService}!start@{start}}
+\index{start@{start}!robOS2::jaus::JAUSService@{robOS2::jaus::JAUSService}}
+\subsubsection[{start}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.jaus.JAUSService.start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_a9d7253703cc3ddc31bc021f42487d610}
+Starts the JAUS Service. This will not only send new JAUS packets, it will also monitor for new packets coming from the COP \hypertarget{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_ac44cb1ef542e04117cd1f3de466df3f1}{
+\index{robOS2::jaus::JAUSService@{robOS2::jaus::JAUSService}!stop@{stop}}
+\index{stop@{stop}!robOS2::jaus::JAUSService@{robOS2::jaus::JAUSService}}
+\subsubsection[{stop}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.jaus.JAUSService.stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_ac44cb1ef542e04117cd1f3de466df3f1}
+Stops the JAUS Service. No more packets will be sent after the service is stopped, and new incoming packets will be ignored. 
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_a56bbb9ad75b62c43a36d891d156b1b25}{
+\index{robOS2::jaus::JAUSService@{robOS2::jaus::JAUSService}!\_\-isRunning@{\_\-isRunning}}
+\index{\_\-isRunning@{\_\-isRunning}!robOS2::jaus::JAUSService@{robOS2::jaus::JAUSService}}
+\subsubsection[{\_\-isRunning}]{\setlength{\rightskip}{0pt plus 5cm}boolean {\bf robOS2.jaus.JAUSService.\_\-isRunning} = false\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_a56bbb9ad75b62c43a36d891d156b1b25}
+\hypertarget{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_ae0d22d3c379f72907a6bbc89184d6322}{
+\index{robOS2::jaus::JAUSService@{robOS2::jaus::JAUSService}!\_\-socket@{\_\-socket}}
+\index{\_\-socket@{\_\-socket}!robOS2::jaus::JAUSService@{robOS2::jaus::JAUSService}}
+\subsubsection[{\_\-socket}]{\setlength{\rightskip}{0pt plus 5cm}DatagramSocket {\bf robOS2.jaus.JAUSService.\_\-socket}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_ae0d22d3c379f72907a6bbc89184d6322}
+\hypertarget{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_a39cc5dec794188b51bbd97f8f2e2bd8f}{
+\index{robOS2::jaus::JAUSService@{robOS2::jaus::JAUSService}!log@{log}}
+\index{log@{log}!robOS2::jaus::JAUSService@{robOS2::jaus::JAUSService}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.jaus.JAUSService.log} = Logger.getLogger(JAUSService.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1jaus_1_1_j_a_u_s_service_a39cc5dec794188b51bbd97f8f2e2bd8f}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/jaus/\hyperlink{_j_a_u_s_service_8java}{JAUSService.java}\end{DoxyCompactItemize}

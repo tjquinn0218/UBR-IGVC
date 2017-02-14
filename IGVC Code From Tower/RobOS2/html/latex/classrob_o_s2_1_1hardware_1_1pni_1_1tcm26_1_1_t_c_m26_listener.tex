@@ -1,0 +1,241 @@
+\hypertarget{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener}{
+\section{robOS2.hardware.pni.tcm26.TCM26Listener Class Reference}
+\label{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener}\index{robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}}
+}
+
+
+Inheritance diagram for robOS2.hardware.pni.tcm26.TCM26Listener:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=362pt]{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for robOS2.hardware.pni.tcm26.TCM26Listener:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_ad8463b30e18a6508a9c9a91b600d0121}{TCM26Listener} (InputStream \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_ad6bed7d02d5d702afb7e8b6ab1cf3ae0}{in})
+\item 
+void \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a1f51e6642c4e92776182a0dacc2c443e}{serialEvent} (SerialPortEvent arg0)
+\item 
+double \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a77f29bc2a0dcd969a8742caaa38b9c5f}{getPitch} ()
+\item 
+double \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a8e36abcfedc1892963bd945db39bb432}{getRoll} ()
+\item 
+double \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_aac44cc3eb840cd9784f3e2446e82e262}{getTemperature} ()
+\item 
+double \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a725066fbf5b4a2bf3c0d2c034392a822}{getXMagnetometer} ()
+\item 
+double \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_ac4c706b647cb31001047a5ed8e97880c}{getYMagnetometer} ()
+\item 
+double \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a30ff0985b7156a1e7f6bdc91fb855d8e}{getZMagnetometer} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a05a5a1830d9d0d14a9a6e9f058ce8baf}{log} = Logger.getLogger(TCM26Listener.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a84d92c36b6b50267b62da94a293ddc6d}{getData} (char filter)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+byte\mbox{[}$\,$\mbox{]} \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a1a0ee095db2da71d591b84ee45d87b58}{buffer} = new byte\mbox{[}1024\mbox{]}
+\item 
+InputStream \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_ad6bed7d02d5d702afb7e8b6ab1cf3ae0}{in}
+\item 
+String \hyperlink{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a96d39b4f970f57184582df5d8d439a38}{lastReading} = \char`\"{}\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_ad8463b30e18a6508a9c9a91b600d0121}{
+\index{robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}!TCM26Listener@{TCM26Listener}}
+\index{TCM26Listener@{TCM26Listener}!robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}}
+\subsubsection[{TCM26Listener}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.hardware.pni.tcm26.TCM26Listener.TCM26Listener (
+\begin{DoxyParamCaption}
+\item[{InputStream}]{in}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_ad8463b30e18a6508a9c9a91b600d0121}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a84d92c36b6b50267b62da94a293ddc6d}{
+\index{robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}!getData@{getData}}
+\index{getData@{getData}!robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}}
+\subsubsection[{getData}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.pni.tcm26.TCM26Listener.getData (
+\begin{DoxyParamCaption}
+\item[{char}]{filter}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a84d92c36b6b50267b62da94a293ddc6d}
+\hypertarget{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a77f29bc2a0dcd969a8742caaa38b9c5f}{
+\index{robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}!getPitch@{getPitch}}
+\index{getPitch@{getPitch}!robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}}
+\subsubsection[{getPitch}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.pni.tcm26.TCM26Listener.getPitch (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a77f29bc2a0dcd969a8742caaa38b9c5f}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a77f29bc2a0dcd969a8742caaa38b9c5f_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a8e36abcfedc1892963bd945db39bb432}{
+\index{robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}!getRoll@{getRoll}}
+\index{getRoll@{getRoll}!robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}}
+\subsubsection[{getRoll}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.pni.tcm26.TCM26Listener.getRoll (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a8e36abcfedc1892963bd945db39bb432}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a8e36abcfedc1892963bd945db39bb432_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_aac44cc3eb840cd9784f3e2446e82e262}{
+\index{robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}!getTemperature@{getTemperature}}
+\index{getTemperature@{getTemperature}!robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}}
+\subsubsection[{getTemperature}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.pni.tcm26.TCM26Listener.getTemperature (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_aac44cc3eb840cd9784f3e2446e82e262}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_aac44cc3eb840cd9784f3e2446e82e262_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a725066fbf5b4a2bf3c0d2c034392a822}{
+\index{robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}!getXMagnetometer@{getXMagnetometer}}
+\index{getXMagnetometer@{getXMagnetometer}!robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}}
+\subsubsection[{getXMagnetometer}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.pni.tcm26.TCM26Listener.getXMagnetometer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a725066fbf5b4a2bf3c0d2c034392a822}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a725066fbf5b4a2bf3c0d2c034392a822_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_ac4c706b647cb31001047a5ed8e97880c}{
+\index{robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}!getYMagnetometer@{getYMagnetometer}}
+\index{getYMagnetometer@{getYMagnetometer}!robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}}
+\subsubsection[{getYMagnetometer}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.pni.tcm26.TCM26Listener.getYMagnetometer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_ac4c706b647cb31001047a5ed8e97880c}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_ac4c706b647cb31001047a5ed8e97880c_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a30ff0985b7156a1e7f6bdc91fb855d8e}{
+\index{robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}!getZMagnetometer@{getZMagnetometer}}
+\index{getZMagnetometer@{getZMagnetometer}!robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}}
+\subsubsection[{getZMagnetometer}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.hardware.pni.tcm26.TCM26Listener.getZMagnetometer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a30ff0985b7156a1e7f6bdc91fb855d8e}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a30ff0985b7156a1e7f6bdc91fb855d8e_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a1f51e6642c4e92776182a0dacc2c443e}{
+\index{robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}!serialEvent@{serialEvent}}
+\index{serialEvent@{serialEvent}!robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}}
+\subsubsection[{serialEvent}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.hardware.pni.tcm26.TCM26Listener.serialEvent (
+\begin{DoxyParamCaption}
+\item[{SerialPortEvent}]{arg0}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a1f51e6642c4e92776182a0dacc2c443e}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a1a0ee095db2da71d591b84ee45d87b58}{
+\index{robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}!buffer@{buffer}}
+\index{buffer@{buffer}!robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}}
+\subsubsection[{buffer}]{\setlength{\rightskip}{0pt plus 5cm}byte \mbox{[}$\,$\mbox{]} {\bf robOS2.hardware.pni.tcm26.TCM26Listener.buffer} = new byte\mbox{[}1024\mbox{]}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a1a0ee095db2da71d591b84ee45d87b58}
+\hypertarget{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_ad6bed7d02d5d702afb7e8b6ab1cf3ae0}{
+\index{robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}!in@{in}}
+\index{in@{in}!robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}}
+\subsubsection[{in}]{\setlength{\rightskip}{0pt plus 5cm}InputStream {\bf robOS2.hardware.pni.tcm26.TCM26Listener.in}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_ad6bed7d02d5d702afb7e8b6ab1cf3ae0}
+\hypertarget{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a96d39b4f970f57184582df5d8d439a38}{
+\index{robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}!lastReading@{lastReading}}
+\index{lastReading@{lastReading}!robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}}
+\subsubsection[{lastReading}]{\setlength{\rightskip}{0pt plus 5cm}String {\bf robOS2.hardware.pni.tcm26.TCM26Listener.lastReading} = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a96d39b4f970f57184582df5d8d439a38}
+\hypertarget{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a05a5a1830d9d0d14a9a6e9f058ce8baf}{
+\index{robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}!log@{log}}
+\index{log@{log}!robOS2::hardware::pni::tcm26::TCM26Listener@{robOS2::hardware::pni::tcm26::TCM26Listener}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.hardware.pni.tcm26.TCM26Listener.log} = Logger.getLogger(TCM26Listener.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1hardware_1_1pni_1_1tcm26_1_1_t_c_m26_listener_a05a5a1830d9d0d14a9a6e9f058ce8baf}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/hardware/pni/tcm26/\hyperlink{_t_c_m26_listener_8java}{TCM26Listener.java}\end{DoxyCompactItemize}

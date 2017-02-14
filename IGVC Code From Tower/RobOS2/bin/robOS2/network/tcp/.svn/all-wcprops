@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/software/!svn/ver/244/RobOS2/src/robOS2/network/tcp
+END
+GenericTCPSocket.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/software/!svn/ver/244/RobOS2/src/robOS2/network/tcp/GenericTCPSocket.java
+END
+TCPTester.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/software/!svn/ver/244/RobOS2/src/robOS2/network/tcp/TCPTester.java
+END

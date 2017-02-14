@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/software/!svn/ver/160/RobOS2/src/robOS2/hardware/interfaces/marker
+END
+IUniversalHardwareDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/software/!svn/ver/160/RobOS2/src/robOS2/hardware/interfaces/marker/IUniversalHardwareDevice.java
+END
+IDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/software/!svn/ver/160/RobOS2/src/robOS2/hardware/interfaces/marker/IDevice.java
+END
+ISensorListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/software/!svn/ver/160/RobOS2/src/robOS2/hardware/interfaces/marker/ISensorListener.java
+END

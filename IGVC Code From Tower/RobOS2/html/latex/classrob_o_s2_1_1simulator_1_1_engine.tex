@@ -1,0 +1,170 @@
+\hypertarget{classrob_o_s2_1_1simulator_1_1_engine}{
+\section{robOS2.simulator.Engine Class Reference}
+\label{classrob_o_s2_1_1simulator_1_1_engine}\index{robOS2::simulator::Engine@{robOS2::simulator::Engine}}
+}
+
+
+Collaboration diagram for robOS2.simulator.Engine:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{classrob_o_s2_1_1simulator_1_1_engine__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1simulator_1_1_engine_a965d598ac625eec78b8e11da026c0d37}{Engine} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1simulator_1_1_engine_a38cd0cd7be49b6be7f4cd2ec54cb052a}{start} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1simulator_1_1_engine_af2e3b309d76acc804c1badf1b0c338e9}{setVelocity} (double velocity)
+\item 
+double \hyperlink{classrob_o_s2_1_1simulator_1_1_engine_ac93898002762964cdcddbc6c3585f833}{getVelocity} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1simulator_1_1_engine_a4d68322c41e7a1e8f7d4d4e33554d5ed}{setResolution} (int resolution)
+\item 
+int \hyperlink{classrob_o_s2_1_1simulator_1_1_engine_a334e44720bed1aa4e5cde11cec30d099}{getResolution} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1simulator_1_1_engine_ac194651b66baaba48496638447d6cbc2}{stop} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1simulator_1_1_engine_ac98ebbc70bb2dd0a59d520be847482e9}{run} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1simulator_1_1_engine_a9a52b044efacbbb9ef65f6d3f01264b1}{log} = Logger.getLogger(Engine.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{classrob_o_s2_1_1simulator_1_1_engine_a9853ef9f09932bbaadd498381cdbe14b}{\_\-isRunning} = false
+\item 
+Thread \hyperlink{classrob_o_s2_1_1simulator_1_1_engine_a8e326d5952a7d6170f032e56166162fc}{\_\-thread} = new Thread(this, \char`\"{}simulator\char`\"{})
+\item 
+Double \hyperlink{classrob_o_s2_1_1simulator_1_1_engine_adb864146b890057047233d8100a5c9c8}{\_\-velocity} = 1.0
+\item 
+int \hyperlink{classrob_o_s2_1_1simulator_1_1_engine_af27603089bb57c8556bea711e19b1e4d}{\_\-resolution} = 10
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1simulator_1_1_engine_a965d598ac625eec78b8e11da026c0d37}{
+\index{robOS2::simulator::Engine@{robOS2::simulator::Engine}!Engine@{Engine}}
+\index{Engine@{Engine}!robOS2::simulator::Engine@{robOS2::simulator::Engine}}
+\subsubsection[{Engine}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.simulator.Engine.Engine (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1simulator_1_1_engine_a965d598ac625eec78b8e11da026c0d37}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1simulator_1_1_engine_a334e44720bed1aa4e5cde11cec30d099}{
+\index{robOS2::simulator::Engine@{robOS2::simulator::Engine}!getResolution@{getResolution}}
+\index{getResolution@{getResolution}!robOS2::simulator::Engine@{robOS2::simulator::Engine}}
+\subsubsection[{getResolution}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.simulator.Engine.getResolution (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1simulator_1_1_engine_a334e44720bed1aa4e5cde11cec30d099}
+\hypertarget{classrob_o_s2_1_1simulator_1_1_engine_ac93898002762964cdcddbc6c3585f833}{
+\index{robOS2::simulator::Engine@{robOS2::simulator::Engine}!getVelocity@{getVelocity}}
+\index{getVelocity@{getVelocity}!robOS2::simulator::Engine@{robOS2::simulator::Engine}}
+\subsubsection[{getVelocity}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.simulator.Engine.getVelocity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1simulator_1_1_engine_ac93898002762964cdcddbc6c3585f833}
+\hypertarget{classrob_o_s2_1_1simulator_1_1_engine_ac98ebbc70bb2dd0a59d520be847482e9}{
+\index{robOS2::simulator::Engine@{robOS2::simulator::Engine}!run@{run}}
+\index{run@{run}!robOS2::simulator::Engine@{robOS2::simulator::Engine}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.simulator.Engine.run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1simulator_1_1_engine_ac98ebbc70bb2dd0a59d520be847482e9}
+Starts the simulation engine thread \hypertarget{classrob_o_s2_1_1simulator_1_1_engine_a4d68322c41e7a1e8f7d4d4e33554d5ed}{
+\index{robOS2::simulator::Engine@{robOS2::simulator::Engine}!setResolution@{setResolution}}
+\index{setResolution@{setResolution}!robOS2::simulator::Engine@{robOS2::simulator::Engine}}
+\subsubsection[{setResolution}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.simulator.Engine.setResolution (
+\begin{DoxyParamCaption}
+\item[{int}]{resolution}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1simulator_1_1_engine_a4d68322c41e7a1e8f7d4d4e33554d5ed}
+\hypertarget{classrob_o_s2_1_1simulator_1_1_engine_af2e3b309d76acc804c1badf1b0c338e9}{
+\index{robOS2::simulator::Engine@{robOS2::simulator::Engine}!setVelocity@{setVelocity}}
+\index{setVelocity@{setVelocity}!robOS2::simulator::Engine@{robOS2::simulator::Engine}}
+\subsubsection[{setVelocity}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.simulator.Engine.setVelocity (
+\begin{DoxyParamCaption}
+\item[{double}]{velocity}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1simulator_1_1_engine_af2e3b309d76acc804c1badf1b0c338e9}
+\hypertarget{classrob_o_s2_1_1simulator_1_1_engine_a38cd0cd7be49b6be7f4cd2ec54cb052a}{
+\index{robOS2::simulator::Engine@{robOS2::simulator::Engine}!start@{start}}
+\index{start@{start}!robOS2::simulator::Engine@{robOS2::simulator::Engine}}
+\subsubsection[{start}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.simulator.Engine.start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1simulator_1_1_engine_a38cd0cd7be49b6be7f4cd2ec54cb052a}
+Starts the simulation engine on it's own thread. This also includes a check to see if the engine is already running. If it is nothing is thrown however a warning is issued to the logger that the simulator is already running. 
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1simulator_1_1_engine_a38cd0cd7be49b6be7f4cd2ec54cb052a_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1simulator_1_1_engine_ac194651b66baaba48496638447d6cbc2}{
+\index{robOS2::simulator::Engine@{robOS2::simulator::Engine}!stop@{stop}}
+\index{stop@{stop}!robOS2::simulator::Engine@{robOS2::simulator::Engine}}
+\subsubsection[{stop}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.simulator.Engine.stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1simulator_1_1_engine_ac194651b66baaba48496638447d6cbc2}
+Stops the simulation engine, as well as the thread that it is running on This checks if the engine is running first before it trys to stop it. If it is not running no error is thrown, however a warning that the engine was already stopped is issued to the logger. 
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1simulator_1_1_engine_a9853ef9f09932bbaadd498381cdbe14b}{
+\index{robOS2::simulator::Engine@{robOS2::simulator::Engine}!\_\-isRunning@{\_\-isRunning}}
+\index{\_\-isRunning@{\_\-isRunning}!robOS2::simulator::Engine@{robOS2::simulator::Engine}}
+\subsubsection[{\_\-isRunning}]{\setlength{\rightskip}{0pt plus 5cm}boolean {\bf robOS2.simulator.Engine.\_\-isRunning} = false\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1simulator_1_1_engine_a9853ef9f09932bbaadd498381cdbe14b}
+\hypertarget{classrob_o_s2_1_1simulator_1_1_engine_af27603089bb57c8556bea711e19b1e4d}{
+\index{robOS2::simulator::Engine@{robOS2::simulator::Engine}!\_\-resolution@{\_\-resolution}}
+\index{\_\-resolution@{\_\-resolution}!robOS2::simulator::Engine@{robOS2::simulator::Engine}}
+\subsubsection[{\_\-resolution}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf robOS2.simulator.Engine.\_\-resolution} = 10\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1simulator_1_1_engine_af27603089bb57c8556bea711e19b1e4d}
+\hypertarget{classrob_o_s2_1_1simulator_1_1_engine_a8e326d5952a7d6170f032e56166162fc}{
+\index{robOS2::simulator::Engine@{robOS2::simulator::Engine}!\_\-thread@{\_\-thread}}
+\index{\_\-thread@{\_\-thread}!robOS2::simulator::Engine@{robOS2::simulator::Engine}}
+\subsubsection[{\_\-thread}]{\setlength{\rightskip}{0pt plus 5cm}Thread {\bf robOS2.simulator.Engine.\_\-thread} = new Thread(this, \char`\"{}simulator\char`\"{})\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1simulator_1_1_engine_a8e326d5952a7d6170f032e56166162fc}
+\hypertarget{classrob_o_s2_1_1simulator_1_1_engine_adb864146b890057047233d8100a5c9c8}{
+\index{robOS2::simulator::Engine@{robOS2::simulator::Engine}!\_\-velocity@{\_\-velocity}}
+\index{\_\-velocity@{\_\-velocity}!robOS2::simulator::Engine@{robOS2::simulator::Engine}}
+\subsubsection[{\_\-velocity}]{\setlength{\rightskip}{0pt plus 5cm}Double {\bf robOS2.simulator.Engine.\_\-velocity} = 1.0\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1simulator_1_1_engine_adb864146b890057047233d8100a5c9c8}
+\hypertarget{classrob_o_s2_1_1simulator_1_1_engine_a9a52b044efacbbb9ef65f6d3f01264b1}{
+\index{robOS2::simulator::Engine@{robOS2::simulator::Engine}!log@{log}}
+\index{log@{log}!robOS2::simulator::Engine@{robOS2::simulator::Engine}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.simulator.Engine.log} = Logger.getLogger(Engine.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1simulator_1_1_engine_a9a52b044efacbbb9ef65f6d3f01264b1}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/simulator/\hyperlink{_engine_8java}{Engine.java}\end{DoxyCompactItemize}

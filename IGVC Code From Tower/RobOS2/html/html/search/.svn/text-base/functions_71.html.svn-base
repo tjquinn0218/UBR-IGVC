@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title></title>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="search.css"/>
+<script type="text/javascript" src="search.js"></script>
+</head>
+<body class="SRPage">
+<div id="SRIndex">
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRResult" id="SR_quadcheck">
+ <div class="SREntry">
+  <a id="Item0" onkeydown="return searchResults.Nav(event,0)" onkeypress="return searchResults.Nav(event,0)" onkeyup="return searchResults.Nav(event,0)" class="SRSymbol" href="../classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map.html#aaeb79b6d8ef9496dcab9c0da5f15e9a5" target="_parent">quadCheck</a>
+  <span class="SRScope">robOS2::mapping::quadMap::QuadMap</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_quadmap">
+ <div class="SREntry">
+  <a id="Item1" onkeydown="return searchResults.Nav(event,1)" onkeypress="return searchResults.Nav(event,1)" onkeyup="return searchResults.Nav(event,1)" class="SRSymbol" href="../classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map.html#a0c90cc570e08c5466a6e86684ba1516a" target="_parent">QuadMap</a>
+  <span class="SRScope">robOS2::mapping::quadMap::QuadMap</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_quadmaptester">
+ <div class="SREntry">
+  <a id="Item2" onkeydown="return searchResults.Nav(event,2)" onkeypress="return searchResults.Nav(event,2)" onkeyup="return searchResults.Nav(event,2)" class="SRSymbol" href="../classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map_tester.html#a6963f1e6b612fda84884da894301427c" target="_parent">QuadMapTester</a>
+  <span class="SRScope">robOS2::mapping::quadMap::QuadMapTester</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_quadrant">
+ <div class="SREntry">
+  <a id="Item3" onkeydown="return searchResults.Nav(event,3)" onkeypress="return searchResults.Nav(event,3)" onkeyup="return searchResults.Nav(event,3)" class="SRSymbol" href="../classrob_o_s2_1_1mapping_1_1quad_map_1_1_quadrant.html#a538819af96907e672376e219b7768f62" target="_parent">Quadrant</a>
+  <span class="SRScope">robOS2::mapping::quadMap::Quadrant</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_query">
+ <div class="SREntry">
+  <a id="Item4" onkeydown="return searchResults.Nav(event,4)" onkeypress="return searchResults.Nav(event,4)" onkeyup="return searchResults.Nav(event,4)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_query')">query</a>
+  <div class="SRChildren">
+    <a id="Item4_c0" onkeydown="return searchResults.NavChild(event,4,0)" onkeypress="return searchResults.NavChild(event,4,0)" onkeyup="return searchResults.NavChild(event,4,0)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1sick_1_1_p_l_s112_driver.html#a73c99e3cc39a30e3500684cd66037e53" target="_parent">robOS2::hardware::sick::PLS112Driver.query()</a>
+    <a id="Item4_c1" onkeydown="return searchResults.NavChild(event,4,1)" onkeypress="return searchResults.NavChild(event,4,1)" onkeyup="return searchResults.NavChild(event,4,1)" class="SRScope" href="../classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map.html#a9d6cf8f6d5192b7d8e7158a1b944baf5" target="_parent">robOS2::mapping::quadMap::QuadMap.query()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_queryleftfrontencoder">
+ <div class="SREntry">
+  <a id="Item5" onkeydown="return searchResults.Nav(event,5)" onkeypress="return searchResults.Nav(event,5)" onkeyup="return searchResults.Nav(event,5)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_queryleftfrontencoder')">queryLeftFrontEncoder</a>
+  <div class="SRChildren">
+    <a id="Item5_c0" onkeydown="return searchResults.NavChild(event,5,0)" onkeypress="return searchResults.NavChild(event,5,0)" onkeyup="return searchResults.NavChild(event,5,0)" class="SRScope" href="../interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface.html#a19ac90a7caad0954584123eee6fb0e89" target="_parent">robOS2::hardware::interfaces::listeners::IFourMotorInterface.queryLeftFrontEncoder()</a>
+    <a id="Item5_c1" onkeydown="return searchResults.NavChild(event,5,1)" onkeypress="return searchResults.NavChild(event,5,1)" onkeyup="return searchResults.NavChild(event,5,1)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller.html#a3a97afa18b439c393af84e5b6b03d834" target="_parent">robOS2::hardware::ubr::LittleBlueMotorController.queryLeftFrontEncoder()</a>
+    <a id="Item5_c2" onkeydown="return searchResults.NavChild(event,5,2)" onkeypress="return searchResults.NavChild(event,5,2)" onkeyup="return searchResults.NavChild(event,5,2)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller.html#adceffdbe553d88fcd36a823c159d5e18" target="_parent">robOS2::hardware::ubr::UBRMotorController.queryLeftFrontEncoder()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_queryleftrearencoder">
+ <div class="SREntry">
+  <a id="Item6" onkeydown="return searchResults.Nav(event,6)" onkeypress="return searchResults.Nav(event,6)" onkeyup="return searchResults.Nav(event,6)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_queryleftrearencoder')">queryLeftRearEncoder</a>
+  <div class="SRChildren">
+    <a id="Item6_c0" onkeydown="return searchResults.NavChild(event,6,0)" onkeypress="return searchResults.NavChild(event,6,0)" onkeyup="return searchResults.NavChild(event,6,0)" class="SRScope" href="../interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface.html#a0d16bb0c12845da37be096fef5bef3ae" target="_parent">robOS2::hardware::interfaces::listeners::IFourMotorInterface.queryLeftRearEncoder()</a>
+    <a id="Item6_c1" onkeydown="return searchResults.NavChild(event,6,1)" onkeypress="return searchResults.NavChild(event,6,1)" onkeyup="return searchResults.NavChild(event,6,1)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller.html#a4b35c000218cbe2b0a77eec389e09836" target="_parent">robOS2::hardware::ubr::LittleBlueMotorController.queryLeftRearEncoder()</a>
+    <a id="Item6_c2" onkeydown="return searchResults.NavChild(event,6,2)" onkeypress="return searchResults.NavChild(event,6,2)" onkeyup="return searchResults.NavChild(event,6,2)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller.html#ad51ea50c3ebd0e6482403f69a05723e5" target="_parent">robOS2::hardware::ubr::UBRMotorController.queryLeftRearEncoder()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_queryrightfrontencoder">
+ <div class="SREntry">
+  <a id="Item7" onkeydown="return searchResults.Nav(event,7)" onkeypress="return searchResults.Nav(event,7)" onkeyup="return searchResults.Nav(event,7)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_queryrightfrontencoder')">queryRightFrontEncoder</a>
+  <div class="SRChildren">
+    <a id="Item7_c0" onkeydown="return searchResults.NavChild(event,7,0)" onkeypress="return searchResults.NavChild(event,7,0)" onkeyup="return searchResults.NavChild(event,7,0)" class="SRScope" href="../interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface.html#af7584c99b5aabb9c4aaa1db6dc50c027" target="_parent">robOS2::hardware::interfaces::listeners::IFourMotorInterface.queryRightFrontEncoder()</a>
+    <a id="Item7_c1" onkeydown="return searchResults.NavChild(event,7,1)" onkeypress="return searchResults.NavChild(event,7,1)" onkeyup="return searchResults.NavChild(event,7,1)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller.html#a98fc8c4936fcb790153080ff7de1c450" target="_parent">robOS2::hardware::ubr::LittleBlueMotorController.queryRightFrontEncoder()</a>
+    <a id="Item7_c2" onkeydown="return searchResults.NavChild(event,7,2)" onkeypress="return searchResults.NavChild(event,7,2)" onkeyup="return searchResults.NavChild(event,7,2)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller.html#a72fad7167d6c070778e07f8796ba0675" target="_parent">robOS2::hardware::ubr::UBRMotorController.queryRightFrontEncoder()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_queryrightrearencoder">
+ <div class="SREntry">
+  <a id="Item8" onkeydown="return searchResults.Nav(event,8)" onkeypress="return searchResults.Nav(event,8)" onkeyup="return searchResults.Nav(event,8)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_queryrightrearencoder')">queryRightRearEncoder</a>
+  <div class="SRChildren">
+    <a id="Item8_c0" onkeydown="return searchResults.NavChild(event,8,0)" onkeypress="return searchResults.NavChild(event,8,0)" onkeyup="return searchResults.NavChild(event,8,0)" class="SRScope" href="../interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_interface.html#a95c31cbad1aa2f5c9b3d3e4ac413e013" target="_parent">robOS2::hardware::interfaces::listeners::IFourMotorInterface.queryRightRearEncoder()</a>
+    <a id="Item8_c1" onkeydown="return searchResults.NavChild(event,8,1)" onkeypress="return searchResults.NavChild(event,8,1)" onkeyup="return searchResults.NavChild(event,8,1)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_little_blue_motor_controller.html#a916ab62002b7eddc2ce77d859f20abbf" target="_parent">robOS2::hardware::ubr::LittleBlueMotorController.queryRightRearEncoder()</a>
+    <a id="Item8_c2" onkeydown="return searchResults.NavChild(event,8,2)" onkeypress="return searchResults.NavChild(event,8,2)" onkeyup="return searchResults.NavChild(event,8,2)" class="SRScope" href="../classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller.html#a9c60bd82bc367a7bd69e78659a1713a8" target="_parent">robOS2::hardware::ubr::UBRMotorController.queryRightRearEncoder()</a>
+  </div>
+ </div>
+</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+<script type="text/javascript"><!--
+document.getElementById("Loading").style.display="none";
+document.getElementById("NoMatches").style.display="none";
+var searchResults = new SearchResults("searchResults");
+searchResults.Search();
+--></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/software/!svn/ver/208/RobOS2/src/robOS2/hardware/interfaces/drivers
+END
+ICamera.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/software/!svn/ver/160/RobOS2/src/robOS2/hardware/interfaces/drivers/ICamera.java
+END
+IGPS.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/software/!svn/ver/175/RobOS2/src/robOS2/hardware/interfaces/drivers/IGPS.java
+END
+ILIDAR.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/software/!svn/ver/196/RobOS2/src/robOS2/hardware/interfaces/drivers/ILIDAR.java
+END
+IFourMotorInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/software/!svn/ver/197/RobOS2/src/robOS2/hardware/interfaces/drivers/IFourMotorInterface.java
+END
+IGenericMotor.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/software/!svn/ver/208/RobOS2/src/robOS2/hardware/interfaces/drivers/IGenericMotor.java
+END
+IMechWheel.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/software/!svn/ver/160/RobOS2/src/robOS2/hardware/interfaces/drivers/IMechWheel.java
+END
+ICompass.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/software/!svn/ver/175/RobOS2/src/robOS2/hardware/interfaces/drivers/ICompass.java
+END

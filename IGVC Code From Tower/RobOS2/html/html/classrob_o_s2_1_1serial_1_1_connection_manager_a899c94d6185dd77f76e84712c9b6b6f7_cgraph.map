@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classrob_o_s2_1_1serial_1_1_connection.html#a94a8c1eac9181dc2312867d4a0c92f15" title="robOS2.serial.Connection.connectEvenParity" alt="" coords="401,5,705,35"/>
+<area shape="rect" id="node9" href="$classrob_o_s2_1_1serial_1_1_connection.html#ad0f7dd19aa0d36bbee7cc1375f555018" title="robOS2.serial.Connection.connectNoParity" alt="" coords="408,59,699,88"/>
+<area shape="rect" id="node12" href="$classrob_o_s2_1_1serial_1_1_connection.html#a9a319757be792ba1b784eaaa313d448a" title="robOS2.serial.Connection.connectOddParity" alt="" coords="404,112,703,141"/>
+<area shape="rect" id="node15" href="$classrob_o_s2_1_1serial_1_1_config.html#a97179a6af377270a46ba76b210cef453" title="robOS2.serial.Config.getBaudRate" alt="" coords="435,165,672,195"/>
+<area shape="rect" id="node19" href="$classrob_o_s2_1_1serial_1_1_config.html#a2f996644f21d7d1cd9e61de83c69ecd1" title="robOS2.serial.Config.getParity" alt="" coords="448,219,659,248"/>
+<area shape="rect" id="node23" href="$classrob_o_s2_1_1serial_1_1_config.html#a59ca1e514947e8548832249f1794ffc7" title="robOS2.serial.Config.getPort" alt="" coords="452,272,655,301"/>
+<area shape="rect" id="node27" href="$classrob_o_s2_1_1serial_1_1_connection_manager.html#a5780dd9b4d97ed1bdff46199fd969992" title="robOS2.serial.ConnectionManager.search" alt="" coords="756,324,1041,353"/>
+<area shape="rect" id="node30" href="$classrob_o_s2_1_1serial_1_1_config.html#a99a7d794a237a4d1cc6cae19e3ffaa7b" title="robOS2.serial.Config.setSensor" alt="" coords="443,376,664,405"/>
+<area shape="rect" id="node5" href="$classrob_o_s2_1_1serial_1_1_connection.html#ac257ab4cd2e8d52c3ee16d818f6fd622" title="robOS2.serial.Connection.connect" alt="" coords="780,85,1017,115"/>
+<area shape="rect" id="node7" href="$classrob_o_s2_1_1serial_1_1_connection.html#af36c373aa5677ba098012489b98a0c64" title="robOS2.serial.Connection.getName" alt="" coords="1091,205,1339,235"/>
+<area shape="rect" id="node17" href="$classrob_o_s2_1_1serial_1_1_device.html#a436d7d9a8f1c87cdd3218e2201b2505b" title="robOS2.serial.Device.getBaudRate" alt="" coords="777,164,1020,193"/>
+<area shape="rect" id="node21" href="$classrob_o_s2_1_1serial_1_1_device.html#a4f862ad14f057c25aa5a0915b2298322" title="robOS2.serial.Device.getParity" alt="" coords="792,217,1005,247"/>
+<area shape="rect" id="node25" href="$classrob_o_s2_1_1serial_1_1_device.html#a5f701d3f408cfb406a61596a075964e4" title="robOS2.serial.Device.getPort" alt="" coords="796,271,1001,300"/>
+<area shape="rect" id="node32" href="$classrob_o_s2_1_1serial_1_1_device.html#afc596455ec56c6272b31548f9ae5e1e9" title="robOS2.serial.Device.getName" alt="" coords="789,377,1008,407"/>
+</map>

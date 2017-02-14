@@ -1,0 +1,15 @@
+# Set the root logger to debug, which will be the project default
+log4j.rootLogger=DEBUG, stdout
+
+# Set the general hardware logging level to debug, however set the
+# arm logging level to warn so we don't get so many messages
+log4j.category.robOS2.hardware=DEBUG
+log4j.category.robOS2.hardware.lynxMotion=WARN
+
+# Set the controller package to warn as it's pretty stable
+log4j.category.robOS2.controller=WARN
+log4j.category.robOS2.controller.XBoxGamepadTurtlebot=DEBUG
+
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=%-5p [%t]: %m%n

@@ -1,0 +1,14 @@
+\hypertarget{_x_m_l_waypoint_manager_test_8java}{
+\section{src/junitTests/gps/XMLWaypointManagerTest.java File Reference}
+\label{_x_m_l_waypoint_manager_test_8java}\index{src/junitTests/gps/XMLWaypointManagerTest.java@{src/junitTests/gps/XMLWaypointManagerTest.java}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classjunit_tests_1_1gps_1_1_x_m_l_waypoint_manager_test}{junitTests.gps.XMLWaypointManagerTest}
+\end{DoxyCompactItemize}
+\subsection*{Packages}
+\begin{DoxyCompactItemize}
+\item 
+package \hyperlink{namespacejunit_tests_1_1gps}{junitTests.gps}
+\end{DoxyCompactItemize}

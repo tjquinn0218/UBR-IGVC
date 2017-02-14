@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/software/!svn/ver/196/RobOS2/src/robOS2/hardware/sick
+END
+PLS112Processor.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/software/!svn/ver/144/RobOS2/src/robOS2/hardware/sick/PLS112Processor.java
+END
+SICKData.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/software/!svn/ver/127/RobOS2/src/robOS2/hardware/sick/SICKData.java
+END
+PLS112Listener.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/software/!svn/ver/160/RobOS2/src/robOS2/hardware/sick/PLS112Listener.java
+END
+PLS112Driver.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/software/!svn/ver/196/RobOS2/src/robOS2/hardware/sick/PLS112Driver.java
+END

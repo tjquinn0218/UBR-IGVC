@@ -1,0 +1,26 @@
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1marker_1_1_i_universal_hardware_device}{
+\section{robOS2.hardware.interfaces.marker.IUniversalHardwareDevice Interface Reference}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1marker_1_1_i_universal_hardware_device}\index{robOS2::hardware::interfaces::marker::IUniversalHardwareDevice@{robOS2::hardware::interfaces::marker::IUniversalHardwareDevice}}
+}
+
+
+Inheritance diagram for robOS2.hardware.interfaces.marker.IUniversalHardwareDevice:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1marker_1_1_i_universal_hardware_device__inherit__graph}
+\end{center}
+\end{figure}
+
+
+\subsection{Detailed Description}
+Marker interface for a $\ast$generic$\ast$ hardware device connected to RobOS. This can be anything from a sensor, to motors, to actuators.
+
+\begin{DoxyAuthor}{Author}
+Dominic Baratta 
+\end{DoxyAuthor}
+
+
+The documentation for this interface was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/hardware/interfaces/marker/\hyperlink{_i_universal_hardware_device_8java}{IUniversalHardwareDevice.java}\end{DoxyCompactItemize}

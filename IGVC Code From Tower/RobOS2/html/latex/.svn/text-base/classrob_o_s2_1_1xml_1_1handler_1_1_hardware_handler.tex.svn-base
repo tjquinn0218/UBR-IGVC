@@ -1,0 +1,220 @@
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler}{
+\section{robOS2.xml.handler.HardwareHandler Class Reference}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler}\index{robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}}
+}
+
+
+Inheritance diagram for robOS2.xml.handler.HardwareHandler:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=276pt]{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for robOS2.xml.handler.HardwareHandler:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_aa8514b593a0c7be3522a4b004e7e2e4e}{HardwareHandler} (\hyperlink{classrob_o_s2_1_1serial_1_1_config}{Config} cfg)
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a60a7c7ba374796c2732fdbdf9ddd7f20}{characters} (char\mbox{[}$\,$\mbox{]} ch, int start, int length)  throws SAXException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a9007e3b376b3c8a12af0e14ba15040e7}{endDocument} ()  throws SAXException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a431b96e478c956f8f794e2034914ed4e}{endElement} (String uri, String localName, String qName)  throws SAXException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_aeb272a87c0aa3201313a8255c5d5db78}{endPrefixMapping} (String prefix)  throws SAXException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_ae3f491bcbc509a3ce8d41327c0c7de8b}{ignorableWhitespace} (char\mbox{[}$\,$\mbox{]} ch, int start, int length)  throws SAXException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_ab6e363a0cf45c494d180f300fcdace79}{processingInstruction} (String target, String data)  throws SAXException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a511ff39840db7c4e613f278a8e7a64bb}{setDocumentLocator} (Locator locator)
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a0f73445204e562f8aa9993f1558a68f8}{skippedEntity} (String name)  throws SAXException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_aa215fef17a18ba9006911e3e89989a0d}{startDocument} ()  throws SAXException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a84041339dc0d785a25b5aedcaa20d0ae}{startElement} (String uri, String localName, String qName, Attributes atts)  throws SAXException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_ae16600e692fca7eb878b5bcbb5812d45}{startPrefixMapping} (String prefix, String uri)  throws SAXException 
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a2a7bfa76e4fd13a11bf55d8ff87cf478}{log} = Logger.getLogger(HardwareHandler.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1serial_1_1_config}{Config} \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_ab059c6f5d610abbe79431fc349ae54b5}{\_\-cfg}
+\item 
+String \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a01fc1a41c0409d9b96a154f49f59a931}{\_\-output}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_aa8514b593a0c7be3522a4b004e7e2e4e}{
+\index{robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}!HardwareHandler@{HardwareHandler}}
+\index{HardwareHandler@{HardwareHandler}!robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}}
+\subsubsection[{HardwareHandler}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.xml.handler.HardwareHandler.HardwareHandler (
+\begin{DoxyParamCaption}
+\item[{{\bf Config}}]{cfg}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_aa8514b593a0c7be3522a4b004e7e2e4e}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a60a7c7ba374796c2732fdbdf9ddd7f20}{
+\index{robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}!characters@{characters}}
+\index{characters@{characters}!robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}}
+\subsubsection[{characters}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.HardwareHandler.characters (
+\begin{DoxyParamCaption}
+\item[{char\mbox{[}$\,$\mbox{]}}]{ch, }
+\item[{int}]{start, }
+\item[{int}]{length}
+\end{DoxyParamCaption}
+)  throws SAXException }}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a60a7c7ba374796c2732fdbdf9ddd7f20}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a9007e3b376b3c8a12af0e14ba15040e7}{
+\index{robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}!endDocument@{endDocument}}
+\index{endDocument@{endDocument}!robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}}
+\subsubsection[{endDocument}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.HardwareHandler.endDocument (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws SAXException }}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a9007e3b376b3c8a12af0e14ba15040e7}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a431b96e478c956f8f794e2034914ed4e}{
+\index{robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}!endElement@{endElement}}
+\index{endElement@{endElement}!robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}}
+\subsubsection[{endElement}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.HardwareHandler.endElement (
+\begin{DoxyParamCaption}
+\item[{String}]{uri, }
+\item[{String}]{localName, }
+\item[{String}]{qName}
+\end{DoxyParamCaption}
+)  throws SAXException }}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a431b96e478c956f8f794e2034914ed4e}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a431b96e478c956f8f794e2034914ed4e_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_aeb272a87c0aa3201313a8255c5d5db78}{
+\index{robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}!endPrefixMapping@{endPrefixMapping}}
+\index{endPrefixMapping@{endPrefixMapping}!robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}}
+\subsubsection[{endPrefixMapping}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.HardwareHandler.endPrefixMapping (
+\begin{DoxyParamCaption}
+\item[{String}]{prefix}
+\end{DoxyParamCaption}
+)  throws SAXException }}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_aeb272a87c0aa3201313a8255c5d5db78}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_ae3f491bcbc509a3ce8d41327c0c7de8b}{
+\index{robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}!ignorableWhitespace@{ignorableWhitespace}}
+\index{ignorableWhitespace@{ignorableWhitespace}!robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}}
+\subsubsection[{ignorableWhitespace}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.HardwareHandler.ignorableWhitespace (
+\begin{DoxyParamCaption}
+\item[{char\mbox{[}$\,$\mbox{]}}]{ch, }
+\item[{int}]{start, }
+\item[{int}]{length}
+\end{DoxyParamCaption}
+)  throws SAXException }}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_ae3f491bcbc509a3ce8d41327c0c7de8b}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_ab6e363a0cf45c494d180f300fcdace79}{
+\index{robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}!processingInstruction@{processingInstruction}}
+\index{processingInstruction@{processingInstruction}!robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}}
+\subsubsection[{processingInstruction}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.HardwareHandler.processingInstruction (
+\begin{DoxyParamCaption}
+\item[{String}]{target, }
+\item[{String}]{data}
+\end{DoxyParamCaption}
+)  throws SAXException }}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_ab6e363a0cf45c494d180f300fcdace79}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a511ff39840db7c4e613f278a8e7a64bb}{
+\index{robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}!setDocumentLocator@{setDocumentLocator}}
+\index{setDocumentLocator@{setDocumentLocator}!robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}}
+\subsubsection[{setDocumentLocator}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.HardwareHandler.setDocumentLocator (
+\begin{DoxyParamCaption}
+\item[{Locator}]{locator}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a511ff39840db7c4e613f278a8e7a64bb}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a0f73445204e562f8aa9993f1558a68f8}{
+\index{robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}!skippedEntity@{skippedEntity}}
+\index{skippedEntity@{skippedEntity}!robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}}
+\subsubsection[{skippedEntity}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.HardwareHandler.skippedEntity (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)  throws SAXException }}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a0f73445204e562f8aa9993f1558a68f8}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_aa215fef17a18ba9006911e3e89989a0d}{
+\index{robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}!startDocument@{startDocument}}
+\index{startDocument@{startDocument}!robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}}
+\subsubsection[{startDocument}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.HardwareHandler.startDocument (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws SAXException }}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_aa215fef17a18ba9006911e3e89989a0d}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a84041339dc0d785a25b5aedcaa20d0ae}{
+\index{robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}!startElement@{startElement}}
+\index{startElement@{startElement}!robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}}
+\subsubsection[{startElement}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.HardwareHandler.startElement (
+\begin{DoxyParamCaption}
+\item[{String}]{uri, }
+\item[{String}]{localName, }
+\item[{String}]{qName, }
+\item[{Attributes}]{atts}
+\end{DoxyParamCaption}
+)  throws SAXException }}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a84041339dc0d785a25b5aedcaa20d0ae}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_ae16600e692fca7eb878b5bcbb5812d45}{
+\index{robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}!startPrefixMapping@{startPrefixMapping}}
+\index{startPrefixMapping@{startPrefixMapping}!robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}}
+\subsubsection[{startPrefixMapping}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.HardwareHandler.startPrefixMapping (
+\begin{DoxyParamCaption}
+\item[{String}]{prefix, }
+\item[{String}]{uri}
+\end{DoxyParamCaption}
+)  throws SAXException }}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_ae16600e692fca7eb878b5bcbb5812d45}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_ab059c6f5d610abbe79431fc349ae54b5}{
+\index{robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}!\_\-cfg@{\_\-cfg}}
+\index{\_\-cfg@{\_\-cfg}!robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}}
+\subsubsection[{\_\-cfg}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Config} {\bf robOS2.xml.handler.HardwareHandler.\_\-cfg}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_ab059c6f5d610abbe79431fc349ae54b5}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a01fc1a41c0409d9b96a154f49f59a931}{
+\index{robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}!\_\-output@{\_\-output}}
+\index{\_\-output@{\_\-output}!robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}}
+\subsubsection[{\_\-output}]{\setlength{\rightskip}{0pt plus 5cm}String {\bf robOS2.xml.handler.HardwareHandler.\_\-output}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a01fc1a41c0409d9b96a154f49f59a931}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a2a7bfa76e4fd13a11bf55d8ff87cf478}{
+\index{robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}!log@{log}}
+\index{log@{log}!robOS2::xml::handler::HardwareHandler@{robOS2::xml::handler::HardwareHandler}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.xml.handler.HardwareHandler.log} = Logger.getLogger(HardwareHandler.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_hardware_handler_a2a7bfa76e4fd13a11bf55d8ff87cf478}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/xml/handler/\hyperlink{_hardware_handler_8java}{HardwareHandler.java}\end{DoxyCompactItemize}

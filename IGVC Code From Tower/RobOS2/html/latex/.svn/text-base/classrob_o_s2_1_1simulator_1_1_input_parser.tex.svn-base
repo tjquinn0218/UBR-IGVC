@@ -1,0 +1,94 @@
+\hypertarget{classrob_o_s2_1_1simulator_1_1_input_parser}{
+\section{robOS2.simulator.InputParser Class Reference}
+\label{classrob_o_s2_1_1simulator_1_1_input_parser}\index{robOS2::simulator::InputParser@{robOS2::simulator::InputParser}}
+}
+
+
+Collaboration diagram for robOS2.simulator.InputParser:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{classrob_o_s2_1_1simulator_1_1_input_parser__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1simulator_1_1_input_parser_a6989f00a2ac39213c741aba9a543ddd9}{InputParser} (String filePath)
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1simulator_1_1_input_parser_ac1978f9786d07d3e505de48099afe918}{log} = Logger.getLogger(InputParser.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classrob_o_s2_1_1simulator_1_1_input_parser_a33b6b30202a0cabf77261321e71abc71}{parse} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Scanner \hyperlink{classrob_o_s2_1_1simulator_1_1_input_parser_ac2fae4342e3e2d293dfde6199a4727bf}{\_\-inFile}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Parses in a simple text configuration file used for simulator configuration. This file contains obstacles that our platform must avoid.
+
+\begin{DoxyAuthor}{Author}
+dbaratta 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1simulator_1_1_input_parser_a6989f00a2ac39213c741aba9a543ddd9}{
+\index{robOS2::simulator::InputParser@{robOS2::simulator::InputParser}!InputParser@{InputParser}}
+\index{InputParser@{InputParser}!robOS2::simulator::InputParser@{robOS2::simulator::InputParser}}
+\subsubsection[{InputParser}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.simulator.InputParser.InputParser (
+\begin{DoxyParamCaption}
+\item[{String}]{filePath}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1simulator_1_1_input_parser_a6989f00a2ac39213c741aba9a543ddd9}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1simulator_1_1_input_parser_a6989f00a2ac39213c741aba9a543ddd9_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1simulator_1_1_input_parser_a33b6b30202a0cabf77261321e71abc71}{
+\index{robOS2::simulator::InputParser@{robOS2::simulator::InputParser}!parse@{parse}}
+\index{parse@{parse}!robOS2::simulator::InputParser@{robOS2::simulator::InputParser}}
+\subsubsection[{parse}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.simulator.InputParser.parse (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1simulator_1_1_input_parser_a33b6b30202a0cabf77261321e71abc71}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1simulator_1_1_input_parser_ac2fae4342e3e2d293dfde6199a4727bf}{
+\index{robOS2::simulator::InputParser@{robOS2::simulator::InputParser}!\_\-inFile@{\_\-inFile}}
+\index{\_\-inFile@{\_\-inFile}!robOS2::simulator::InputParser@{robOS2::simulator::InputParser}}
+\subsubsection[{\_\-inFile}]{\setlength{\rightskip}{0pt plus 5cm}Scanner {\bf robOS2.simulator.InputParser.\_\-inFile}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1simulator_1_1_input_parser_ac2fae4342e3e2d293dfde6199a4727bf}
+\hypertarget{classrob_o_s2_1_1simulator_1_1_input_parser_ac1978f9786d07d3e505de48099afe918}{
+\index{robOS2::simulator::InputParser@{robOS2::simulator::InputParser}!log@{log}}
+\index{log@{log}!robOS2::simulator::InputParser@{robOS2::simulator::InputParser}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.simulator.InputParser.log} = Logger.getLogger(InputParser.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1simulator_1_1_input_parser_ac1978f9786d07d3e505de48099afe918}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/simulator/\hyperlink{_input_parser_8java}{InputParser.java}\end{DoxyCompactItemize}

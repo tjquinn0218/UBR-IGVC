@@ -1,0 +1,93 @@
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener}{
+\section{robOS2.hardware.interfaces.listeners.IFourMotorListener Interface Reference}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener}\index{robOS2::hardware::interfaces::listeners::IFourMotorListener@{robOS2::hardware::interfaces::listeners::IFourMotorListener}}
+}
+
+
+Inheritance diagram for robOS2.hardware.interfaces.listeners.IFourMotorListener:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=366pt]{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for robOS2.hardware.interfaces.listeners.IFourMotorListener:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=366pt]{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener_a342b17854213f20b29bfab0c8f515ba2}{getLastE1} ()
+\item 
+int \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener_a0b0c165e5d6d7303244dbeb860dc16d0}{getLastE2} ()
+\item 
+int \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener_a9ee167a01b1317aa9103ff15514acb7b}{getLastE3} ()
+\item 
+int \hyperlink{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener_a27f56c9af69e288d1107842520fde5f3}{getLastE4} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener_a342b17854213f20b29bfab0c8f515ba2}{
+\index{robOS2::hardware::interfaces::listeners::IFourMotorListener@{robOS2::hardware::interfaces::listeners::IFourMotorListener}!getLastE1@{getLastE1}}
+\index{getLastE1@{getLastE1}!robOS2::hardware::interfaces::listeners::IFourMotorListener@{robOS2::hardware::interfaces::listeners::IFourMotorListener}}
+\subsubsection[{getLastE1}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.interfaces.listeners.IFourMotorListener.getLastE1 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener_a342b17854213f20b29bfab0c8f515ba2}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a1eb4635a2ec521a5bf071221c02716c5}{robOS2.hardware.ubr.UBRMotorControllerListener}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener_a0b0c165e5d6d7303244dbeb860dc16d0}{
+\index{robOS2::hardware::interfaces::listeners::IFourMotorListener@{robOS2::hardware::interfaces::listeners::IFourMotorListener}!getLastE2@{getLastE2}}
+\index{getLastE2@{getLastE2}!robOS2::hardware::interfaces::listeners::IFourMotorListener@{robOS2::hardware::interfaces::listeners::IFourMotorListener}}
+\subsubsection[{getLastE2}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.interfaces.listeners.IFourMotorListener.getLastE2 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener_a0b0c165e5d6d7303244dbeb860dc16d0}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a94ec47599565e91a0c3ab0d9a29c15d7}{robOS2.hardware.ubr.UBRMotorControllerListener}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener_a9ee167a01b1317aa9103ff15514acb7b}{
+\index{robOS2::hardware::interfaces::listeners::IFourMotorListener@{robOS2::hardware::interfaces::listeners::IFourMotorListener}!getLastE3@{getLastE3}}
+\index{getLastE3@{getLastE3}!robOS2::hardware::interfaces::listeners::IFourMotorListener@{robOS2::hardware::interfaces::listeners::IFourMotorListener}}
+\subsubsection[{getLastE3}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.interfaces.listeners.IFourMotorListener.getLastE3 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener_a9ee167a01b1317aa9103ff15514acb7b}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a83c4fbfea2e9c2b1957f0493c96a9255}{robOS2.hardware.ubr.UBRMotorControllerListener}.
+
+\hypertarget{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener_a27f56c9af69e288d1107842520fde5f3}{
+\index{robOS2::hardware::interfaces::listeners::IFourMotorListener@{robOS2::hardware::interfaces::listeners::IFourMotorListener}!getLastE4@{getLastE4}}
+\index{getLastE4@{getLastE4}!robOS2::hardware::interfaces::listeners::IFourMotorListener@{robOS2::hardware::interfaces::listeners::IFourMotorListener}}
+\subsubsection[{getLastE4}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.hardware.interfaces.listeners.IFourMotorListener.getLastE4 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{interfacerob_o_s2_1_1hardware_1_1interfaces_1_1listeners_1_1_i_four_motor_listener_a27f56c9af69e288d1107842520fde5f3}
+
+
+Implemented in \hyperlink{classrob_o_s2_1_1hardware_1_1ubr_1_1_u_b_r_motor_controller_listener_a9e5534a1b501d71fd551f0bfede96269}{robOS2.hardware.ubr.UBRMotorControllerListener}.
+
+
+
+The documentation for this interface was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/hardware/interfaces/listeners/\hyperlink{_i_four_motor_listener_8java}{IFourMotorListener.java}\end{DoxyCompactItemize}

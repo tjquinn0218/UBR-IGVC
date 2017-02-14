@@ -1,0 +1,178 @@
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler}{
+\section{robOS2.xml.handler.DefaultHandler Class Reference}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler}\index{robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}}
+}
+
+
+Inheritance diagram for robOS2.xml.handler.DefaultHandler:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for robOS2.xml.handler.DefaultHandler:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a9764697022e864dc51c936f934d62ebe}{characters} (char\mbox{[}$\,$\mbox{]} ch, int start, int length)  throws SAXException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a2ec7a133c87914ae1807adf1c4f92433}{endDocument} ()  throws SAXException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a42fdc64032f87172fa26ae3e248a60ae}{endElement} (String uri, String localName, String qName)  throws SAXException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_abbfec1faf8c8cd4ec64e6205d70961ec}{endPrefixMapping} (String prefix)  throws SAXException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a28731e3e36140baf153877c41f896d2e}{ignorableWhitespace} (char\mbox{[}$\,$\mbox{]} ch, int start, int length)  throws SAXException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a2bbe225c5233be6be380eb59e88efeaf}{processingInstruction} (String target, String data)  throws SAXException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a5580ad3d42f43971059e7257f4b67d85}{setDocumentLocator} (Locator locator)
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a374eb268241a4a40cf53f3ca05ae9273}{skippedEntity} (String name)  throws SAXException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_af26d2b1954e9f0295dd94203baad1e54}{startDocument} ()  throws SAXException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_aa646dc9c701327ed3622c033f0e32882}{startElement} (String uri, String localName, String qName, Attributes atts)  throws SAXException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_ad5084bf3fe1abf237537a01482f31974}{startPrefixMapping} (String prefix, String uri)  throws SAXException 
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a6d4e2297133a5328a472ad2ca6163c51}{log} = Logger.getLogger(DefaultHandler.class.getName())
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a9764697022e864dc51c936f934d62ebe}{
+\index{robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}!characters@{characters}}
+\index{characters@{characters}!robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}}
+\subsubsection[{characters}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.DefaultHandler.characters (
+\begin{DoxyParamCaption}
+\item[{char\mbox{[}$\,$\mbox{]}}]{ch, }
+\item[{int}]{start, }
+\item[{int}]{length}
+\end{DoxyParamCaption}
+)  throws SAXException }}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a9764697022e864dc51c936f934d62ebe}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a2ec7a133c87914ae1807adf1c4f92433}{
+\index{robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}!endDocument@{endDocument}}
+\index{endDocument@{endDocument}!robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}}
+\subsubsection[{endDocument}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.DefaultHandler.endDocument (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws SAXException }}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a2ec7a133c87914ae1807adf1c4f92433}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a42fdc64032f87172fa26ae3e248a60ae}{
+\index{robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}!endElement@{endElement}}
+\index{endElement@{endElement}!robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}}
+\subsubsection[{endElement}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.DefaultHandler.endElement (
+\begin{DoxyParamCaption}
+\item[{String}]{uri, }
+\item[{String}]{localName, }
+\item[{String}]{qName}
+\end{DoxyParamCaption}
+)  throws SAXException }}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a42fdc64032f87172fa26ae3e248a60ae}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_abbfec1faf8c8cd4ec64e6205d70961ec}{
+\index{robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}!endPrefixMapping@{endPrefixMapping}}
+\index{endPrefixMapping@{endPrefixMapping}!robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}}
+\subsubsection[{endPrefixMapping}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.DefaultHandler.endPrefixMapping (
+\begin{DoxyParamCaption}
+\item[{String}]{prefix}
+\end{DoxyParamCaption}
+)  throws SAXException }}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_abbfec1faf8c8cd4ec64e6205d70961ec}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a28731e3e36140baf153877c41f896d2e}{
+\index{robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}!ignorableWhitespace@{ignorableWhitespace}}
+\index{ignorableWhitespace@{ignorableWhitespace}!robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}}
+\subsubsection[{ignorableWhitespace}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.DefaultHandler.ignorableWhitespace (
+\begin{DoxyParamCaption}
+\item[{char\mbox{[}$\,$\mbox{]}}]{ch, }
+\item[{int}]{start, }
+\item[{int}]{length}
+\end{DoxyParamCaption}
+)  throws SAXException }}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a28731e3e36140baf153877c41f896d2e}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a2bbe225c5233be6be380eb59e88efeaf}{
+\index{robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}!processingInstruction@{processingInstruction}}
+\index{processingInstruction@{processingInstruction}!robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}}
+\subsubsection[{processingInstruction}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.DefaultHandler.processingInstruction (
+\begin{DoxyParamCaption}
+\item[{String}]{target, }
+\item[{String}]{data}
+\end{DoxyParamCaption}
+)  throws SAXException }}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a2bbe225c5233be6be380eb59e88efeaf}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a5580ad3d42f43971059e7257f4b67d85}{
+\index{robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}!setDocumentLocator@{setDocumentLocator}}
+\index{setDocumentLocator@{setDocumentLocator}!robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}}
+\subsubsection[{setDocumentLocator}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.DefaultHandler.setDocumentLocator (
+\begin{DoxyParamCaption}
+\item[{Locator}]{locator}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a5580ad3d42f43971059e7257f4b67d85}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a374eb268241a4a40cf53f3ca05ae9273}{
+\index{robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}!skippedEntity@{skippedEntity}}
+\index{skippedEntity@{skippedEntity}!robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}}
+\subsubsection[{skippedEntity}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.DefaultHandler.skippedEntity (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)  throws SAXException }}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a374eb268241a4a40cf53f3ca05ae9273}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_af26d2b1954e9f0295dd94203baad1e54}{
+\index{robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}!startDocument@{startDocument}}
+\index{startDocument@{startDocument}!robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}}
+\subsubsection[{startDocument}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.DefaultHandler.startDocument (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws SAXException }}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_af26d2b1954e9f0295dd94203baad1e54}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_aa646dc9c701327ed3622c033f0e32882}{
+\index{robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}!startElement@{startElement}}
+\index{startElement@{startElement}!robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}}
+\subsubsection[{startElement}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.DefaultHandler.startElement (
+\begin{DoxyParamCaption}
+\item[{String}]{uri, }
+\item[{String}]{localName, }
+\item[{String}]{qName, }
+\item[{Attributes}]{atts}
+\end{DoxyParamCaption}
+)  throws SAXException }}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_aa646dc9c701327ed3622c033f0e32882}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_ad5084bf3fe1abf237537a01482f31974}{
+\index{robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}!startPrefixMapping@{startPrefixMapping}}
+\index{startPrefixMapping@{startPrefixMapping}!robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}}
+\subsubsection[{startPrefixMapping}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.handler.DefaultHandler.startPrefixMapping (
+\begin{DoxyParamCaption}
+\item[{String}]{prefix, }
+\item[{String}]{uri}
+\end{DoxyParamCaption}
+)  throws SAXException }}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_ad5084bf3fe1abf237537a01482f31974}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a6d4e2297133a5328a472ad2ca6163c51}{
+\index{robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}!log@{log}}
+\index{log@{log}!robOS2::xml::handler::DefaultHandler@{robOS2::xml::handler::DefaultHandler}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.xml.handler.DefaultHandler.log} = Logger.getLogger(DefaultHandler.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1xml_1_1handler_1_1_default_handler_a6d4e2297133a5328a472ad2ca6163c51}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/xml/handler/\hyperlink{_default_handler_8java}{DefaultHandler.java}\end{DoxyCompactItemize}

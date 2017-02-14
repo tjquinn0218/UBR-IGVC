@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map.html#a1f0463534bde99838b34c265c09cfcad" title="robOS2.mapping.quadMap.QuadMap.destination" alt="" coords="1472,77,1805,106"/>
+<area shape="rect" id="node7" href="$classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map.html#aaeb79b6d8ef9496dcab9c0da5f15e9a5" title="robOS2.mapping.quadMap.QuadMap.quadCheck" alt="" coords="365,183,699,213"/>
+<area shape="rect" id="node5" href="$classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map.html#a78652ee3190b887e50a57b59fd6cb74b" title="robOS2.mapping.quadMap.QuadMap.dist" alt="" coords="1853,103,2139,133"/>
+<area shape="rect" id="node9" href="$classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map.html#a1532b5de71e516d72d6d32d26336526e" title="robOS2.mapping.quadMap.QuadMap.addChild" alt="" coords="747,235,1064,265"/>
+<area shape="rect" id="node15" href="$classrob_o_s2_1_1mapping_1_1quad_map_1_1_quadrant.html#a3042a339886d8925d14f35c84404e2f5" title="robOS2.mapping.quadMap.Quadrant.getDiv" alt="" coords="1117,75,1419,105"/>
+<area shape="rect" id="node21" href="$classrob_o_s2_1_1mapping_1_1quad_map_1_1_quadrant.html#a5bc8c87e11dada73a1398837d5302d53" title="robOS2.mapping.quadMap.Quadrant.getX" alt="" coords="1123,289,1413,318"/>
+<area shape="rect" id="node23" href="$classrob_o_s2_1_1mapping_1_1quad_map_1_1_quadrant.html#a03e9d819ab49a7c2196f631014fdcc57" title="robOS2.mapping.quadMap.Quadrant.getY" alt="" coords="1124,342,1412,371"/>
+<area shape="rect" id="node26" href="$classrob_o_s2_1_1mapping_1_1quad_map_1_1_map.html#a4c5f8a2af6e2cdafa3d2f7ee9eaca68c" title="robOS2.mapping.quadMap.Map.getLRLat" alt="" coords="764,390,1047,419"/>
+<area shape="rect" id="node28" href="$classrob_o_s2_1_1mapping_1_1quad_map_1_1_map.html#ab3c8fcee160ae67517e682520d25a128" title="robOS2.mapping.quadMap.Map.getLRLon" alt="" coords="763,25,1048,54"/>
+<area shape="rect" id="node30" href="$classrob_o_s2_1_1mapping_1_1quad_map_1_1_map.html#aea23e8ded167d5d2d9373210a4c272ee" title="robOS2.mapping.quadMap.Map.getULLat" alt="" coords="763,78,1048,107"/>
+<area shape="rect" id="node32" href="$classrob_o_s2_1_1mapping_1_1quad_map_1_1_map.html#a0e58a2f47e4fe3058192c694d322d451" title="robOS2.mapping.quadMap.Map.getULLon" alt="" coords="761,131,1049,161"/>
+<area shape="rect" id="node11" href="$classrob_o_s2_1_1mapping_1_1quad_map_1_1_quad_map.html#a1f25a86b5c1d404f25f9e90c2311b3f2" title="robOS2.mapping.quadMap.QuadMap.corners" alt="" coords="1113,129,1423,158"/>
+<area shape="rect" id="node17" href="$classrob_o_s2_1_1mapping_1_1quad_map_1_1_map.html#afdae3b6e1f31ffb2813c9ce1f318b244" title="robOS2.mapping.quadMap.Map.getMapX" alt="" coords="1127,182,1409,211"/>
+<area shape="rect" id="node19" href="$classrob_o_s2_1_1mapping_1_1quad_map_1_1_map.html#ab61fba1235576096a8838b52cd4828b4" title="robOS2.mapping.quadMap.Map.getMapY" alt="" coords="1127,235,1409,265"/>
+</map>

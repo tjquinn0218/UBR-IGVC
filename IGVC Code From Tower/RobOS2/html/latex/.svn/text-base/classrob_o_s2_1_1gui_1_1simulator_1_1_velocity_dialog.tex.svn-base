@@ -1,0 +1,68 @@
+\hypertarget{classrob_o_s2_1_1gui_1_1simulator_1_1_velocity_dialog}{
+\section{robOS2.gui.simulator.VelocityDialog Class Reference}
+\label{classrob_o_s2_1_1gui_1_1simulator_1_1_velocity_dialog}\index{robOS2::gui::simulator::VelocityDialog@{robOS2::gui::simulator::VelocityDialog}}
+}
+
+
+Collaboration diagram for robOS2.gui.simulator.VelocityDialog:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{classrob_o_s2_1_1gui_1_1simulator_1_1_velocity_dialog__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1gui_1_1simulator_1_1_velocity_dialog_accd46330184d6f056eed88a25458e306}{VelocityDialog} (Shell parentShell, final \hyperlink{classrob_o_s2_1_1simulator_1_1_engine}{Engine} engine)
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1gui_1_1simulator_1_1_velocity_dialog_ad96ed4d3960dc2b25370a9d4f284c660}{log} = Logger.getLogger(VelocityDialog.class.getName())
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Velocity Dialog box to allow the user to set a constant velocity for use by the simulator engine.
+
+\begin{DoxyAuthor}{Author}
+dbaratta 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1gui_1_1simulator_1_1_velocity_dialog_accd46330184d6f056eed88a25458e306}{
+\index{robOS2::gui::simulator::VelocityDialog@{robOS2::gui::simulator::VelocityDialog}!VelocityDialog@{VelocityDialog}}
+\index{VelocityDialog@{VelocityDialog}!robOS2::gui::simulator::VelocityDialog@{robOS2::gui::simulator::VelocityDialog}}
+\subsubsection[{VelocityDialog}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.gui.simulator.VelocityDialog.VelocityDialog (
+\begin{DoxyParamCaption}
+\item[{Shell}]{parentShell, }
+\item[{final {\bf Engine}}]{engine}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1gui_1_1simulator_1_1_velocity_dialog_accd46330184d6f056eed88a25458e306}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1gui_1_1simulator_1_1_velocity_dialog_accd46330184d6f056eed88a25458e306_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1gui_1_1simulator_1_1_velocity_dialog_ad96ed4d3960dc2b25370a9d4f284c660}{
+\index{robOS2::gui::simulator::VelocityDialog@{robOS2::gui::simulator::VelocityDialog}!log@{log}}
+\index{log@{log}!robOS2::gui::simulator::VelocityDialog@{robOS2::gui::simulator::VelocityDialog}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.gui.simulator.VelocityDialog.log} = Logger.getLogger(VelocityDialog.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1gui_1_1simulator_1_1_velocity_dialog_ad96ed4d3960dc2b25370a9d4f284c660}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/gui/simulator/\hyperlink{_velocity_dialog_8java}{VelocityDialog.java}\end{DoxyCompactItemize}

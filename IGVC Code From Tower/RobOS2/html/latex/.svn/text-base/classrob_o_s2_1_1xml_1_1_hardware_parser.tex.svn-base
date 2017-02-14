@@ -1,0 +1,233 @@
+\hypertarget{classrob_o_s2_1_1xml_1_1_hardware_parser}{
+\section{robOS2.xml.HardwareParser Class Reference}
+\label{classrob_o_s2_1_1xml_1_1_hardware_parser}\index{robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}}
+}
+
+
+Inheritance diagram for robOS2.xml.HardwareParser:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{classrob_o_s2_1_1xml_1_1_hardware_parser__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for robOS2.xml.HardwareParser:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{classrob_o_s2_1_1xml_1_1_hardware_parser__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1xml_1_1_hardware_parser_ac999959a5dafd139a2dc0e12670b61d3}{HardwareParser} (\hyperlink{classrob_o_s2_1_1serial_1_1_config}{Config} cfg)
+\item 
+ContentHandler \hyperlink{classrob_o_s2_1_1xml_1_1_hardware_parser_a8ff6610cabad9c7705c312bf156b80ae}{getContentHandler} ()
+\item 
+DTDHandler \hyperlink{classrob_o_s2_1_1xml_1_1_hardware_parser_aa77bbc31d3dd0967cc28064ebd85aa24}{getDTDHandler} ()
+\item 
+EntityResolver \hyperlink{classrob_o_s2_1_1xml_1_1_hardware_parser_abe34d69dfe2fa32d2f2f3ca95b8298b9}{getEntityResolver} ()
+\item 
+ErrorHandler \hyperlink{classrob_o_s2_1_1xml_1_1_hardware_parser_a3b88264e7ff015fe01d40968dd2454fc}{getErrorHandler} ()
+\item 
+boolean \hyperlink{classrob_o_s2_1_1xml_1_1_hardware_parser_aa2f23170321aeb07ce69dde7ae9c4054}{getFeature} (String name)  throws SAXNotRecognizedException, 			SAXNotSupportedException 
+\item 
+Object \hyperlink{classrob_o_s2_1_1xml_1_1_hardware_parser_a80be55842d82962ec9117b5e16946858}{getProperty} (String name)  throws SAXNotRecognizedException, 			SAXNotSupportedException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1_hardware_parser_add71f3af75345dad0de03d2163d533a0}{parse} (InputSource input)  throws IOException, SAXException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1_hardware_parser_a35fcd89f0f8434e98704c15b859ec831}{parse} (String systemId)  throws IOException, SAXException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1_hardware_parser_a273a1be0ac0f7295c2cafaf11fd205a5}{setContentHandler} (ContentHandler handler)
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1_hardware_parser_a52f4e21d5403a55e26ebd4d4bcc1bfad}{setDTDHandler} (DTDHandler handler)
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1_hardware_parser_a4f8ee2235c7d28869307f1afa7da0317}{setEntityResolver} (EntityResolver resolver)
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1_hardware_parser_a387fadecd10c573d69d75b29604ae378}{setErrorHandler} (ErrorHandler handler)
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1_hardware_parser_ac1e79961d2e7256f0e7436e7469f0c65}{setFeature} (String name, boolean value)  throws SAXNotRecognizedException, SAXNotSupportedException 
+\item 
+void \hyperlink{classrob_o_s2_1_1xml_1_1_hardware_parser_a67322d93f389230b9f939b2f1e6d8dac}{setProperty} (String name, Object value)  throws SAXNotRecognizedException, SAXNotSupportedException 
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1xml_1_1_hardware_parser_a6176ee71389d17c2be8c41e932e83d6f}{log} = Logger.getLogger(XMLReader.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+ContentHandler \hyperlink{classrob_o_s2_1_1xml_1_1_hardware_parser_ad54885cc7860d69836aec1c7acf82054}{\_\-handler}
+\item 
+XMLReader \hyperlink{classrob_o_s2_1_1xml_1_1_hardware_parser_a2924491ec8ac4f529077c28d557da50e}{\_\-reader}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1xml_1_1_hardware_parser_ac999959a5dafd139a2dc0e12670b61d3}{
+\index{robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}!HardwareParser@{HardwareParser}}
+\index{HardwareParser@{HardwareParser}!robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}}
+\subsubsection[{HardwareParser}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.xml.HardwareParser.HardwareParser (
+\begin{DoxyParamCaption}
+\item[{{\bf Config}}]{cfg}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1xml_1_1_hardware_parser_ac999959a5dafd139a2dc0e12670b61d3}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1xml_1_1_hardware_parser_a8ff6610cabad9c7705c312bf156b80ae}{
+\index{robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}!getContentHandler@{getContentHandler}}
+\index{getContentHandler@{getContentHandler}!robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}}
+\subsubsection[{getContentHandler}]{\setlength{\rightskip}{0pt plus 5cm}ContentHandler robOS2.xml.HardwareParser.getContentHandler (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1xml_1_1_hardware_parser_a8ff6610cabad9c7705c312bf156b80ae}
+\hypertarget{classrob_o_s2_1_1xml_1_1_hardware_parser_aa77bbc31d3dd0967cc28064ebd85aa24}{
+\index{robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}!getDTDHandler@{getDTDHandler}}
+\index{getDTDHandler@{getDTDHandler}!robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}}
+\subsubsection[{getDTDHandler}]{\setlength{\rightskip}{0pt plus 5cm}DTDHandler robOS2.xml.HardwareParser.getDTDHandler (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1xml_1_1_hardware_parser_aa77bbc31d3dd0967cc28064ebd85aa24}
+\hypertarget{classrob_o_s2_1_1xml_1_1_hardware_parser_abe34d69dfe2fa32d2f2f3ca95b8298b9}{
+\index{robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}!getEntityResolver@{getEntityResolver}}
+\index{getEntityResolver@{getEntityResolver}!robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}}
+\subsubsection[{getEntityResolver}]{\setlength{\rightskip}{0pt plus 5cm}EntityResolver robOS2.xml.HardwareParser.getEntityResolver (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1xml_1_1_hardware_parser_abe34d69dfe2fa32d2f2f3ca95b8298b9}
+\hypertarget{classrob_o_s2_1_1xml_1_1_hardware_parser_a3b88264e7ff015fe01d40968dd2454fc}{
+\index{robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}!getErrorHandler@{getErrorHandler}}
+\index{getErrorHandler@{getErrorHandler}!robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}}
+\subsubsection[{getErrorHandler}]{\setlength{\rightskip}{0pt plus 5cm}ErrorHandler robOS2.xml.HardwareParser.getErrorHandler (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1xml_1_1_hardware_parser_a3b88264e7ff015fe01d40968dd2454fc}
+\hypertarget{classrob_o_s2_1_1xml_1_1_hardware_parser_aa2f23170321aeb07ce69dde7ae9c4054}{
+\index{robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}!getFeature@{getFeature}}
+\index{getFeature@{getFeature}!robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}}
+\subsubsection[{getFeature}]{\setlength{\rightskip}{0pt plus 5cm}boolean robOS2.xml.HardwareParser.getFeature (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)  throws SAXNotRecognizedException, 			SAXNotSupportedException }}
+\label{classrob_o_s2_1_1xml_1_1_hardware_parser_aa2f23170321aeb07ce69dde7ae9c4054}
+\hypertarget{classrob_o_s2_1_1xml_1_1_hardware_parser_a80be55842d82962ec9117b5e16946858}{
+\index{robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}!getProperty@{getProperty}}
+\index{getProperty@{getProperty}!robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}}
+\subsubsection[{getProperty}]{\setlength{\rightskip}{0pt plus 5cm}Object robOS2.xml.HardwareParser.getProperty (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)  throws SAXNotRecognizedException, 			SAXNotSupportedException }}
+\label{classrob_o_s2_1_1xml_1_1_hardware_parser_a80be55842d82962ec9117b5e16946858}
+\hypertarget{classrob_o_s2_1_1xml_1_1_hardware_parser_a35fcd89f0f8434e98704c15b859ec831}{
+\index{robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}!parse@{parse}}
+\index{parse@{parse}!robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}}
+\subsubsection[{parse}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.HardwareParser.parse (
+\begin{DoxyParamCaption}
+\item[{String}]{systemId}
+\end{DoxyParamCaption}
+)  throws IOException, SAXException }}
+\label{classrob_o_s2_1_1xml_1_1_hardware_parser_a35fcd89f0f8434e98704c15b859ec831}
+\hypertarget{classrob_o_s2_1_1xml_1_1_hardware_parser_add71f3af75345dad0de03d2163d533a0}{
+\index{robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}!parse@{parse}}
+\index{parse@{parse}!robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}}
+\subsubsection[{parse}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.HardwareParser.parse (
+\begin{DoxyParamCaption}
+\item[{InputSource}]{input}
+\end{DoxyParamCaption}
+)  throws IOException, SAXException }}
+\label{classrob_o_s2_1_1xml_1_1_hardware_parser_add71f3af75345dad0de03d2163d533a0}
+\hypertarget{classrob_o_s2_1_1xml_1_1_hardware_parser_a273a1be0ac0f7295c2cafaf11fd205a5}{
+\index{robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}!setContentHandler@{setContentHandler}}
+\index{setContentHandler@{setContentHandler}!robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}}
+\subsubsection[{setContentHandler}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.HardwareParser.setContentHandler (
+\begin{DoxyParamCaption}
+\item[{ContentHandler}]{handler}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1xml_1_1_hardware_parser_a273a1be0ac0f7295c2cafaf11fd205a5}
+\hypertarget{classrob_o_s2_1_1xml_1_1_hardware_parser_a52f4e21d5403a55e26ebd4d4bcc1bfad}{
+\index{robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}!setDTDHandler@{setDTDHandler}}
+\index{setDTDHandler@{setDTDHandler}!robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}}
+\subsubsection[{setDTDHandler}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.HardwareParser.setDTDHandler (
+\begin{DoxyParamCaption}
+\item[{DTDHandler}]{handler}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1xml_1_1_hardware_parser_a52f4e21d5403a55e26ebd4d4bcc1bfad}
+\hypertarget{classrob_o_s2_1_1xml_1_1_hardware_parser_a4f8ee2235c7d28869307f1afa7da0317}{
+\index{robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}!setEntityResolver@{setEntityResolver}}
+\index{setEntityResolver@{setEntityResolver}!robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}}
+\subsubsection[{setEntityResolver}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.HardwareParser.setEntityResolver (
+\begin{DoxyParamCaption}
+\item[{EntityResolver}]{resolver}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1xml_1_1_hardware_parser_a4f8ee2235c7d28869307f1afa7da0317}
+\hypertarget{classrob_o_s2_1_1xml_1_1_hardware_parser_a387fadecd10c573d69d75b29604ae378}{
+\index{robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}!setErrorHandler@{setErrorHandler}}
+\index{setErrorHandler@{setErrorHandler}!robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}}
+\subsubsection[{setErrorHandler}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.HardwareParser.setErrorHandler (
+\begin{DoxyParamCaption}
+\item[{ErrorHandler}]{handler}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1xml_1_1_hardware_parser_a387fadecd10c573d69d75b29604ae378}
+\hypertarget{classrob_o_s2_1_1xml_1_1_hardware_parser_ac1e79961d2e7256f0e7436e7469f0c65}{
+\index{robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}!setFeature@{setFeature}}
+\index{setFeature@{setFeature}!robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}}
+\subsubsection[{setFeature}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.HardwareParser.setFeature (
+\begin{DoxyParamCaption}
+\item[{String}]{name, }
+\item[{boolean}]{value}
+\end{DoxyParamCaption}
+)  throws SAXNotRecognizedException, SAXNotSupportedException }}
+\label{classrob_o_s2_1_1xml_1_1_hardware_parser_ac1e79961d2e7256f0e7436e7469f0c65}
+\hypertarget{classrob_o_s2_1_1xml_1_1_hardware_parser_a67322d93f389230b9f939b2f1e6d8dac}{
+\index{robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}!setProperty@{setProperty}}
+\index{setProperty@{setProperty}!robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}}
+\subsubsection[{setProperty}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.xml.HardwareParser.setProperty (
+\begin{DoxyParamCaption}
+\item[{String}]{name, }
+\item[{Object}]{value}
+\end{DoxyParamCaption}
+)  throws SAXNotRecognizedException, SAXNotSupportedException }}
+\label{classrob_o_s2_1_1xml_1_1_hardware_parser_a67322d93f389230b9f939b2f1e6d8dac}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1xml_1_1_hardware_parser_ad54885cc7860d69836aec1c7acf82054}{
+\index{robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}!\_\-handler@{\_\-handler}}
+\index{\_\-handler@{\_\-handler}!robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}}
+\subsubsection[{\_\-handler}]{\setlength{\rightskip}{0pt plus 5cm}ContentHandler {\bf robOS2.xml.HardwareParser.\_\-handler}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1xml_1_1_hardware_parser_ad54885cc7860d69836aec1c7acf82054}
+\hypertarget{classrob_o_s2_1_1xml_1_1_hardware_parser_a2924491ec8ac4f529077c28d557da50e}{
+\index{robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}!\_\-reader@{\_\-reader}}
+\index{\_\-reader@{\_\-reader}!robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}}
+\subsubsection[{\_\-reader}]{\setlength{\rightskip}{0pt plus 5cm}XMLReader {\bf robOS2.xml.HardwareParser.\_\-reader}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1xml_1_1_hardware_parser_a2924491ec8ac4f529077c28d557da50e}
+\hypertarget{classrob_o_s2_1_1xml_1_1_hardware_parser_a6176ee71389d17c2be8c41e932e83d6f}{
+\index{robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}!log@{log}}
+\index{log@{log}!robOS2::xml::HardwareParser@{robOS2::xml::HardwareParser}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.xml.HardwareParser.log} = Logger.getLogger(XMLReader.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1xml_1_1_hardware_parser_a6176ee71389d17c2be8c41e932e83d6f}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/xml/\hyperlink{_hardware_parser_8java}{HardwareParser.java}\end{DoxyCompactItemize}

@@ -1,0 +1,221 @@
+\hypertarget{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4}{
+\section{robOS2.mapping.gridMap.GridMap$<$ T $>$ Class Reference}
+\label{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4}\index{robOS2::mapping::gridMap::GridMap$<$ T $>$@{robOS2::mapping::gridMap::GridMap$<$ T $>$}}
+}
+
+
+Collaboration diagram for robOS2.mapping.gridMap.GridMap$<$ T $>$:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=388pt]{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a006408fb502ed524feb57d470b33caae}{GridMap} (int height, int width, double resolution)
+\item 
+void \hyperlink{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a30fb515ce0727e0528c11a1cfa092c0b}{addObject} (double xPosition, double yPosition)
+\item 
+int \hyperlink{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a4eadd6e10c33ea7c4bb9f3a333dafd02}{getHeight} ()
+\item 
+int \hyperlink{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a6faa24647247c802224ebeba4e1b2165}{getWidth} ()
+\item 
+double \hyperlink{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_ab5f43fa6621234c66f317271e38962c8}{getResolution} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_acc10cf643a8fcf41576f2f43a6a0638f}{setYMap} (Map$<$ Integer, T $>$ \hyperlink{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a11fb5affe2819565c55053979a3ee182}{\_\-yMap})
+\item 
+Map$<$ Integer, T $>$ \hyperlink{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a5cbf396d685b3cd4609acd5ff5e3e68b}{getYMap} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a93ca8ee226838fce205b9e470430a7ee}{setXMap} (Map$<$ Integer, Map$<$ Integer, T $>$$>$ \hyperlink{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a667646630d0b7c99d4e4a12324e9edb5}{\_\-xMap})
+\item 
+Map$<$ Integer, Map$<$ Integer, T $>$ $>$ \hyperlink{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a3370ad6d16f9fc19bd4ccff0787e3f03}{getXMap} ()
+\item 
+void \hyperlink{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a99ad5c17aa304bc56a7e813cfe7cee62}{setType} (T \hyperlink{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a3e8687753b45b6a6eac0103a71420d03}{\_\-type})
+\item 
+T \hyperlink{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a4793bc45e66f25b6a854c4b49b7c2377}{getType} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+T \hyperlink{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a3e8687753b45b6a6eac0103a71420d03}{\_\-type}
+\item 
+int \hyperlink{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a504752eb59812bbb2a580b52406235a1}{\_\-height}
+\item 
+int \hyperlink{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a95d8b9dc96141d08701acb0091fa6a71}{\_\-width}
+\item 
+double \hyperlink{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_af15085abd9425bfba9842d62696c2d54}{\_\-resolution}
+\item 
+Map$<$ Integer, Map$<$ Integer, T $>$ $>$ \hyperlink{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a667646630d0b7c99d4e4a12324e9edb5}{\_\-xMap}
+\item 
+Map$<$ Integer, T $>$ \hyperlink{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a11fb5affe2819565c55053979a3ee182}{\_\-yMap}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a006408fb502ed524feb57d470b33caae}{
+\index{robOS2::mapping::gridMap::GridMap$<$ T $>$@{robOS2::mapping::gridMap::GridMap$<$ T $>$}!GridMap@{GridMap}}
+\index{GridMap@{GridMap}!robOS2::mapping::gridMap::GridMap< T >@{robOS2::mapping::gridMap::GridMap$<$ T $>$}}
+\subsubsection[{GridMap}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.mapping.gridMap.GridMap$<$ T $>$.GridMap (
+\begin{DoxyParamCaption}
+\item[{int}]{height, }
+\item[{int}]{width, }
+\item[{double}]{resolution}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a006408fb502ed524feb57d470b33caae}
+Creates a new grid-\/based map. This is implemented with a hash map and is useful in keeping track of where we are in the world.
+
+{\bfseries {\itshape This class IS thread-\/safe\/}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em height} & -\/ In meters \\
+\hline
+{\em width} & -\/ In meters \\
+\hline
+{\em resolution} & -\/ In centimeters \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a30fb515ce0727e0528c11a1cfa092c0b}{
+\index{robOS2::mapping::gridMap::GridMap$<$ T $>$@{robOS2::mapping::gridMap::GridMap$<$ T $>$}!addObject@{addObject}}
+\index{addObject@{addObject}!robOS2::mapping::gridMap::GridMap< T >@{robOS2::mapping::gridMap::GridMap$<$ T $>$}}
+\subsubsection[{addObject}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.mapping.gridMap.GridMap$<$ T $>$.addObject (
+\begin{DoxyParamCaption}
+\item[{double}]{xPosition, }
+\item[{double}]{yPosition}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a30fb515ce0727e0528c11a1cfa092c0b}
+\hypertarget{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a4eadd6e10c33ea7c4bb9f3a333dafd02}{
+\index{robOS2::mapping::gridMap::GridMap$<$ T $>$@{robOS2::mapping::gridMap::GridMap$<$ T $>$}!getHeight@{getHeight}}
+\index{getHeight@{getHeight}!robOS2::mapping::gridMap::GridMap< T >@{robOS2::mapping::gridMap::GridMap$<$ T $>$}}
+\subsubsection[{getHeight}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.mapping.gridMap.GridMap$<$ T $>$.getHeight (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a4eadd6e10c33ea7c4bb9f3a333dafd02}
+Returns the \char`\"{}height\char`\"{} of the map in meters \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_ab5f43fa6621234c66f317271e38962c8}{
+\index{robOS2::mapping::gridMap::GridMap$<$ T $>$@{robOS2::mapping::gridMap::GridMap$<$ T $>$}!getResolution@{getResolution}}
+\index{getResolution@{getResolution}!robOS2::mapping::gridMap::GridMap< T >@{robOS2::mapping::gridMap::GridMap$<$ T $>$}}
+\subsubsection[{getResolution}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.mapping.gridMap.GridMap$<$ T $>$.getResolution (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_ab5f43fa6621234c66f317271e38962c8}
+Returns the resolution of the map in centimeters \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a4793bc45e66f25b6a854c4b49b7c2377}{
+\index{robOS2::mapping::gridMap::GridMap$<$ T $>$@{robOS2::mapping::gridMap::GridMap$<$ T $>$}!getType@{getType}}
+\index{getType@{getType}!robOS2::mapping::gridMap::GridMap< T >@{robOS2::mapping::gridMap::GridMap$<$ T $>$}}
+\subsubsection[{getType}]{\setlength{\rightskip}{0pt plus 5cm}T robOS2.mapping.gridMap.GridMap$<$ T $>$.getType (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a4793bc45e66f25b6a854c4b49b7c2377}
+\hypertarget{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a6faa24647247c802224ebeba4e1b2165}{
+\index{robOS2::mapping::gridMap::GridMap$<$ T $>$@{robOS2::mapping::gridMap::GridMap$<$ T $>$}!getWidth@{getWidth}}
+\index{getWidth@{getWidth}!robOS2::mapping::gridMap::GridMap< T >@{robOS2::mapping::gridMap::GridMap$<$ T $>$}}
+\subsubsection[{getWidth}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.mapping.gridMap.GridMap$<$ T $>$.getWidth (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a6faa24647247c802224ebeba4e1b2165}
+Returns the width of map in meters \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a3370ad6d16f9fc19bd4ccff0787e3f03}{
+\index{robOS2::mapping::gridMap::GridMap$<$ T $>$@{robOS2::mapping::gridMap::GridMap$<$ T $>$}!getXMap@{getXMap}}
+\index{getXMap@{getXMap}!robOS2::mapping::gridMap::GridMap< T >@{robOS2::mapping::gridMap::GridMap$<$ T $>$}}
+\subsubsection[{getXMap}]{\setlength{\rightskip}{0pt plus 5cm}Map$<$Integer, Map$<$Integer, T$>$ $>$ robOS2.mapping.gridMap.GridMap$<$ T $>$.getXMap (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a3370ad6d16f9fc19bd4ccff0787e3f03}
+\hypertarget{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a5cbf396d685b3cd4609acd5ff5e3e68b}{
+\index{robOS2::mapping::gridMap::GridMap$<$ T $>$@{robOS2::mapping::gridMap::GridMap$<$ T $>$}!getYMap@{getYMap}}
+\index{getYMap@{getYMap}!robOS2::mapping::gridMap::GridMap< T >@{robOS2::mapping::gridMap::GridMap$<$ T $>$}}
+\subsubsection[{getYMap}]{\setlength{\rightskip}{0pt plus 5cm}Map$<$Integer, T$>$ robOS2.mapping.gridMap.GridMap$<$ T $>$.getYMap (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a5cbf396d685b3cd4609acd5ff5e3e68b}
+\hypertarget{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a99ad5c17aa304bc56a7e813cfe7cee62}{
+\index{robOS2::mapping::gridMap::GridMap$<$ T $>$@{robOS2::mapping::gridMap::GridMap$<$ T $>$}!setType@{setType}}
+\index{setType@{setType}!robOS2::mapping::gridMap::GridMap< T >@{robOS2::mapping::gridMap::GridMap$<$ T $>$}}
+\subsubsection[{setType}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.mapping.gridMap.GridMap$<$ T $>$.setType (
+\begin{DoxyParamCaption}
+\item[{T}]{\_\-type}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a99ad5c17aa304bc56a7e813cfe7cee62}
+\hypertarget{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a93ca8ee226838fce205b9e470430a7ee}{
+\index{robOS2::mapping::gridMap::GridMap$<$ T $>$@{robOS2::mapping::gridMap::GridMap$<$ T $>$}!setXMap@{setXMap}}
+\index{setXMap@{setXMap}!robOS2::mapping::gridMap::GridMap< T >@{robOS2::mapping::gridMap::GridMap$<$ T $>$}}
+\subsubsection[{setXMap}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.mapping.gridMap.GridMap$<$ T $>$.setXMap (
+\begin{DoxyParamCaption}
+\item[{Map$<$ Integer, Map$<$ Integer, T $>$$>$}]{\_\-xMap}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a93ca8ee226838fce205b9e470430a7ee}
+\hypertarget{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_acc10cf643a8fcf41576f2f43a6a0638f}{
+\index{robOS2::mapping::gridMap::GridMap$<$ T $>$@{robOS2::mapping::gridMap::GridMap$<$ T $>$}!setYMap@{setYMap}}
+\index{setYMap@{setYMap}!robOS2::mapping::gridMap::GridMap< T >@{robOS2::mapping::gridMap::GridMap$<$ T $>$}}
+\subsubsection[{setYMap}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.mapping.gridMap.GridMap$<$ T $>$.setYMap (
+\begin{DoxyParamCaption}
+\item[{Map$<$ Integer, T $>$}]{\_\-yMap}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_acc10cf643a8fcf41576f2f43a6a0638f}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a504752eb59812bbb2a580b52406235a1}{
+\index{robOS2::mapping::gridMap::GridMap$<$ T $>$@{robOS2::mapping::gridMap::GridMap$<$ T $>$}!\_\-height@{\_\-height}}
+\index{\_\-height@{\_\-height}!robOS2::mapping::gridMap::GridMap< T >@{robOS2::mapping::gridMap::GridMap$<$ T $>$}}
+\subsubsection[{\_\-height}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.mapping.gridMap.GridMap$<$ T $>$.{\bf \_\-height}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a504752eb59812bbb2a580b52406235a1}
+\hypertarget{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_af15085abd9425bfba9842d62696c2d54}{
+\index{robOS2::mapping::gridMap::GridMap$<$ T $>$@{robOS2::mapping::gridMap::GridMap$<$ T $>$}!\_\-resolution@{\_\-resolution}}
+\index{\_\-resolution@{\_\-resolution}!robOS2::mapping::gridMap::GridMap< T >@{robOS2::mapping::gridMap::GridMap$<$ T $>$}}
+\subsubsection[{\_\-resolution}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.mapping.gridMap.GridMap$<$ T $>$.{\bf \_\-resolution}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_af15085abd9425bfba9842d62696c2d54}
+\hypertarget{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a3e8687753b45b6a6eac0103a71420d03}{
+\index{robOS2::mapping::gridMap::GridMap$<$ T $>$@{robOS2::mapping::gridMap::GridMap$<$ T $>$}!\_\-type@{\_\-type}}
+\index{\_\-type@{\_\-type}!robOS2::mapping::gridMap::GridMap< T >@{robOS2::mapping::gridMap::GridMap$<$ T $>$}}
+\subsubsection[{\_\-type}]{\setlength{\rightskip}{0pt plus 5cm}T robOS2.mapping.gridMap.GridMap$<$ T $>$.{\bf \_\-type}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a3e8687753b45b6a6eac0103a71420d03}
+\hypertarget{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a95d8b9dc96141d08701acb0091fa6a71}{
+\index{robOS2::mapping::gridMap::GridMap$<$ T $>$@{robOS2::mapping::gridMap::GridMap$<$ T $>$}!\_\-width@{\_\-width}}
+\index{\_\-width@{\_\-width}!robOS2::mapping::gridMap::GridMap< T >@{robOS2::mapping::gridMap::GridMap$<$ T $>$}}
+\subsubsection[{\_\-width}]{\setlength{\rightskip}{0pt plus 5cm}int robOS2.mapping.gridMap.GridMap$<$ T $>$.{\bf \_\-width}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a95d8b9dc96141d08701acb0091fa6a71}
+\hypertarget{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a667646630d0b7c99d4e4a12324e9edb5}{
+\index{robOS2::mapping::gridMap::GridMap$<$ T $>$@{robOS2::mapping::gridMap::GridMap$<$ T $>$}!\_\-xMap@{\_\-xMap}}
+\index{\_\-xMap@{\_\-xMap}!robOS2::mapping::gridMap::GridMap< T >@{robOS2::mapping::gridMap::GridMap$<$ T $>$}}
+\subsubsection[{\_\-xMap}]{\setlength{\rightskip}{0pt plus 5cm}Map$<$Integer, Map$<$Integer, T$>$ $>$ robOS2.mapping.gridMap.GridMap$<$ T $>$.{\bf \_\-xMap}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a667646630d0b7c99d4e4a12324e9edb5}
+\hypertarget{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a11fb5affe2819565c55053979a3ee182}{
+\index{robOS2::mapping::gridMap::GridMap$<$ T $>$@{robOS2::mapping::gridMap::GridMap$<$ T $>$}!\_\-yMap@{\_\-yMap}}
+\index{\_\-yMap@{\_\-yMap}!robOS2::mapping::gridMap::GridMap< T >@{robOS2::mapping::gridMap::GridMap$<$ T $>$}}
+\subsubsection[{\_\-yMap}]{\setlength{\rightskip}{0pt plus 5cm}Map$<$Integer, T$>$ robOS2.mapping.gridMap.GridMap$<$ T $>$.{\bf \_\-yMap}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1mapping_1_1grid_map_1_1_grid_map_3_01_t_01_4_a11fb5affe2819565c55053979a3ee182}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/mapping/gridMap/\hyperlink{_grid_map_8java}{GridMap.java}\end{DoxyCompactItemize}

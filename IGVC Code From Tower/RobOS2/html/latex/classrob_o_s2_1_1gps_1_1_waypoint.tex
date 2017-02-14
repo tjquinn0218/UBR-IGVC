@@ -1,0 +1,240 @@
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint}{
+\section{robOS2.gps.Waypoint Class Reference}
+\label{classrob_o_s2_1_1gps_1_1_waypoint}\index{robOS2::gps::Waypoint@{robOS2::gps::Waypoint}}
+}
+
+
+Collaboration diagram for robOS2.gps.Waypoint:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=198pt]{classrob_o_s2_1_1gps_1_1_waypoint__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_a3e5ed63083dd8507cd2189b90c237558}{Waypoint} ()
+\item 
+\hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_a57886c38e729261dd103c45bda117cfa}{Waypoint} (double latitude, double longitude)
+\item 
+\hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_a8e548350c20ce559cacf3998acee8675}{Waypoint} (String name, double latitude, double longitude)
+\item 
+void \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_a86ad59f1c03cec1f72c41acce6060e92}{setLatitude} (double latitude)
+\item 
+void \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_a5cb38922c7f13563297d9395aae65430}{setLongitude} (double longitude)
+\item 
+void \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_ab1defbfaa7d8c02eca311f7daa2df27b}{setName} (String name)
+\item 
+double \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_a05e9f5fdcdf284e92aa4abeb827ce407}{getLatitude} ()
+\item 
+double \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_a2f218a8a7251cf96d3e769b2eeb98e14}{getLongitude} ()
+\item 
+String \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_a7807c267d07f8c0df058e9ee6daba714}{getName} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Logger \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_a294f2a97d0c2ab20acb4de448a72753c}{log} = Logger.getLogger(Waypoint.class.getName())
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_aa71f1baadde6afe8aa751fc8470b5875}{\_\-lat}
+\item 
+double \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_a1a1d6cacf8516f9f06ecd48b2c467180}{\_\-long}
+\item 
+String \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint_a9858d8ec37deed55a6456eba501591c8}{\_\-name} = \char`\"{}NO\_\-NAME\_\-PROVIDED\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+GPS \hyperlink{classrob_o_s2_1_1gps_1_1_waypoint}{Waypoint} data-\/structure.
+
+\begin{DoxyAuthor}{Author}
+dbaratta 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_a3e5ed63083dd8507cd2189b90c237558}{
+\index{robOS2::gps::Waypoint@{robOS2::gps::Waypoint}!Waypoint@{Waypoint}}
+\index{Waypoint@{Waypoint}!robOS2::gps::Waypoint@{robOS2::gps::Waypoint}}
+\subsubsection[{Waypoint}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.gps.Waypoint.Waypoint (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_a3e5ed63083dd8507cd2189b90c237558}
+Default constructor. If this constructor is used {\bfseries MAKE SURE} to use the setter methods for latitude and longitude or they will be NULL \hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_a57886c38e729261dd103c45bda117cfa}{
+\index{robOS2::gps::Waypoint@{robOS2::gps::Waypoint}!Waypoint@{Waypoint}}
+\index{Waypoint@{Waypoint}!robOS2::gps::Waypoint@{robOS2::gps::Waypoint}}
+\subsubsection[{Waypoint}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.gps.Waypoint.Waypoint (
+\begin{DoxyParamCaption}
+\item[{double}]{latitude, }
+\item[{double}]{longitude}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_a57886c38e729261dd103c45bda117cfa}
+Creates a new waypoint and also sets the latitude and longitude of the waypoint.
+
+
+\begin{DoxyParams}{Parameters}
+{\em latitude} & -\/ Latitude of the new waypoint \\
+\hline
+{\em longitude} & -\/ Longitude of the new waypoint \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1gps_1_1_waypoint_a57886c38e729261dd103c45bda117cfa_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_a8e548350c20ce559cacf3998acee8675}{
+\index{robOS2::gps::Waypoint@{robOS2::gps::Waypoint}!Waypoint@{Waypoint}}
+\index{Waypoint@{Waypoint}!robOS2::gps::Waypoint@{robOS2::gps::Waypoint}}
+\subsubsection[{Waypoint}]{\setlength{\rightskip}{0pt plus 5cm}robOS2.gps.Waypoint.Waypoint (
+\begin{DoxyParamCaption}
+\item[{String}]{name, }
+\item[{double}]{latitude, }
+\item[{double}]{longitude}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_a8e548350c20ce559cacf3998acee8675}
+Creates a new waypoint and also sets the name, latitude and longitude of the waypoint.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & -\/ Name of the new waypoint \\
+\hline
+{\em latitude} & -\/ Latitude of the new waypoint \\
+\hline
+{\em longitude} & -\/ Longitude of the new waypoint \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classrob_o_s2_1_1gps_1_1_waypoint_a8e548350c20ce559cacf3998acee8675_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_a05e9f5fdcdf284e92aa4abeb827ce407}{
+\index{robOS2::gps::Waypoint@{robOS2::gps::Waypoint}!getLatitude@{getLatitude}}
+\index{getLatitude@{getLatitude}!robOS2::gps::Waypoint@{robOS2::gps::Waypoint}}
+\subsubsection[{getLatitude}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.gps.Waypoint.getLatitude (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_a05e9f5fdcdf284e92aa4abeb827ce407}
+Returns the latitude of the GPS waypoint. \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_a2f218a8a7251cf96d3e769b2eeb98e14}{
+\index{robOS2::gps::Waypoint@{robOS2::gps::Waypoint}!getLongitude@{getLongitude}}
+\index{getLongitude@{getLongitude}!robOS2::gps::Waypoint@{robOS2::gps::Waypoint}}
+\subsubsection[{getLongitude}]{\setlength{\rightskip}{0pt plus 5cm}double robOS2.gps.Waypoint.getLongitude (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_a2f218a8a7251cf96d3e769b2eeb98e14}
+Returns the longitude of the GPS waypoint. \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_a7807c267d07f8c0df058e9ee6daba714}{
+\index{robOS2::gps::Waypoint@{robOS2::gps::Waypoint}!getName@{getName}}
+\index{getName@{getName}!robOS2::gps::Waypoint@{robOS2::gps::Waypoint}}
+\subsubsection[{getName}]{\setlength{\rightskip}{0pt plus 5cm}String robOS2.gps.Waypoint.getName (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_a7807c267d07f8c0df058e9ee6daba714}
+Returns the name of the GPS waypoint. If no name has been provided \char`\"{}NO\_\-NAME\_\-PROVIDED\char`\"{} will be returned. \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_a86ad59f1c03cec1f72c41acce6060e92}{
+\index{robOS2::gps::Waypoint@{robOS2::gps::Waypoint}!setLatitude@{setLatitude}}
+\index{setLatitude@{setLatitude}!robOS2::gps::Waypoint@{robOS2::gps::Waypoint}}
+\subsubsection[{setLatitude}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.gps.Waypoint.setLatitude (
+\begin{DoxyParamCaption}
+\item[{double}]{latitude}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_a86ad59f1c03cec1f72c41acce6060e92}
+Method to set the desired latitude of the GPS waypoint. 
+\begin{DoxyParams}{Parameters}
+{\em latitude} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_a5cb38922c7f13563297d9395aae65430}{
+\index{robOS2::gps::Waypoint@{robOS2::gps::Waypoint}!setLongitude@{setLongitude}}
+\index{setLongitude@{setLongitude}!robOS2::gps::Waypoint@{robOS2::gps::Waypoint}}
+\subsubsection[{setLongitude}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.gps.Waypoint.setLongitude (
+\begin{DoxyParamCaption}
+\item[{double}]{longitude}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_a5cb38922c7f13563297d9395aae65430}
+Method to set the desired longitude of the GPS waypoint. 
+\begin{DoxyParams}{Parameters}
+{\em longitude} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_ab1defbfaa7d8c02eca311f7daa2df27b}{
+\index{robOS2::gps::Waypoint@{robOS2::gps::Waypoint}!setName@{setName}}
+\index{setName@{setName}!robOS2::gps::Waypoint@{robOS2::gps::Waypoint}}
+\subsubsection[{setName}]{\setlength{\rightskip}{0pt plus 5cm}void robOS2.gps.Waypoint.setName (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_ab1defbfaa7d8c02eca311f7daa2df27b}
+Method to set the desired \char`\"{}name\char`\"{} of the GPS waypoint. This is not critical to the correct functioning of the waypoint, however it is handy for debug purposes. 
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_aa71f1baadde6afe8aa751fc8470b5875}{
+\index{robOS2::gps::Waypoint@{robOS2::gps::Waypoint}!\_\-lat@{\_\-lat}}
+\index{\_\-lat@{\_\-lat}!robOS2::gps::Waypoint@{robOS2::gps::Waypoint}}
+\subsubsection[{\_\-lat}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf robOS2.gps.Waypoint.\_\-lat}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_aa71f1baadde6afe8aa751fc8470b5875}
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_a1a1d6cacf8516f9f06ecd48b2c467180}{
+\index{robOS2::gps::Waypoint@{robOS2::gps::Waypoint}!\_\-long@{\_\-long}}
+\index{\_\-long@{\_\-long}!robOS2::gps::Waypoint@{robOS2::gps::Waypoint}}
+\subsubsection[{\_\-long}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf robOS2.gps.Waypoint.\_\-long}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_a1a1d6cacf8516f9f06ecd48b2c467180}
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_a9858d8ec37deed55a6456eba501591c8}{
+\index{robOS2::gps::Waypoint@{robOS2::gps::Waypoint}!\_\-name@{\_\-name}}
+\index{\_\-name@{\_\-name}!robOS2::gps::Waypoint@{robOS2::gps::Waypoint}}
+\subsubsection[{\_\-name}]{\setlength{\rightskip}{0pt plus 5cm}String {\bf robOS2.gps.Waypoint.\_\-name} = \char`\"{}NO\_\-NAME\_\-PROVIDED\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_a9858d8ec37deed55a6456eba501591c8}
+\hypertarget{classrob_o_s2_1_1gps_1_1_waypoint_a294f2a97d0c2ab20acb4de448a72753c}{
+\index{robOS2::gps::Waypoint@{robOS2::gps::Waypoint}!log@{log}}
+\index{log@{log}!robOS2::gps::Waypoint@{robOS2::gps::Waypoint}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}Logger {\bf robOS2.gps.Waypoint.log} = Logger.getLogger(Waypoint.class.getName())\hspace{0.3cm}{\ttfamily  \mbox{[}static, package\mbox{]}}}}
+\label{classrob_o_s2_1_1gps_1_1_waypoint_a294f2a97d0c2ab20acb4de448a72753c}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/robOS2/gps/\hyperlink{_waypoint_8java}{Waypoint.java}\end{DoxyCompactItemize}
